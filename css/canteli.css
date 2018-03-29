@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#rodape {
+	background-color: #66b3ba !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+#espacoRodape {
+	margin-top: 1.5%;
+}
+
+.colorRodape {
+	color: #F2F4F3 !important;
+}
+
+.semEspaco {
+	margin-top: -0.2% !important;
+}
+
