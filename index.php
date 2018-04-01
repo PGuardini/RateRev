@@ -1,8 +1,12 @@
 <?php
-    include("html/cabecalho.html");
+    include "html/cabecalho.html";
 ?>
 
-<div class="clear"><div>
+<div class="gradient">
+    <h1>RateRev</h1>
+</div>
+
+<div class="clear"></div>
 
 <div class="ui grid">
     <div class="three column row">
@@ -11,7 +15,7 @@
                 <img src="imagens/gta-v-300x200.jpg">
                 <div class="text-item">
                     <h2>Título da imagem</h2>
-                    <div class="ui rating" data-max-rating="5"></div>
+                    <div class="ui star rating" data-rating="4" data-max-rating="5"></div>
                 </div>
             </a>
             </div>

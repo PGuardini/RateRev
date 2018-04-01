@@ -1,7 +1,35 @@
 <?php
     include("html/cabecalho.html");
 ?>
-    
+<div class="clear"></div>
+
+    <div class="ui grid">
+        <h2 class="ui horizontal divider header tituloSegmento">
+            The Legend Of Zelda: Breath of the Wind
+        </h2>
+        <div class="ui container">
+            <div class="ui grid">
+                <div class="ui five wide column">
+                    <div class="ui card">
+                        <div class="image">
+                            <img src="imagens/zelda.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="header">Classificação</a>
+                            <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="ten wide column">
+                Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.
+
+O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.
+O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.
+Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.
+                </div>
+            </div>
+        </div>
+    </div>
 
     <h2 class="ui horizontal divider header tituloSegmento">
         Resenhas
