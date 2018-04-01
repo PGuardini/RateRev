@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #FEFEFE;
+	height: 100%;
+}
+
+/* Rodapé */
 
 #rodape {
-	background-color: #66b3ba !important;
+	background-color: #83ccd3 !important;
 	font-family: 'Roboto', sans-serif !important;
 }
 
@@ -10,10 +23,95 @@
 }
 
 .colorRodape {
-	color: #F2F4F3 !important;
+	color: #FEFEFE !important;
 }
 
 .semEspaco {
 	margin-top: -0.2% !important;
 }
 
+/* Detalha Jogo */
+
+.tituloSegmento {
+	margin-top: 3% !important;
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase !important;
+	margin-bottom: 3% !important;
+	color: #293d54 !important;
+}
+
+.espacoUsuario {
+	margin-top: 70% !important;
+}
+
+.username {
+	color: #354e6b !important;
+	font-family: 'Quicksand', sans-serif !important;
+	font-weight: 500;
+	margin-top: 16%;
+	text-align: center;
+}
+
+.talk-bubble {
+	text-align: justify;
+	padding: 1.7%;
+	margin: 40px;
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	height: auto;
+	background-color: #F4F4F4;
+	font-family: 'Roboto', sans-serif !important;
+	border-radius: 5px;
+}
+
+.tri-right.border.left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -40px;
+	right: auto;
+	top: 30px;
+	bottom: auto;
+	border: 20px solid;
+}
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -20px;
+	right: auto;
+	top: 50px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: #F4F4F4 #F4F4F4 transparent transparent;
+}
+
+.tituloResenha {
+	color: #354e6b !important;
+	text-transform: uppercase;
+	font-family: 'Muli', sans-serif !important;
+}
+
+.espacoComecoPost {
+	margin-bottom: 3%;
+}
+
+.espacoFimPost {
+	margin-bottom: 4%;
+}
+.corLabelAzul {
+	background-color: #89d4db !important;
+	color: #60a7ad !important;
+}
+
+.corLabelLaranja {
+	background-color: #ffb56f !important;
+	color: #ce8642 !important;
+}
+
+.espacoAntesRodape {
+	margin-top: 9%;
+}
