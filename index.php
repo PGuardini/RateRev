@@ -1,6 +1,7 @@
-<?
-include "html/cabecalho.html";
+<?php
+    include("html/cabecalho.html");
 ?>
+
 <div class="clear"><div>
 
 <div class="ui grid">
@@ -97,6 +98,7 @@ include "html/cabecalho.html";
 </div>
 
 <div class="clear"><div>
-<?
-include "html/rodape.html";
+
+<?php
+    include("html/rodape.html");
 ?>
