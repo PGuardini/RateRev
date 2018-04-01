@@ -1,0 +1,45 @@
+body{
+    background: #bcbcbc;
+}
+
+.clear{
+    clear: both;
+}
+.zoom{
+    padding: 3%;
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 90%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-left: 10%;
+    border-radius: 1%;
+}
+  
+.zoom:hover img {
+    z-index: -10;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+.text-item {
+    font-family: arial, hevetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    position: absolute;
+    z-index: 10;
+    bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-left: 10%;
+
+}
+
+a div h2{
+    max-block-size: 27px;
+}
