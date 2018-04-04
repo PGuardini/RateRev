@@ -11,9 +11,9 @@ body{
     padding: 0% !important;
 }
 .gradient{
-    background: linear-gradient(120deg, #1f2123, #66b3ba);
-    background-size: 400% 400%;
-    animation: grad 30s ease infinite;
+    background: radial-gradient(#66b3ba,#293d54,#1f2123);
+    background-size: 300% 300%;
+    animation: grad 100s linear infinite;
     width: 100%;
     height: 20rem;
     background-repeat: no-repeat;
