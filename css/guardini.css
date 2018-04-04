@@ -12,7 +12,7 @@ body{
 .gradient{
     background: radial-gradient(#66b3ba,#293d54,#1f2123);
     background-size: 300% 300%;
-    animation: grad 60s linear infinite;
+    animation: grad 100s linear infinite;
     width: 100%;
     height: 20rem;
     background-repeat: no-repeat;

@@ -16,7 +16,7 @@
                         </div>
                         <div class="content">
                             <a class="header">Classificação</a>
-                            <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
+                            <div class="ui star rating" data-rating="4" data-max-rating="4"></div>
                         </div>
                     </div>                
                 </div>
