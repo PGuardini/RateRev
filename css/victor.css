@@ -6,14 +6,17 @@
     padding: 3%;
     overflow: hidden;
 }
-
+.indexImg{
+    width: 300px;
+    height: 200px;
+}
 .zoom img {
-    max-width: 90%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s!important;
+    -webkit-transition: all 0.3s!important;
     transition: all 0.3s;
     margin-left: 10%;
     border-radius: 1%;
+    filter: brightness(60%) sepia(30%) grayscale(10%)!important;
 }
   
 .zoom:hover img {
@@ -21,22 +24,21 @@
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    filter: blur(2px) grayscale(15%)!important;
+    
 }
   
 .text-item {
+    z-index: 50;
     font-family: arial, hevetica, sans-serif;
     font-weight: 700;
     color: #fff;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.9);
     position: absolute;
     z-index: 10;
-    bottom: 25px;
-    padding-top: 20px;
+    bottom: 27px;
+    padding-top: 22px;
     padding-bottom: 25px;
     margin-left: 10%;
-
-}
-
-a div h2{
-    max-block-size: 27px;
+    width: 67%;
 }

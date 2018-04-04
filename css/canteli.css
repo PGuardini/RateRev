@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
 
+@font-face {
+    font-family: 'droidigaregular';
+    src: url('../fontes/droidiga-webfont.woff2') format('woff2'),
+         url('../fontes/droidiga-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 	height: 100%;
 }
@@ -11,10 +19,15 @@ body {
 	height: 100%;
 }
 
+.colado {
+	margin-top: -2px !important;
+    margin-left: -1px !important;
+}
+
 /* Rodapé */
 
 #rodape {
-	background-color: #83ccd3 !important;
+	background-color: #ED8E36 !important;
 	font-family: 'Roboto', sans-serif !important;
 }
 
@@ -32,8 +45,22 @@ body {
 
 /* Detalha Jogo */
 
+.tituloJogo {
+	margin-top: 4.5% !important;
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase !important;
+	margin-bottom: 4.5% !important;
+	color: #ED8E36 !important;
+	height: 0% !important;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+
 .tituloSegmento {
-	margin-top: 3% !important;
+	margin-top: 4.2% !important;
 	font-family: 'Muli', sans-serif !important;
 	text-transform: uppercase !important;
 	margin-bottom: 3% !important;
@@ -60,7 +87,7 @@ body {
 	position: relative;
 	width: 80%;
 	height: auto;
-	background-color: #F4F4F4;
+	background-color: #d1dff0;
 	font-family: 'Roboto', sans-serif !important;
 	border-radius: 5px;
 }
@@ -86,7 +113,7 @@ body {
 	top: 50px;
 	bottom: auto;
 	border: 12px solid;
-	border-color: #F4F4F4 #F4F4F4 transparent transparent;
+	border-color: #d1dff0 #d1dff0 transparent transparent;
 }
 
 .tituloResenha {
@@ -103,8 +130,8 @@ body {
 	margin-bottom: 4%;
 }
 .corLabelAzul {
-	background-color: #89d4db !important;
-	color: #60a7ad !important;
+	background-color: #58789E !important;
+	color: #293d54 !important;
 }
 
 .corLabelLaranja {
@@ -113,5 +140,5 @@ body {
 }
 
 .espacoAntesRodape {
-	margin-top: 9%;
+	margin-top: 8%;
 }

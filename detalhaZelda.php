@@ -1,7 +1,36 @@
 <?php
     include("html/cabecalho.html");
 ?>
-    
+	<div class="clear"></div>
+
+    <div class="ui grid">
+
+        <h2 class="ui horizontal divider header tituloJogo">
+            The Legend Of Zelda: Breath of the Wind
+        </h2>
+
+        <div class="clear"></div>
+
+        <div class="ui container">
+            <div class="ui grid">
+                <div class="ui five wide column">
+                    <div class="ui card">
+                        <div class="image">
+                            <img src="imagens/zelda.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="header">Classificação</a>
+                            <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="ten wide column justificado">
+                	<p>Travel back to Hyrule with Link in Zelda: Breath of the Wild for the Nintendo Switch. Explore a variety of shrines, sail across rough waters and scavenge for food to defeat Ganondorf and save Zelda once and for all. Zelda: Breath of the Wild includes Wolf, who joins Link in his adventure and delivers enhanced gameplay for greater enjoyment.</p>
+                	<p>Discover a world as never before seen: by making your own path, choices, and consequences. Ingenuity is the key to survival: find multiple solutions to tons of dynamic puzzles. Surprises hide around every corner: scavenge weapons, armor, plants, animals, and more. Live off the land: find weapons and armor, cook food, and brew elixirs. Utilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways. Gear up: many weapons and armor have unique stats, resistances, effects, and durability. Shrines offer hundreds of clever challenges even veterans won't see coming</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <h2 class="ui horizontal divider header tituloSegmento">
         Resenhas
