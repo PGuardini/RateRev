@@ -3,102 +3,61 @@
 ?>
 
 <div class="gradient">
-    <h1 id="ui centered">raterev</h1>
+    <h1>RateRev</h1>
 </div>
 
 <div class="clear"></div>
 
 <div class="ui grid">
     <div class="three column row">
-        <div class=" column zoom">
-            <a href="detalhaZelda.php">
-                <img class="indexImg" src="imagens/zelda.jpg">
-                <div class="text-item">
-                    <h2>The Legend of zelda: Breath of the Wild</h2>
-                    <div class="ui star rating" data-rating="4"></div>
-                </div>
-            </a>
-            </div>
-        <div class=" column zoom">
-            <a href="#">
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="3"></div>
-                </div>
-            </a>
-            </div>
-        <div class=" column zoom">
-            <a href="#">    
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="2"></div>
 
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="three column row">
         <div class=" column zoom">
-            <a href="#">
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="1"></div>
+            <div class="quinzePorcento">.</div>
+            <div class="parado">
+                <a href="detalhaZelda.php">
+                    <img class="indexImg" src="imagens/zelda.jpg">
+                    <div class="text-item">
+                        <h2 >The Legend of zelda: Breath of the Wild</h2>
+                        <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="cincoPorcento">.</div>
+        </div>
 
-                </div>
-            </a>
-            </div>
         <div class=" column zoom">
-            <a href="#">
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="2"></div>
-                </div>
-            </a>
+            <div class="cincoPorcento">.</div>
+            <div class="parado">
+                <a href="detalhaZelda.php">
+                    <img class="indexImg" src="imagens/zelda.jpg">
+                    <div class="text-item">
+                        <h2 >The Legend of zelda: Breath of the Wild</h2>
+                        <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                    </div>
+                </a>
             </div>
-        <div class=" column zoom">
-            <a href="#">    
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="3"></div>
-                </div>
-            </a>
+            <div class="cincoPorcento">.</div>
         </div>
-    </div>
-    <div class="three column row">
+
         <div class=" column zoom">
-            <a href="#">
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="4"></div>
-                </div>
-            </a>
+
+            <div class="parado">
+                <a href="detalhaZelda.php">
+                    <img class="indexImg" src="imagens/zelda.jpg">
+                    <div class="text-item">
+                        <h2 >The Legend of zelda: Breath of the Wild</h2>
+                        <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                    </div>
+                </a>
             </div>
-        <div class=" column zoom">
-            <a href="#">
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="3"></div>
-                </div>
-            </a>
-            </div>
-        <div class=" column zoom">
-            <a href="#">    
-                <img class="indexImg" src="imagens/gta-v-300x200.jpg">
-                <div class="text-item">
-                    <h2>Título da imagem</h2>
-                    <div class="ui star rating" data-rating="2"></div>
-                </div>
-            </a>
+            <div class="quinzePorcento">.</div>
         </div>
+
     </div>
+    
+
 </div>
+
 
 <div class="clear"><div>
 
