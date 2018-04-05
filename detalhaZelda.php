@@ -56,7 +56,7 @@
                     <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                    <div class="ui grid">
+                    <div class="ui large screen only grid">
                         <div class="nine wide column grid">
                             <div class="ui label corLabelLaranja">
                                 <i class="thumbs down icon"></i>

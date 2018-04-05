@@ -2,16 +2,15 @@ body{
     margin: 0 !important;
 }
 .stkMenu{
-    text-transform: uppercase;
     margin: 0px !important;
-    background: #213147f1 !important;
+    background: #293d54 !important;
     border-radius: 0% !important;
 }
 .noMargin{
     padding: 0% !important;
 }
 .gradient{
-    background: radial-gradient(#66b3ba,#293d54,#1f2123);
+    background: radial-gradient(#66b3ba,#293d54,#ED8E36);
     background-size: 300% 300%;
     animation: grad 100s linear infinite;
     width: 100%;
@@ -36,6 +35,6 @@ body{
         background-position:100% 81%
     }
     100%{
-        background-position:0% 20%
+        background-position:0% 40%
     }
 }
