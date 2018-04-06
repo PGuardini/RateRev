@@ -77,7 +77,7 @@
                         </div>
 
                         <div class="right floated four wide column grid">
-                            <div class="ui label corLabelLaranja">
+                            <div class="ui label corLabelLaranja modalAbrir">
                                 <i class="search plus icon"></i>
                                     Ver post completo
                             </div>
@@ -90,7 +90,21 @@
     </div>
 
     <div class="espacoAntesRodape">.</div>
-
+    
+    <div class="ui modal">
+    <div class="scrolling content">
+        <img class="modalImg" src="imagens/zelda.jpg">
+        <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+        <h3 class="modalNome" >Resenha por: NomeDoUsuario</h3>
+        <div class="clear">.</div>
+        <div class="dezPontoCincoPorcento">.</div>
+        <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
+        <p class="modalResenha">Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
+        <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
+        <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
+        <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+    </div>
+</div>
 <?php
     include("html/rodape.html");
 ?>

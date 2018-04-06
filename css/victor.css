@@ -1,5 +1,7 @@
 .clear{
     clear: both;
+    color: #FEF;
+
 }
 
 .zoom{
@@ -56,12 +58,51 @@
 }
 
 .cincoPorcento{
-    color: #FEFEFE;
+    color: #FEF;
     float: left;
     width: 5%;
 }
 .quinzePorcento{
-    color: #FEFEFE;
+    color: #FEF;
     float: left;
     width: 15%;
+}
+.dezPontoCincoPorcento{
+    color: #FEF;
+    float: left;
+    width: 10.5%;
+
+}
+
+.modalImg{
+    position: block;
+    float: left;
+    width: 37.5%;
+}
+
+.modalNome{
+    float: right;
+    max-width: 62%;
+    font-family: 'Muli', sans-serif !important;
+    color: #293D54; 
+}
+
+.modalResenha{
+    float: right;
+    width: 62%;
+    font-family: arial, hevetica, sans-serif;
+
+}
+
+.modalAlinhamento{
+    float: left;
+    
+}
+
+.modalFechar{
+    float: right;
+    
+}
+.modalAbrir{
+    cursor: pointer;
 }
