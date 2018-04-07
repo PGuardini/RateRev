@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
 
 @font-face {
     font-family: 'droidigaregular';
@@ -32,15 +33,28 @@ body {
 	margin-top: 0.2% !important;
 }
 
+.slogan {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.espacoSlide {
+	margin-top: 4% !important;
+}
+
+
 /* Rodapé */
 
 #rodape {
-	background-color: #ED8E36 !important;
-	font-family: 'Roboto', sans-serif !important;
+	background-color: #DB8432 !important;
 }
 
 #espacoRodape {
 	margin-top: 1.5%;
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase !important;
 }
 
 .colorRodape {
@@ -48,17 +62,25 @@ body {
 }
 
 .semEspaco {
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase !important;
 	margin-top: -0.2% !important;
 }
 
 /* Detalha Jogo */
+
+.classificacaoBox {
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase !important;
+	color: #293d54 !important;
+}
 
 .tituloJogo {
 	margin-top: 4.5% !important;
 	font-family: 'Muli', sans-serif !important;
 	text-transform: uppercase !important;
 	margin-bottom: 4.5% !important;
-	color: #ED8E36 !important;
+	color: #DB8432 !important;
 	height: 0% !important;
 }
 
@@ -143,10 +165,14 @@ body {
 }
 
 .corLabelLaranja {
-	background-color: #ffb56f !important;
-	color: #ce8642 !important;
+	background-color: #f19e50 !important;
+	color: #be7026 !important;
 }
 
 .espacoAntesRodape {
 	margin-top: 8%;
+}
+
+.espacoAntesRodapeIndex {
+	margin-top: 5%;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
 .clear{
     clear: both;
     color: #FEF;
@@ -29,7 +31,7 @@
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    filter: blur(1px) grayscale(15%)!important;
+    filter: grayscale(15%)!important;
     
 }
   
@@ -42,7 +44,7 @@
     z-index: 10;
     bottom: 27px;
     width: 75%; 
-    margin-left: 2px;
+    padding: 2%;
 }
 
 .estrelas{
@@ -55,8 +57,8 @@
     width: 80%;
     max-width: 80%;
     overflow: hidden;
-    /*background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4));
-    z-index: 1;*/
+    background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4));
+    z-index: 1;
 }
 
 .dezPorcento{
@@ -102,5 +104,6 @@
 }
 
 .modalAbrir{
+    float: right;
     cursor: pointer;
 }

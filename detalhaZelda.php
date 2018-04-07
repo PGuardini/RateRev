@@ -15,11 +15,11 @@
             <div class="ui grid">
                 <div class="ui five wide column">
                     <div class="ui card">
-                        <div class="image">
+                        <div class="ui centered image">
                             <img src="imagens/zelda.jpg">
                         </div>
                         <div class="content">
-                            <a class="header">Classificação</a>
+                            <a class="header classificacaoBox">Classificação Média</a>
                             <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
                         </div>
                     </div>                
@@ -56,33 +56,27 @@
                     <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                    <div class="ui large screen only grid">
-                        <div class="nine wide column grid">
-                            <div class="ui label corLabelLaranja">
-                                <i class="thumbs down icon"></i>
-                                    5
-                            </div>
-                            <div class="ui label corLabelLaranja">
-                                <i class="thumbs up icon"></i>
-                                    6
-                            </div>
-                            <div class="ui label corLabelAzul">
-                                <i class="comments icon"></i>
-                                    5 comentários
-                            </div>
-                            <div class="ui label corLabelAzul">
-                                <i class="calendar alternate icon"></i>
-                                    Postado há 3 dias
-                            </div>
+                        <div class="ui label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                5
+                        </div>
+                        <div class="ui label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                6
+                        </div>
+                        <div class="ui label corLabelAzul">
+                            <i class="comments icon"></i>
+                                5 comentários
+                        </div>
+                        <div class="ui label corLabelAzul">
+                            <i class="calendar alternate icon"></i>
+                                Postado há 3 dias
                         </div>
 
-                        <div class="right floated four wide column grid">
-                            <div class="ui label corLabelLaranja modalAbrir">
-                                <i class="search plus icon"></i>
-                                    Ver post completo
-                            </div>
+                        <div class="ui label corLabelLaranja modalAbrir">
+                            <i class="search plus icon"></i>
+                                Ver post completo
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
