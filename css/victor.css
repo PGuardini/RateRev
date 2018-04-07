@@ -10,6 +10,7 @@
 }
 
 .indexImg{
+    float: left;
     width: 100%;
     height: 250px;
     bottom: 0% fixed;
@@ -19,7 +20,6 @@
     -moz-transition: all 0.3s!important;
     -webkit-transition: all 0.3s!important;
     transition: all 0.3s;
-    /*margin-left: 10%;*/
     border-radius: 1%;
     filter: brightness(60%) sepia(30%) grayscale(10%)!important;
 }
@@ -42,7 +42,9 @@
     z-index: 10;
     bottom: 27px;
     width: 75%; 
+    margin-left: 2px;
 }
+
 .estrelas{
     margin-bottom: 35px;
 }
@@ -57,21 +59,16 @@
     z-index: 1;*/
 }
 
-.cincoPorcento{
+.dezPorcento{
     color: #FEF;
     float: left;
-    width: 5%;
+    width: 10%;
 }
-.quinzePorcento{
-    color: #FEF;
-    float: left;
-    width: 15%;
-}
+
 .dezPontoCincoPorcento{
     color: #FEF;
     float: left;
     width: 10.5%;
-
 }
 
 .modalImg{
@@ -103,6 +100,7 @@
     float: right;
     
 }
+
 .modalAbrir{
     cursor: pointer;
 }
