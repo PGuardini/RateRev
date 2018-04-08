@@ -97,6 +97,93 @@
         <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
         <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
         <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+
+        <div class="clear"></div>
+
+        <!-- inicio-->
+    <div class="ui small comments">
+        <h3 class="ui dividing header tituloSegmento">Comments</h3>
+        <div class="comment">
+            <a class="avatar">
+            <img src="imagens/uncharted.jpg">
+            </a>
+            <div class="content">
+            <a class="author">Matt</a>
+            <div class="metadata">
+                <span class="date">Today at 5:42PM</span>
+            </div>
+            <div class="text">
+                que bela bosta!
+            </div>
+            <div class="actions">
+                <a class="reply">Reply</a>
+            </div>
+            </div>
+        </div>
+        <div class="comment">
+            <a class="avatar">
+            <img src="imagens/farcry.jpg">
+            </a>
+            <div class="content">
+            <a class="author">Elliot Fu</a>
+            <div class="metadata">
+                <span class="date">Yesterday at 12:30AM</span>
+            </div>
+            <div class="text">
+                <p>top</p>
+            </div>
+            <div class="actions">
+                <a class="reply">Reply</a>
+            </div>
+            </div>
+            <div class="comments">
+            <div class="comment">
+                <a class="avatar">
+                <img src="imagens/gtav.jpg">
+                </a>
+                <div class="content">
+                <a class="author">Jenny Hess</a>
+                <div class="metadata">
+                    <span class="date">Just now</span>
+                </div>
+                <div class="text">
+                    legal, mas pode melhorar :)
+                </div>
+                <div class="actions">
+                    <a class="reply">Reply</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="comment">
+            <a class="avatar">
+            <img src="imagens/zelda.jpg">
+            </a>
+            <div class="content">
+            <a class="author">Joe Henderson</a>
+            <div class="metadata">
+                <span class="date">5 days ago</span>
+            </div>
+            <div class="text">
+                o.o
+            </div>
+            <div class="actions">
+                <a class="reply">Reply</a>
+            </div>
+            </div>
+        </div>
+        <form class="ui reply form">
+            <div class="field">
+            <textarea></textarea>
+            </div>
+            <div class="ui blue labeled submit icon button">
+            <i class="icon edit"></i> Add Reply
+            </div>
+        </form>
+    </div>
+        <!-- caso alguem esteja lendo isso e saiba como fazer para o textarea nao ser selecionado automaticamente agradeço a colaboração-->
+        <!-- fim-->
     </div>
 </div>
 <?php
