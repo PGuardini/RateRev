@@ -12,9 +12,9 @@
 
     <div class="ui stackable grid">
         <div class="three column row espacoSlide">
-            <div class=" column zoom">
+            <div class=" column ">
                 <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/zelda.jpg">
                         <div class="text-item">
@@ -26,9 +26,9 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom ">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/tombraider.jpg">
                         <div class="text-item">
@@ -40,9 +40,9 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado ">
+                <div class="parado zoom ">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/watchdogs.jpg">
                         <div class="text-item">
@@ -58,9 +58,9 @@
         <div class="clear"></div>
 
         <div class="three column row">
-            <div class=" column zoom">
+            <div class=" column ">
                 <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/gtav.jpg">
                         <div class="text-item">
@@ -72,9 +72,9 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/assassinscreed.jpg">
                         <div class="text-item">
@@ -86,9 +86,9 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado ">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/devilmaycry.jpg">
                         <div class="text-item">
@@ -104,9 +104,9 @@
         <div class="clear"></div>
 
         <div class="three column row">
-            <div class=" column zoom">
+            <div class=" column ">
                 <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/farcry.jpg">
                         <div class="text-item">
@@ -118,9 +118,9 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/uncharted.jpg">
                         <div class="text-item">
@@ -132,9 +132,9 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado ">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/thelastofus.jpg">
                         <div class="text-item">
@@ -148,9 +148,9 @@
         </div>
 
         <div class="three column row">
-            <div class=" column zoom">
+            <div class=" column ">
                 <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
                         <img class="indexImg" src="imagens/godofwar.jpg">
                         <div class="text-item">
@@ -162,13 +162,13 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
-                        <img class="indexImg" src="imagens/">
+                        <img class="indexImg" src="imagens/lifeisstrange.png">
                         <div class="text-item">
-                            <h2>(A ACRESCENTAR)</h2>
+                            <h2>Life is Strange</h2>
                             <div class="ui divider"></div>
                             <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
                         </div>
@@ -176,13 +176,13 @@
                 </div>
             </div>
 
-            <div class=" column zoom">
+            <div class=" column ">
             <div class="dezPorcento">.</div>
-                <div class="parado ">
+                <div class="parado zoom">
                     <a href="detalhaZelda.php">
-                        <img class="indexImg" src="imagens/">
+                        <img class="indexImg" src="imagens/infamous.jpg">
                         <div class="text-item">
-                            <h2>(A ACRESCENTAR)</h2>
+                            <h2>inFAMOUS</h2>
                             <div class="ui divider"></div>
                             <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
                         </div>
