@@ -81,7 +81,7 @@
     text-shadow: 0 2px 4px rgba(0,0,0,0.9);
     position: absolute;
     z-index: 10;
-    bottom: 27px;
+    bottom: -30px;
     width: 75%; 
     padding: 2%;
 }
