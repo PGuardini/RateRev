@@ -2,7 +2,7 @@
 
 .clear{
     clear: both;
-    color: #FEF;
+    color: rgba(255, 255, 255, 0);
 
 }
 
@@ -57,13 +57,13 @@
 }
 
 .dezPorcento{
-    color: #FEF;
+    color: rgba(255, 255, 255, 0);
     float: left;
     width: 10%;
 }
 
 .dezPontoCincoPorcento{
-    color: #FEF;
+    color: rgba(255, 255, 255, 0);
     float: left;
     width: 10.5%;
 }
@@ -74,28 +74,71 @@
     width: 37.5%;
 }
 
+.text-item {
+    font-family: arial, hevetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.9);
+    position: absolute;
+    z-index: 10;
+    bottom: 27px;
+    width: 75%; 
+    padding: 2%;
+}
+
+.estrelas{
+    margin-bottom: 35px;
+}
+
+.parado{
+    float: left;
+    max-height: 250px;
+    width: 80%;
+    max-width: 80%;
+    overflow: hidden;
+    background: linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4));
+    z-index: 1;
+}
+
 .modalNome{
+    text-transform: uppercase;
     float: right;
-    max-width: 62%;
     font-family: 'Muli', sans-serif !important;
     color: #293D54; 
 }
 
-.modalResenha{
+.modalAutor {
     float: right;
-    width: 62%;
-    font-family: arial, hevetica, sans-serif;
+    font-family: 'Muli', sans-serif !important;
+    color: #DB8432;
+    text-transform: uppercase;
+    margin-top: -3%;
+}
 
+.modalNotaAutor {
+    text-align: center;
+    font-family: 'Muli', sans-serif !important;
+    color: #DB8432;
+    text-transform: uppercase;
+    margin-top: -3%;
+}
+
+.modalResenha{
+    text-align: justify;
+    float: left;
+    font-family: arial, hevetica, sans-serif;
+}
+
+.espacoComentario {
+    margin-top: 2.5% !important;
 }
 
 .modalAlinhamento{
     float: left;
-    
 }
 
 .modalFechar{
     float: right;
-    
 }
 
 .modalAbrir{
