@@ -25,7 +25,6 @@ body {
     margin-left: -1px !important;
 }
 
-
 .tituloMenu {
 	color: #ffffff;;
 	font-family: 'droidigaregular';
@@ -65,6 +64,7 @@ body {
 
 #rodape {
 	background-color: #DB8432 !important;
+	margin-bottom: -1px;
 }
 
 #espacoRodape {
