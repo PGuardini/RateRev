@@ -25,12 +25,18 @@ body {
     margin-left: -1px !important;
 }
 
+
 .tituloMenu {
 	color: #ffffff;;
 	font-family: 'droidigaregular';
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 0.2% !important;
+}
+
+.campoPesquisar {
+	margin-top: 1.2% !important;
+	margin-right: 13px !important;
 }
 
 .slogan {
@@ -40,8 +46,18 @@ body {
 	text-transform: uppercase;
 }
 
+.tituloCatalogo {
+	color: #DB8432 !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+	text-transform: uppercase !important;
+}
+
 .espacoSlide {
 	margin-top: 4% !important;
+}
+
+.espacoLinha {
+	margin-top: 3.5% !important;
 }
 
 
@@ -77,7 +93,7 @@ body {
 
 .tituloJogo {
 	margin-top: 4.5% !important;
-	font-family: 'Muli', sans-serif !important;
+	font-family: 'Josefin Sans', sans-serif !important;
 	text-transform: uppercase !important;
 	margin-bottom: 4.5% !important;
 	color: #DB8432 !important;
@@ -90,6 +106,14 @@ body {
 
 
 .tituloSegmento {
+	margin-top: 4.2% !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+	text-transform: uppercase !important;
+	margin-bottom: 3% !important;
+	color: #293d54 !important;
+}
+
+#tituloModalComentarios {
 	margin-top: 4.2% !important;
 	font-family: 'Muli', sans-serif !important;
 	text-transform: uppercase !important;

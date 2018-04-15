@@ -114,7 +114,7 @@
         </div>
         <div class="clear"></div>
         
-        <h3 class="ui horizontal divider header tituloSegmento">Comentários</h3>
+        <h3 class="ui horizontal divider header" id="tituloModalComentarios">Comentários</h3>
         <div class="ui grid">
             <div class="two wide column"></div>
             <div class="twelve wide column">
