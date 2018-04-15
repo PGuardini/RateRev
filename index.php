@@ -58,7 +58,11 @@
 
         <div class="clear"></div>
 
+<<<<<<< HEAD
         <div class="three column row espacoLinha">
+=======
+        <div class="three column row">
+>>>>>>> 7e05f0b88bfde2bde216325cb60833f41d9b5754
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
@@ -104,7 +108,11 @@
         
         <div class="clear"></div>
 
+<<<<<<< HEAD
         <div class="three column row espacoLinha">
+=======
+        <div class="three column row">
+>>>>>>> 7e05f0b88bfde2bde216325cb60833f41d9b5754
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
@@ -148,7 +156,11 @@
             </div>
         </div>
 
+<<<<<<< HEAD
         <div class="three column row espacoLinha">
+=======
+        <div class="three column row">
+>>>>>>> 7e05f0b88bfde2bde216325cb60833f41d9b5754
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
