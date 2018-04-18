@@ -3,9 +3,9 @@ $(document).ready(function(){
     $('.ui.rating').rating();
     
     $(".modalAbrir").click(function(){
-        $('.ui .modal')
-        .modal('show')
-        ;
+        $('.ui .modal').modal('setting', {
+            autofocus: false
+        }).modal('show');
     });
     
 })
