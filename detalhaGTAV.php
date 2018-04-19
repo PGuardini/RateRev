@@ -39,7 +39,7 @@
         <div class="three wide column"></div>
         <div class="one wide column">
             <div class="espacoUsuario">
-                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar1.png">
+                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar9.png">
             </div>
             <section class="username">@tiptup</section>
         </div>

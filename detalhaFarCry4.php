@@ -96,7 +96,7 @@
             <div class="ui twelve wide column">
                 <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
                 <div class="clear">.</div>
-                <h3 class="modalAutor">Resenha por: @violet</h3>
+                <h3 class="modalAutor">Resenha por: @XxPr0G4me$xX</h3>
             </div>
         </div>
         <div class="ui divider"></div>

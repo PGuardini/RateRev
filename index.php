@@ -44,7 +44,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom ">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaDogs.php">
                         <img class="indexImg" src="imagens/watchdogs.jpg">
                         <div class="text-item">
                             <h2>Watch Dogs 2</h2>
@@ -90,7 +90,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaDevil.php">
                         <img class="indexImg" src="imagens/devilmaycry.jpg">
                         <div class="text-item">
                             <h2>Devil May Cry</h2>
@@ -136,7 +136,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaLast.php">
                         <img class="indexImg" src="imagens/thelastofus.jpg">
                         <div class="text-item">
                             <h2>The Last of Us: Part II</h2>
@@ -180,7 +180,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaInFamous.php">
                         <img class="indexImg" src="imagens/infamous.jpg">
                         <div class="text-item">
                             <h2>inFAMOUS</h2>

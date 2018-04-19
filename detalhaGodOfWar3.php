@@ -39,14 +39,14 @@
         <div class="three wide column"></div>
         <div class="one wide column">
             <div class="espacoUsuario">
-                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar1.png">
+                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/julia.jpg">
             </div>
-            <section class="username">@violeta</section>
+            <section class="username">@julia</section>
         </div>
         <div class="ten wide column">
             <div class="talk-bubble tri-right left-in">
                 <div class="talktext">
-                    <h3 class="tituloResenha">Tudo o que você faz, é por conta própria!</h3>
+                    <h3 class="tituloResenha">O deus da guerra está mais furioso que nunca</h3>
                     <div class="ui divider"></div>
                     <div class="espacoComecoPost"></div>
                     <p>Partindo do exato ponto em que o segundo parou, God of War III já começa insano. Galgando as costas da titã Gaia, Kratos enfrenta hordas de inimigos em direção à morada dos deuses. A fase, a superfície da colossal criatura, é dinâmica pela instabilidade de Gaia, que se move, vive. Os detalhes são surpreendentes. A primeira batalha, especialmente quando surgem os leviatãs de Netuno (cavalos demoníacos d'água), serve para reestabelecer em poucos minutos a brutalidade de Kratos e o seu poder. Afinal, o personagem desta vez já começa com boa parte de suas habilidades (o velocino, as asas de Ícaro...), ainda que inexplicavelmente outras (o arco, a cabeça da Medusa) tenham sumido de seu arsenal. Poderia ter existido um cuidado maior aí. A desculpa superficial para a substituição das lâminas de Atena também não é exatamente um primor de convencimento.</p>
@@ -95,7 +95,7 @@
             <div class="ui twelve wide column">
                 <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
                 <div class="clear">.</div>
-                <h3 class="modalAutor">Resenha por: @violet</h3>
+                <h3 class="modalAutor">Resenha por: @julia</h3>
             </div>
         </div>
         <div class="ui divider"></div>
