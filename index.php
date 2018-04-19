@@ -62,7 +62,7 @@
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaGTAV.php">
                         <img class="indexImg" src="imagens/gtav.jpg">
                         <div class="text-item">
                             <h2>GTA V</h2>
@@ -108,7 +108,7 @@
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaFarCry4.php">
                         <img class="indexImg" src="imagens/farcry.jpg">
                         <div class="text-item">
                             <h2>Far Cry 4</h2>
@@ -152,7 +152,7 @@
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaGodOfWar3.php">
                         <img class="indexImg" src="imagens/godofwar.jpg">
                         <div class="text-item">
                             <h2>God Of War III</h2>

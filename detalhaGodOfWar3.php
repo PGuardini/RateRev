@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            The Legend Of Zelda: Breath of the Wild
+            God of War 3
         </h2>
 
         <div class="clear"></div>
@@ -16,17 +16,16 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/zelda.jpg">
+                            <img src="imagens/godofwar.jpg">
                         </div>
                         <div class="content">
-                            <a class="header classificacaoBox">Classificação Média</a>
-                            <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
+                            <a class="header classificacaoBox">Classificação Alta</a>
+                            <div class="ui star rating" data-rating="4" data-max-rating="5"></div>
                         </div>
                     </div>                
                 </div>
                 <div class="ten wide column justificado">
-                	<p>Você é Link, o herói silencioso, e o game faz questão de que você sinta e entenda as coisas como se fosse ele. A história começa com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, memória ou propósito. Não há indicação do que fazer, para onde ir, com quem falar, além de frases enigmáticas que soam mais como alucinações do que instruções. Estamos por nossa conta e só nos resta seguir. Para onde mesmo?</p>
-                	<p>Em suas primeiras horas, Breath of the Wild reproduz de modo brilhante a noção da solidão, de ser arremessado forçadamente a um mundo novo que não nos pertence. Link não sabe o porquê de estar ali, nem qual é seu propósito no universo, então tudo parece um tipo de aprendizado. São mais questões do que conclusões, que levam a uma sensação frequente de ignorância, como se a verdade nos fosse proibida. O que devemos fazer em Hyrule? Por que não há nenhum habitante ocupando os gramados, nenhuma cidade parece habitada? O que são todas essas ruínas? E esses porcos selvagens, por que me atacam? Qual é o real tamanho desse mundo? Aliás, uma das grandes emoções de toda experiência se dá logo quando escalamos a primeira torre e percebemos que o mapa de Hyrule é muito, muito maior do que parecia de início.</p>
+                	<p> God of War III inicia imediatamente no final de God of War II, com Kratos montado em Gaia e os outros Titãs escalando o Monte Olimpo em encontro aos deuses. No topo da montanha, Zeus, Poseidon, Hades, Hermes e Helios se preparam para a batalha. Kratos em seguida aparece fazendo seu caminho passando pelo braço direito de Gaia, quando um leviatã, aparece e começa a atacar Kratos. Depois da batalha e de aparentemente matar um dos vários leviatãs, ele encontra com Poseidon em sua forma aquática. Depois de enfraquecê-lo, Kratos tira Poseidon de dentro de sua "armadura aquática" e começa a espanca-lo, consequentemente matando Poseidon. Gerando uma inundação enorme que engole o mundo em água, fazendo com que apenas pudesse se ver pequenas partes das montanhas que ali ficavam. Mais tarde, Kratos e Gaia chegam ao topo do Monte Olimpo, e encontram com Zeus. Depois de uma conversa entre pai e filho, acabam sendo derrubados do Monte Olimpo por um raio dele. Após ambos serem jogados para trás, Gaia tenta se segurar ao Monte Olimpo mas acaba fazendo com que Kratos não consiga se segurar nela. Gaia diz que não pode ajudá-lo, e explica paraKratos que se ela ajudá-lo ambos iriam cair. Ela fala que a guerra dos Titãs com os Deuses é mais importante que a vingança de Kratos, e que ele fora um mísero peão para essa luta. Após isso, ele cai do Monte Olimpo enquanto Gaia continua tentando se segurar.</p>
                 </div>
             </div>
         </div>
@@ -50,10 +49,9 @@
                     <h3 class="tituloResenha">Tudo o que você faz, é por conta própria!</h3>
                     <div class="ui divider"></div>
                     <div class="espacoComecoPost"></div>
-                    <p>Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                    <p>O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                    <p>O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                    <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                    <p>Partindo do exato ponto em que o segundo parou, God of War III já começa insano. Galgando as costas da titã Gaia, Kratos enfrenta hordas de inimigos em direção à morada dos deuses. A fase, a superfície da colossal criatura, é dinâmica pela instabilidade de Gaia, que se move, vive. Os detalhes são surpreendentes. A primeira batalha, especialmente quando surgem os leviatãs de Netuno (cavalos demoníacos d'água), serve para reestabelecer em poucos minutos a brutalidade de Kratos e o seu poder. Afinal, o personagem desta vez já começa com boa parte de suas habilidades (o velocino, as asas de Ícaro...), ainda que inexplicavelmente outras (o arco, a cabeça da Medusa) tenham sumido de seu arsenal. Poderia ter existido um cuidado maior aí. A desculpa superficial para a substituição das lâminas de Atena também não é exatamente um primor de convencimento.</p>
+                    <p>De qualquer forma, as novas habilidades do personagem compensam a ausência das outras e dão todo um novo conjunto de ferramentas para Kratos causar sua devastação olimpiana. Os novos movimentos de aríete (Kratos apanha um oponente e o usa para derrubar outros) e aproximação (as correntes agem como laço, puxando inimigos) são novidades extremamente benvindas e revigoram os combos dos dois primeiros títulos. A possibilidade de trocar de armas rapidamente, no meio de sequências de golpes, também é empolgante - e o jogo obriga você a usá-la em fases particularmente difíceis, em que oponentes específicos, afetados apenas por uma ou outra arma, dividem a tela.</p>
+                    <p>Em uma cena simbólica, um olimpiano estende a mão ao Fantasma de Esparta. Fugindo de um incêndio ele pede por ajuda para deixar uma laje. Ao jogador não existe a opção de ajudar. Kratos não busca redenção. A única opção é esmagar a cabeça dele na parede de pedra - afinal, o pobre sujeito está no caminho do espartano. De novo, honestidade. Não há ferramentas veladas de furtividade ou caminhos alternativos. Alguém com a determinação de Kratos não carece de alternativas. A linearidade da trama, da jogabilidade, é reflexo da motivação do protagonista.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
                         <div class="ui label corLabelLaranja">
@@ -105,10 +103,9 @@
         <div class="ui grid"> 
             <div class="ui one wide column"></div>
             <div class="ui fourteen wide column">
-                <p class="modalResenha">Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+            <p class="modalResenha">Partindo do exato ponto em que o segundo parou, God of War III já começa insano. Galgando as costas da titã Gaia, Kratos enfrenta hordas de inimigos em direção à morada dos deuses. A fase, a superfície da colossal criatura, é dinâmica pela instabilidade de Gaia, que se move, vive. Os detalhes são surpreendentes. A primeira batalha, especialmente quando surgem os leviatãs de Netuno (cavalos demoníacos d'água), serve para reestabelecer em poucos minutos a brutalidade de Kratos e o seu poder. Afinal, o personagem desta vez já começa com boa parte de suas habilidades (o velocino, as asas de Ícaro...), ainda que inexplicavelmente outras (o arco, a cabeça da Medusa) tenham sumido de seu arsenal. Poderia ter existido um cuidado maior aí. A desculpa superficial para a substituição das lâminas de Atena também não é exatamente um primor de convencimento.</p>
+            <p class="modalResenha">De qualquer forma, as novas habilidades do personagem compensam a ausência das outras e dão todo um novo conjunto de ferramentas para Kratos causar sua devastação olimpiana. Os novos movimentos de aríete (Kratos apanha um oponente e o usa para derrubar outros) e aproximação (as correntes agem como laço, puxando inimigos) são novidades extremamente benvindas e revigoram os combos dos dois primeiros títulos. A possibilidade de trocar de armas rapidamente, no meio de sequências de golpes, também é empolgante - e o jogo obriga você a usá-la em fases particularmente difíceis, em que oponentes específicos, afetados apenas por uma ou outra arma, dividem a tela.</p>
+            <p class="modalResenha">Em uma cena simbólica, um olimpiano estende a mão ao Fantasma de Esparta. Fugindo de um incêndio ele pede por ajuda para deixar uma laje. Ao jogador não existe a opção de ajudar. Kratos não busca redenção. A única opção é esmagar a cabeça dele na parede de pedra - afinal, o pobre sujeito está no caminho do espartano. De novo, honestidade. Não há ferramentas veladas de furtividade ou caminhos alternativos. Alguém com a determinação de Kratos não carece de alternativas. A linearidade da trama, da jogabilidade, é reflexo da motivação do protagonista.</p>
             </div>
             <div class="ui one wide column"></div>
         </div>
@@ -121,15 +118,15 @@
                 <div class="ui comments espacoComentario">
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/detalhaJogo/avatares/avatar2.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar7.jpg">
                         </a>
                         <div class="content">
-                        <a class="author">Matt</a>
+                        <a class="author">Ingrid</a>
                         <div class="metadata">
                             <span class="date">Today at 5:42PM</span>
                         </div>
                         <div class="text">
-                            que bela bosta!
+                            jogo da minha infancia
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -138,15 +135,15 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/detalhaJogo/avatares/avatar6.png">
+                        <img src="imagens/detalhaJogo/avatares/avatar2.jpg">
                         </a>
                         <div class="content">
-                        <a class="author">Elliot Fu</a>
+                        <a class="author">Scott</a>
                         <div class="metadata">
                             <span class="date">Yesterday at 12:30AM</span>
                         </div>
                         <div class="text">
-                            <p>top</p>
+                            <p>massa</p>
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -155,10 +152,10 @@
                         <div class="comments">
                         <div class="comment">
                             <a class="avatar">
-                            <img src="imagens/gtav.jpg">
+                            <img src="imagens/detalhaJogo/avatares/avatar3.png">
                             </a>
                             <div class="content">
-                            <a class="author">Jenny Hess</a>
+                            <a class="author">Anna</a>
                             <div class="metadata">
                                 <span class="date">Just now</span>
                             </div>
@@ -174,15 +171,15 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/zelda.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar4.png">
                         </a>
                         <div class="content">
-                        <a class="author">Joe Henderson</a>
+                        <a class="author">Henderson152</a>
                         <div class="metadata">
                             <span class="date">5 days ago</span>
                         </div>
                         <div class="text">
-                            o.o
+                            msm sendo antigo adoro esse jogo
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>

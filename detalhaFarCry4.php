@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            The Legend Of Zelda: Breath of the Wild
+            Far Cry 4
         </h2>
 
         <div class="clear"></div>
@@ -16,17 +16,16 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/zelda.jpg">
+                            <img src="imagens/farcry.jpg">
                         </div>
                         <div class="content">
-                            <a class="header classificacaoBox">Classificação Média</a>
+                            <a class="header classificacaoBox">Classificação Alta</a>
                             <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
                         </div>
                     </div>                
                 </div>
                 <div class="ten wide column justificado">
-                	<p>Você é Link, o herói silencioso, e o game faz questão de que você sinta e entenda as coisas como se fosse ele. A história começa com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, memória ou propósito. Não há indicação do que fazer, para onde ir, com quem falar, além de frases enigmáticas que soam mais como alucinações do que instruções. Estamos por nossa conta e só nos resta seguir. Para onde mesmo?</p>
-                	<p>Em suas primeiras horas, Breath of the Wild reproduz de modo brilhante a noção da solidão, de ser arremessado forçadamente a um mundo novo que não nos pertence. Link não sabe o porquê de estar ali, nem qual é seu propósito no universo, então tudo parece um tipo de aprendizado. São mais questões do que conclusões, que levam a uma sensação frequente de ignorância, como se a verdade nos fosse proibida. O que devemos fazer em Hyrule? Por que não há nenhum habitante ocupando os gramados, nenhuma cidade parece habitada? O que são todas essas ruínas? E esses porcos selvagens, por que me atacam? Qual é o real tamanho desse mundo? Aliás, uma das grandes emoções de toda experiência se dá logo quando escalamos a primeira torre e percebemos que o mapa de Hyrule é muito, muito maior do que parecia de início.</p>
+                	<p>Em Far Cry 4 o protagonista é Ajay Ghale que regressa a Kyrat (uma nação fictícia fortemente inspirada em locais da região Himalaia do Nepal), uma zona indomável e selvagem no seu pais de origem, para espalhar as cinzas da sua falecida mãe. Uma vez lá, vê-se envolvido numa guerra civil entre os rebeldes (conhecidos como Caminho Dourado) e o regime despótico do auto-intitulado rei, o sádico Pagan Min (Troy Baker). O jogador tem a possibilidade de escolher de que lado quer juntar forças, resultando em diferentes finais.</p>
                 </div>
             </div>
         </div>
@@ -40,29 +39,29 @@
         <div class="three wide column"></div>
         <div class="one wide column">
             <div class="espacoUsuario">
-                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar1.png">
+                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar4.png">
             </div>
-            <section class="username">@violeta</section>
+            <section class="username">@XxPr0G4me$xX</section>
         </div>
         <div class="ten wide column">
             <div class="talk-bubble tri-right left-in">
                 <div class="talktext">
-                    <h3 class="tituloResenha">Tudo o que você faz, é por conta própria!</h3>
+                    <h3 class="tituloResenha">Kyrat e suas aventuras</h3>
                     <div class="ui divider"></div>
                     <div class="espacoComecoPost"></div>
-                    <p>Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                    <p>O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                    <p>O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                    <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                    <p>Não tem como negar, Far Cry 4 é um colossal "mais do mesmo". Outro game que surfa na onda das franquias que reaproveitam tudo do capítulo anterior sem grandes injeções de novidade. Normalmente questionaria fortemente um título assim, mas Far Cry 4 tem preocupações honestas - e o jogo anterior é tão excelente que não há muito como questionar uma nova visita à série.</p>
+                    <p>O que salta aos olhos de cara é a história. Diferente do anterior, em que controlávamos um mauricinho em busca de outros mauricinhos, o novo protagonista, Ajay Gale, é um homem em rota de colisão com o legado de seus pais. O jovem chega à Kyrat, no Tibete, a pedido da mãe morta que deseja que suas cinzas sejam espalhadas em sua terra-natal.</p>
+                    <p>Lá, ele descobre um grupo rebelde, criado pelo seu pai, que luta contra a tirania do colorido déspota Pagan Min (vilões excêntricos virou marca da série). Aceitar esse fardo é obrigatório no game, mas há a opção de como fazê-lo. Existe uma cisão ideológica entre os rebeldes e ambas as facções sugerem as missões que Ajay pode seguir.</p>
+                    <p>Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs down icon"></i>
-                                5
+                                14
                         </div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs up icon"></i>
-                                6
+                                66
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="comments icon"></i>
@@ -105,10 +104,10 @@
         <div class="ui grid"> 
             <div class="ui one wide column"></div>
             <div class="ui fourteen wide column">
-                <p class="modalResenha">Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                <p class="modalResenha">Não tem como negar, Far Cry 4 é um colossal "mais do mesmo". Outro game que surfa na onda das franquias que reaproveitam tudo do capítulo anterior sem grandes injeções de novidade. Normalmente questionaria fortemente um título assim, mas Far Cry 4 tem preocupações honestas - e o jogo anterior é tão excelente que não há muito como questionar uma nova visita à série.</p>
+                <p class="modalResenha">O que salta aos olhos de cara é a história. Diferente do anterior, em que controlávamos um mauricinho em busca de outros mauricinhos, o novo protagonista, Ajay Gale, é um homem em rota de colisão com o legado de seus pais. O jovem chega à Kyrat, no Tibete, a pedido da mãe morta que deseja que suas cinzas sejam espalhadas em sua terra-natal.</p>
+                <p class="modalResenha">Lá, ele descobre um grupo rebelde, criado pelo seu pai, que luta contra a tirania do colorido déspota Pagan Min (vilões excêntricos virou marca da série). Aceitar esse fardo é obrigatório no game, mas há a opção de como fazê-lo. Existe uma cisão ideológica entre os rebeldes e ambas as facções sugerem as missões que Ajay pode seguir.</p>
+                <p class="modalResenha">Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio.</p>
             </div>
             <div class="ui one wide column"></div>
         </div>
@@ -121,15 +120,15 @@
                 <div class="ui comments espacoComentario">
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/detalhaJogo/avatares/avatar2.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar5.png">
                         </a>
                         <div class="content">
-                        <a class="author">Matt</a>
+                        <a class="author">falou mal do meu jogo favorito, lixo</a>
                         <div class="metadata">
                             <span class="date">Today at 5:42PM</span>
                         </div>
                         <div class="text">
-                            que bela bosta!
+                            bem ruim hein
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -141,12 +140,12 @@
                         <img src="imagens/detalhaJogo/avatares/avatar6.png">
                         </a>
                         <div class="content">
-                        <a class="author">Elliot Fu</a>
+                        <a class="author">Barbara</a>
                         <div class="metadata">
                             <span class="date">Yesterday at 12:30AM</span>
                         </div>
                         <div class="text">
-                            <p>top</p>
+                            <p>Pagan Min é o melhor vilão da saga</p>
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -155,15 +154,15 @@
                         <div class="comments">
                         <div class="comment">
                             <a class="avatar">
-                            <img src="imagens/gtav.jpg">
+                            <img src="imagens/detalhaJogo/avatares/avatar9.png">
                             </a>
                             <div class="content">
-                            <a class="author">Jenny Hess</a>
+                            <a class="author">Clep</a>
                             <div class="metadata">
                                 <span class="date">Just now</span>
                             </div>
                             <div class="text">
-                                legal, mas pode melhorar :)
+                                XD 
                             </div>
                             <div class="actions">
                                 <a class="reply">Reply</a>
@@ -174,15 +173,32 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/zelda.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar7.jpg">
                         </a>
                         <div class="content">
-                        <a class="author">Joe Henderson</a>
+                        <a class="author">Julie</a>
                         <div class="metadata">
                             <span class="date">5 days ago</span>
                         </div>
                         <div class="text">
-                            o.o
+                            AAAAh, não falou do helicópterozinho :(
+                        </div>
+                        <div class="actions">
+                            <a class="reply">Reply</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                        <img src="imagens/detalhaJogo/avatares/avatar10.jpg">
+                        </a>
+                        <div class="content">
+                        <a class="author">Web Leaf</a>
+                        <div class="metadata">
+                            <span class="date">5 days ago</span>
+                        </div>
+                        <div class="text">
+                            incrível jogo
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
