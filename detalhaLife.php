@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            The Legend Of Zelda: Breath of the Wind
+            Life is Strange
         </h2>
 
         <div class="clear"></div>
@@ -16,7 +16,7 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/zelda.jpg">
+                            <img src="imagens/lifeisstrange.png">
                         </div>
                         <div class="content">
                             <a class="header classificacaoBox">Classificação Média</a>
@@ -25,8 +25,9 @@
                     </div>                
                 </div>
                 <div class="ten wide column justificado">
-                	<p>Travel back to Hyrule with Link in Zelda: Breath of the Wild for the Nintendo Switch. Explore a variety of shrines, sail across rough waters and scavenge for food to defeat Ganondorf and save Zelda once and for all. Zelda: Breath of the Wild includes Wolf, who joins Link in his adventure and delivers enhanced gameplay for greater enjoyment.</p>
-                	<p>Discover a world as never before seen: by making your own path, choices, and consequences. Ingenuity is the key to survival: find multiple solutions to tons of dynamic puzzles. Surprises hide around every corner: scavenge weapons, armor, plants, animals, and more. Live off the land: find weapons and armor, cook food, and brew elixirs. Utilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways. Gear up: many weapons and armor have unique stats, resistances, effects, and durability. Shrines offer hundreds of clever challenges even veterans won't see coming</p>
+                    <p>Life is Strange é uma premiada aventura em episódios, aclamada pela crítica, que permite ao jogador voltar no tempo e alterar passado, presente e futuro.</p>
+                    <p>Siga a história de Max Caulfield, uma estudante de fotografia que descobre ser capaz de rebobinar o tempo ao salvar a melhor amiga, Chloe Price.</p>
+                    <p>As duas logo começam a investigar o desaparecimento misterioso da amiga e também estudante Rachel Amber, e desvendam o lado sombrio da vida em Arcadia Bay. Ao mesmo tempo, Max aprende rápido que alterar o passado pode por vezes levar a um futuro devastador.</p>
                 </div>
             </div>
         </div>
@@ -40,29 +41,28 @@
         <div class="three wide column"></div>
         <div class="one wide column">
             <div class="espacoUsuario">
-                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar1.png">
+                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/juca.jpg">
             </div>
-            <section class="username">@violeta</section>
+            <section class="username">@juca</section>
         </div>
         <div class="ten wide column">
             <div class="talk-bubble tri-right left-in">
                 <div class="talktext">
-                    <h3 class="tituloResenha">Tudo o que você faz, é por conta própria!</h3>
+                    <h3 class="tituloResenha">Inovador</h3>
                     <div class="ui divider"></div>
                     <div class="espacoComecoPost"></div>
-                    <p>Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                    <p>O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                    <p>O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                    <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                    <p>Você já teve aquela curiosidade terrível de querer fazer alguma coisa só pra ver o que aconteceria? Quer dizer, fazer ou dizer alguma coisa bizarra, drástica, idiota ou sei-lá-o-quê e voltar no tempo antes de ter que lidar com as consequências? Então, Life is Strange vai acalentar seu coração.</p>
+                    <p>No jogo, somos Max Caulfield, uma nerd, hispter e aspirante à fotógrafa ( e como isso soa nada original) que descobre um poder de voltar no tempo e alterar o destino. Ao se envolver com uma série de acontecimentos macabros, violentos, sentimentais e meio inexplicáveis, o superpoder vai sendo cada vez mais requisitado e você vai jogar com ela para resolver a história.</p>
+                    <p>Com uma melancolia e suspense amáveis, Life is Strange é sobretudo uma história de amizade. Uma outra personagem, Chloe, vai te acompanhar o tempo todo e acredite: você, pessoa com o controle, vai se apegar e fazer de tudo para mantê-la a salvo. E esse é o primeiro ponto positivo: você se importa muito com a história e com as personagens. Esse é um jogo de escolhas e é bem executado o trabalho de fazer você pensar nas opções e se preocupar com o que vai acontecer. Tipo a vida real, só que dá pra voltar no tempo.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs down icon"></i>
-                                5
+                                7
                         </div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs up icon"></i>
-                                6
+                                10
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="comments icon"></i>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
+                                Postado há 10 dias
                         </div>
 
                         <div class="ui label corLabelLaranja modalAbrir">
@@ -95,9 +95,9 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+                <h2 class="modalNome" >Life is Strange</h2>
                 <div class="clear">.</div>
-                <h3 class="modalAutor">Resenha por: @violet</h3>
+                <h3 class="modalAutor">Resenha por: @juca</h3>
             </div>
         </div>
         <div class="ui divider"></div>
@@ -105,10 +105,9 @@
         <div class="ui grid"> 
             <div class="ui one wide column"></div>
             <div class="ui fourteen wide column">
-                <p class="modalResenha">Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                <p class="modalResenha">Você já teve aquela curiosidade terrível de querer fazer alguma coisa só pra ver o que aconteceria? Quer dizer, fazer ou dizer alguma coisa bizarra, drástica, idiota ou sei-lá-o-quê e voltar no tempo antes de ter que lidar com as consequências? Então, Life is Strange vai acalentar seu coração.</p>
+                <p class="modalResenha">No jogo, somos Max Caulfield, uma nerd, hispter e aspirante à fotógrafa ( e como isso soa nada original) que descobre um poder de voltar no tempo e alterar o destino. Ao se envolver com uma série de acontecimentos macabros, violentos, sentimentais e meio inexplicáveis, o superpoder vai sendo cada vez mais requisitado e você vai jogar com ela para resolver a história.</p>
+                <p class="modalResenha">Com uma melancolia e suspense amáveis, Life is Strange é sobretudo uma história de amizade. Uma outra personagem, Chloe, vai te acompanhar o tempo todo e acredite: você, pessoa com o controle, vai se apegar e fazer de tudo para mantê-la a salvo. E esse é o primeiro ponto positivo: você se importa muito com a história e com as personagens. Esse é um jogo de escolhas e é bem executado o trabalho de fazer você pensar nas opções e se preocupar com o que vai acontecer. Tipo a vida real, só que dá pra voltar no tempo.</p>
             </div>
             <div class="ui one wide column"></div>
         </div>
@@ -129,7 +128,7 @@
                             <span class="date">Today at 5:42PM</span>
                         </div>
                         <div class="text">
-                            que bela bosta!
+                            revolucionário!
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -146,7 +145,7 @@
                             <span class="date">Yesterday at 12:30AM</span>
                         </div>
                         <div class="text">
-                            <p>top</p>
+                            <p>Gostei da perspectiva</p>
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -163,7 +162,7 @@
                                 <span class="date">Just now</span>
                             </div>
                             <div class="text">
-                                legal, mas pode melhorar :)
+                                simm, concordo! Muito legal.
                             </div>
                             <div class="actions">
                                 <a class="reply">Reply</a>
@@ -182,7 +181,7 @@
                             <span class="date">5 days ago</span>
                         </div>
                         <div class="text">
-                            o.o
+                            Aguardo a continuação!
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>

@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            The Legend Of Zelda: Breath of the Wind
+            Tomb Raider
         </h2>
 
         <div class="clear"></div>
@@ -16,7 +16,7 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/zelda.jpg">
+                            <img src="imagens/tombraider.jpg">
                         </div>
                         <div class="content">
                             <a class="header classificacaoBox">Classificação Média</a>
@@ -25,8 +25,9 @@
                     </div>                
                 </div>
                 <div class="ten wide column justificado">
-                	<p>Travel back to Hyrule with Link in Zelda: Breath of the Wild for the Nintendo Switch. Explore a variety of shrines, sail across rough waters and scavenge for food to defeat Ganondorf and save Zelda once and for all. Zelda: Breath of the Wild includes Wolf, who joins Link in his adventure and delivers enhanced gameplay for greater enjoyment.</p>
-                	<p>Discover a world as never before seen: by making your own path, choices, and consequences. Ingenuity is the key to survival: find multiple solutions to tons of dynamic puzzles. Surprises hide around every corner: scavenge weapons, armor, plants, animals, and more. Live off the land: find weapons and armor, cook food, and brew elixirs. Utilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways. Gear up: many weapons and armor have unique stats, resistances, effects, and durability. Shrines offer hundreds of clever challenges even veterans won't see coming</p>
+                	<p>Armada com nada além de instintos se sobrevivência, Lara encontrou seu caminho para as costas misteriosas do Linux.</p>
+                    <p>Tomb Raider explora a intensa história de origem de Lara Croft, e sua ascensão de uma jovem mulher a uma sobrevivente experiente. Armada apenas com os seus instintos e a capacidade de ir além dos limites da resistência humana, Lara precisa lutar para desvendar a história sombria de uma ilha esquecida para fugir das suas garras.</p>
+                    <p>“Após uma violenta tempestade destruir o barco que ela estava viajando, uma jovem e amedrontada mulher é deixada encharcada em uma praia desconhecida. Por conta própria, mas não sozinha, ela só tem um objetivo, sobreviver”</p>
                 </div>
             </div>
         </div>
@@ -40,29 +41,28 @@
         <div class="three wide column"></div>
         <div class="one wide column">
             <div class="espacoUsuario">
-                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar1.png">
+                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/julia.jpg">
             </div>
-            <section class="username">@violeta</section>
+            <section class="username">@juliagamer</section>
         </div>
         <div class="ten wide column">
             <div class="talk-bubble tri-right left-in">
                 <div class="talktext">
-                    <h3 class="tituloResenha">Tudo o que você faz, é por conta própria!</h3>
+                    <h3 class="tituloResenha">Um recomeço?!</h3>
                     <div class="ui divider"></div>
                     <div class="espacoComecoPost"></div>
-                    <p>Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                    <p>O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                    <p>O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                    <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                    <p>17 anos depois de sua criação, a série Tomb Raider parecia fadada ao gradual esquecimento, com suas instâncias cada vez atraindo menos jogadores. Ícone das heroínas nos videogames, Lara Croft originalmente conquistou seu espaço como aventureira em território ocupado quase que exclusivamente por homens, ganhou filme e status de sex symbol, mas envelheceu mal na mesma proporção em que seu número de polígonos aumentou.</p>
+                    <p>Visando reinventar a franquia, a Square-Enix e a Eidos tomaram a rota do "Begins", criando um prelúdio que funciona ao mesmo tempo como um reinício para a combalida série. A mulher durona e curvilínea foi reinventada no jogo, intitulado simplesmente Tomb Raider, como uma jovem frágil, recém-saída da adolescência, ainda longe de adquirir as habilidades pelas quais ficou conhecida.</p>
+                    <p>A trama envolve uma expedição arqueológica em busca de ruínas de uma antiga civilização japonesa que, misteriosamente, naufraga depois de uma tempestade. Isolada de seus amigos, a jovem Lara vê-se lutando para sobreviver em minutos, fazendo valer cada lição que teve com seu mentor, Roth, também um integrante da expedição. Em um ambiente inóspito, lá vai a futura Tomb Raider aprender a caçar, enfrentar cultistas, escalar, melhorar nas armas e aperfeiçoar suas ferramentas.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs down icon"></i>
-                                5
+                                2
                         </div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs up icon"></i>
-                                6
+                                21
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="comments icon"></i>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
+                                Postado há 7 dias
                         </div>
 
                         <div class="ui label corLabelLaranja modalAbrir">
@@ -95,9 +95,9 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+                <h2 class="modalNome" >Tomb Raider</h2>
                 <div class="clear">.</div>
-                <h3 class="modalAutor">Resenha por: @violet</h3>
+                <h3 class="modalAutor">Resenha por: @juliagamer</h3>
             </div>
         </div>
         <div class="ui divider"></div>
@@ -105,10 +105,9 @@
         <div class="ui grid"> 
             <div class="ui one wide column"></div>
             <div class="ui fourteen wide column">
-                <p class="modalResenha">Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
-                <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
-                <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
-                <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                <p class="modalResenha">17 anos depois de sua criação, a série Tomb Raider parecia fadada ao gradual esquecimento, com suas instâncias cada vez atraindo menos jogadores. Ícone das heroínas nos videogames, Lara Croft originalmente conquistou seu espaço como aventureira em território ocupado quase que exclusivamente por homens, ganhou filme e status de sex symbol, mas envelheceu mal na mesma proporção em que seu número de polígonos aumentou.</p>
+                <p class="modalResenha">Visando reinventar a franquia, a Square-Enix e a Eidos tomaram a rota do "Begins", criando um prelúdio que funciona ao mesmo tempo como um reinício para a combalida série. A mulher durona e curvilínea foi reinventada no jogo, intitulado simplesmente Tomb Raider, como uma jovem frágil, recém-saída da adolescência, ainda longe de adquirir as habilidades pelas quais ficou conhecida.</p>
+                <p class="modalResenha">A trama envolve uma expedição arqueológica em busca de ruínas de uma antiga civilização japonesa que, misteriosamente, naufraga depois de uma tempestade. Isolada de seus amigos, a jovem Lara vê-se lutando para sobreviver em minutos, fazendo valer cada lição que teve com seu mentor, Roth, também um integrante da expedição. Em um ambiente inóspito, lá vai a futura Tomb Raider aprender a caçar, enfrentar cultistas, escalar, melhorar nas armas e aperfeiçoar suas ferramentas.</p>
             </div>
             <div class="ui one wide column"></div>
         </div>
@@ -129,7 +128,7 @@
                             <span class="date">Today at 5:42PM</span>
                         </div>
                         <div class="text">
-                            que bela bosta!
+                            amei esta continuação! Já estava perdendo as esperanças...
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -146,7 +145,7 @@
                             <span class="date">Yesterday at 12:30AM</span>
                         </div>
                         <div class="text">
-                            <p>top</p>
+                            <p>Acho que ainda não se compara com os outros jogos</p>
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -163,7 +162,7 @@
                                 <span class="date">Just now</span>
                             </div>
                             <div class="text">
-                                legal, mas pode melhorar :)
+                                desnecessário certas cenas do jogo.
                             </div>
                             <div class="actions">
                                 <a class="reply">Reply</a>
@@ -182,7 +181,7 @@
                             <span class="date">5 days ago</span>
                         </div>
                         <div class="text">
-                            o.o
+                            Concordo com suas opiniões!
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
