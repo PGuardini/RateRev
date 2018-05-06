@@ -19,7 +19,7 @@
                             <img src="imagens/farcry.jpg">
                         </div>
                         <div class="content">
-                            <a class="header classificacaoBox">Classificação Alta</a>
+                            <a class="header classificacaoBox">Classificação Média</a>
                             <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
                         </div>
                     </div>                
@@ -94,7 +94,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+                <h2 class="modalNome" >Far Cry 4</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @XxPr0G4me$xX</h3>
             </div>

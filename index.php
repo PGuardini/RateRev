@@ -30,7 +30,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom ">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaTomb.php">
                         <img class="indexImg" src="imagens/tombraider.jpg">
                         <div class="text-item">
                             <h2>Tomb Raider</h2>
@@ -76,7 +76,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaAssassins.php">
                         <img class="indexImg" src="imagens/assassinscreed.jpg">
                         <div class="text-item">
                             <h2>Assassin's Creed: Origins</h2>
@@ -122,7 +122,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaUncharted.php">
                         <img class="indexImg" src="imagens/uncharted.jpg">
                         <div class="text-item">
                             <h2>Uncharted 4</h2>
@@ -166,7 +166,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaLife.php">
                         <img class="indexImg" src="imagens/lifeisstrange.png">
                         <div class="text-item">
                             <h2>Life is Strange</h2>

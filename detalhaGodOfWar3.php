@@ -19,7 +19,7 @@
                             <img src="imagens/godofwar.jpg">
                         </div>
                         <div class="content">
-                            <a class="header classificacaoBox">Classificação Alta</a>
+                            <a class="header classificacaoBox">Classificação Média</a>
                             <div class="ui star rating" data-rating="4" data-max-rating="5"></div>
                         </div>
                     </div>                
@@ -64,7 +64,7 @@
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="comments icon"></i>
-                                5 comentários
+                                4 comentários
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="calendar alternate icon"></i>
@@ -93,7 +93,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+                <h2 class="modalNome" >God of War 3</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @julia</h3>
             </div>

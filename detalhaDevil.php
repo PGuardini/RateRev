@@ -67,7 +67,7 @@ A história de Devil May Cry, vagamente inspirada no poema A Divina Comédia com
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="comments icon"></i>
-                                5 comentários
+                                4 comentários
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="calendar alternate icon"></i>
