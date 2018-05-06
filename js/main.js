@@ -6,8 +6,7 @@ $(document).ready(function(){
         $('.ui .modal').modal('setting', {
             autofocus: false
         }).modal('show');
-    });
-    
+    }); 
 })
 
 
