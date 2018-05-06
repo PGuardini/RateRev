@@ -19,7 +19,11 @@
                             <img src="imagens/gtav.jpg">
                         </div>
                         <div class="content">
+<<<<<<< HEAD
                             <a class="header classificacaoBox">Classificação Média</a>
+=======
+                            <a class="header classificacaoBox">Classificação Alta</a>
+>>>>>>> 7a1b9378b63dab7a677deecfa9c075d5254f7672
                             <div class="ui star rating" data-rating="5" data-max-rating="5"></div>
                         </div>
                     </div>                
