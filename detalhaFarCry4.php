@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            WatchDogs 2
+            Far Cry 4
         </h2>
 
         <div class="clear"></div>
@@ -16,7 +16,7 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/watchdogs.jpg">
+                            <img src="imagens/farcry.jpg">
                         </div>
                         <div class="content">
                             <a class="header classificacaoBox">Classificação Média</a>
@@ -25,9 +25,7 @@
                     </div>                
                 </div>
                 <div class="ten wide column justificado">
-                	<p>In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis.</p>
-                	<p>Play as Marcus Holloway, a brilliant young hacker living in the birthplace of the tech revolution, the San Francisco Bay Area. Team up with Dedsec, a notorious group of hackers, and expose the hidden dangers of ctOS 2.0, which, in the hands of corrupt corporations, is being wrongfully used to monitor and manipulate citizens on a massive scale.</p>
-                    <p>With the power of hacking and Dedsec by your side, launch the Hack of the Century, take down ctOS 2.0 and give freedom back to whom it belongs: the people.</p>
+                	<p>Em Far Cry 4 o protagonista é Ajay Ghale que regressa a Kyrat (uma nação fictícia fortemente inspirada em locais da região Himalaia do Nepal), uma zona indomável e selvagem no seu pais de origem, para espalhar as cinzas da sua falecida mãe. Uma vez lá, vê-se envolvido numa guerra civil entre os rebeldes (conhecidos como Caminho Dourado) e o regime despótico do auto-intitulado rei, o sádico Pagan Min (Troy Baker). O jogador tem a possibilidade de escolher de que lado quer juntar forças, resultando em diferentes finais.</p>
                 </div>
             </div>
         </div>
@@ -41,33 +39,33 @@
         <div class="three wide column"></div>
         <div class="one wide column">
             <div class="espacoUsuario">
-                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/robo.jpg">
+                <img class="ui circular big image" src="imagens/detalhaJogo/avatares/avatar4.png">
             </div>
-            <section class="username">@robo</section>
+            <section class="username">@XxPr0G4me$xX</section>
         </div>
         <div class="ten wide column">
             <div class="talk-bubble tri-right left-in">
                 <div class="talktext">
-                    <h3 class="tituloResenha">Assistindo Cachorros</h3>
+                    <h3 class="tituloResenha">Kyrat e suas aventuras</h3>
                     <div class="ui divider"></div>
                     <div class="espacoComecoPost"></div>
-                    <p>Sou um grande fã de Watch Dogs e realmente me surpreendeu o Watch Dogs 2.</p>
-                    <p>O primeiro Watch Dogs é um dos jogos mais polêmicos dos últimos 10 anos. Poucas coisas geraram tantas expectativas e receberam tantas críticas no mundo dos jogos. Foram muitas promessas, e ao fim de tudo, a maioria não tinha sido cumprida. Mas como tantas coisas no mundo da tecnologia, é preciso uma versão 2.0 para realmente vermos o potencial de algo ser transformado numa experiência de qualidade.</p>
-                    <p>Watch Dogs 2 é tudo que o primeiro Watch Dogs prometeu ser. Divertida, cheia de mecânicas interessantes e com uma cidade inacreditável, a continuação é provavelmente o melhor jogo da Ubisoft desde o histórico Assassin's Creed II. Aiden Pearce e Chicago ficaram para trás. Agora é a hora de conhecer Marcus Holloway e a gangue de hackers da DedSec enquanto exploramos São Francisco, a capital tecnológica do planeta Terra. Da interface visual à trilha sonora, a diferença para o primeiro jogo é tão grande, que Watch Dogs 2 poderia ser um reboot da franquia.</p>
-                    <p>Todas as promessas feitas pelo primeiro Watch Dogs - você pode hackear basicamente tudo na cidade, é possível completar missões sem nem colocar o pé dentro do prédio onde o computador que você busca está localizado - são cumpridas aqui. Cada cidadão, cada sinal de trânsito, cada carro, empilhadeira, guindaste, painel eletrônico e sistema de segurança pode ser hackeado e manipulado. Talvez você precise desbloquear alguns upgrades para conseguir tudo, mas as ferramentas estão lá. Eventualmente, usando seu drone e carrinho de controle remoto (o melhor amigo de um hacker!), câmeras de segurança e um ou outro smartphone, Marcus consegue roubar os dados de algum alvo enquanto está sentado com seu notebook no colo do lado de fora dos muros da gigante tecnológica que está sendo invadida agora.</p>
+                    <p>Não tem como negar, Far Cry 4 é um colossal "mais do mesmo". Outro game que surfa na onda das franquias que reaproveitam tudo do capítulo anterior sem grandes injeções de novidade. Normalmente questionaria fortemente um título assim, mas Far Cry 4 tem preocupações honestas - e o jogo anterior é tão excelente que não há muito como questionar uma nova visita à série.</p>
+                    <p>O que salta aos olhos de cara é a história. Diferente do anterior, em que controlávamos um mauricinho em busca de outros mauricinhos, o novo protagonista, Ajay Gale, é um homem em rota de colisão com o legado de seus pais. O jovem chega à Kyrat, no Tibete, a pedido da mãe morta que deseja que suas cinzas sejam espalhadas em sua terra-natal.</p>
+                    <p>Lá, ele descobre um grupo rebelde, criado pelo seu pai, que luta contra a tirania do colorido déspota Pagan Min (vilões excêntricos virou marca da série). Aceitar esse fardo é obrigatório no game, mas há a opção de como fazê-lo. Existe uma cisão ideológica entre os rebeldes e ambas as facções sugerem as missões que Ajay pode seguir.</p>
+                    <p>Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs down icon"></i>
-                                5
+                                14
                         </div>
                         <div class="ui label corLabelLaranja">
                             <i class="thumbs up icon"></i>
-                                6
+                                66
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="comments icon"></i>
-                                4 comentários
+                                5 comentários
                         </div>
                         <div class="ui label corLabelAzul">
                             <i class="calendar alternate icon"></i>
@@ -96,9 +94,9 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Watch Dogs 2</h2>
+                <h2 class="modalNome" >Far Cry 4</h2>
                 <div class="clear">.</div>
-                <h3 class="modalAutor">Resenha por: @robo</h3>
+                <h3 class="modalAutor">Resenha por: @XxPr0G4me$xX</h3>
             </div>
         </div>
         <div class="ui divider"></div>
@@ -106,9 +104,10 @@
         <div class="ui grid"> 
             <div class="ui one wide column"></div>
             <div class="ui fourteen wide column">
-                <p class="modalResenha">O primeiro Watch Dogs é um dos jogos mais polêmicos dos últimos 10 anos. Poucas coisas geraram tantas expectativas e receberam tantas críticas no mundo dos jogos. Foram muitas promessas, e ao fim de tudo, a maioria não tinha sido cumprida. Mas como tantas coisas no mundo da tecnologia, é preciso uma versão 2.0 para realmente vermos o potencial de algo ser transformado numa experiência de qualidade.</p>
-                <p class="modalResenha">Watch Dogs 2 é tudo que o primeiro Watch Dogs prometeu ser. Divertida, cheia de mecânicas interessantes e com uma cidade inacreditável, a continuação é provavelmente o melhor jogo da Ubisoft desde o histórico Assassin's Creed II. Aiden Pearce e Chicago ficaram para trás. Agora é a hora de conhecer Marcus Holloway e a gangue de hackers da DedSec enquanto exploramos São Francisco, a capital tecnológica do planeta Terra. Da interface visual à trilha sonora, a diferença para o primeiro jogo é tão grande, que Watch Dogs 2 poderia ser um reboot da franquia.</p>
-                <p class="modalResenha">Todas as promessas feitas pelo primeiro Watch Dogs - você pode hackear basicamente tudo na cidade, é possível completar missões sem nem colocar o pé dentro do prédio onde o computador que você busca está localizado - são cumpridas aqui. Cada cidadão, cada sinal de trânsito, cada carro, empilhadeira, guindaste, painel eletrônico e sistema de segurança pode ser hackeado e manipulado. Talvez você precise desbloquear alguns upgrades para conseguir tudo, mas as ferramentas estão lá. Eventualmente, usando seu drone e carrinho de controle remoto (o melhor amigo de um hacker!), câmeras de segurança e um ou outro smartphone, Marcus consegue roubar os dados de algum alvo enquanto está sentado com seu notebook no colo do lado de fora dos muros da gigante tecnológica que está sendo invadida agora.</p>
+                <p class="modalResenha">Não tem como negar, Far Cry 4 é um colossal "mais do mesmo". Outro game que surfa na onda das franquias que reaproveitam tudo do capítulo anterior sem grandes injeções de novidade. Normalmente questionaria fortemente um título assim, mas Far Cry 4 tem preocupações honestas - e o jogo anterior é tão excelente que não há muito como questionar uma nova visita à série.</p>
+                <p class="modalResenha">O que salta aos olhos de cara é a história. Diferente do anterior, em que controlávamos um mauricinho em busca de outros mauricinhos, o novo protagonista, Ajay Gale, é um homem em rota de colisão com o legado de seus pais. O jovem chega à Kyrat, no Tibete, a pedido da mãe morta que deseja que suas cinzas sejam espalhadas em sua terra-natal.</p>
+                <p class="modalResenha">Lá, ele descobre um grupo rebelde, criado pelo seu pai, que luta contra a tirania do colorido déspota Pagan Min (vilões excêntricos virou marca da série). Aceitar esse fardo é obrigatório no game, mas há a opção de como fazê-lo. Existe uma cisão ideológica entre os rebeldes e ambas as facções sugerem as missões que Ajay pode seguir.</p>
+                <p class="modalResenha">Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio.</p>
             </div>
             <div class="ui one wide column"></div>
         </div>
@@ -121,15 +120,15 @@
                 <div class="ui comments espacoComentario">
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/uncharted.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar5.png">
                         </a>
                         <div class="content">
-                        <a class="author">M.</a>
+                        <a class="author">falou mal do meu jogo favorito, lixo</a>
                         <div class="metadata">
                             <span class="date">Today at 5:42PM</span>
                         </div>
                         <div class="text">
-                            Escreve mto bem
+                            bem ruim hein
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -138,15 +137,15 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/farcry.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar6.png">
                         </a>
                         <div class="content">
-                        <a class="author">Elo</a>
+                        <a class="author">Barbara</a>
                         <div class="metadata">
                             <span class="date">Yesterday at 12:30AM</span>
                         </div>
                         <div class="text">
-                            <p>KRAAAAAI</p>
+                            <p>Pagan Min é o melhor vilão da saga</p>
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -155,15 +154,15 @@
                         <div class="comments">
                         <div class="comment">
                             <a class="avatar">
-                            <img src="imagens/gtav.jpg">
+                            <img src="imagens/detalhaJogo/avatares/avatar9.png">
                             </a>
                             <div class="content">
-                            <a class="author">Nyess</a>
+                            <a class="author">Clep</a>
                             <div class="metadata">
                                 <span class="date">Just now</span>
                             </div>
                             <div class="text">
-                                legal, mas pode melhorar :)
+                                XD 
                             </div>
                             <div class="actions">
                                 <a class="reply">Reply</a>
@@ -174,15 +173,32 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/zelda.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar7.jpg">
                         </a>
                         <div class="content">
-                        <a class="author">Jenderson</a>
+                        <a class="author">Julie</a>
                         <div class="metadata">
                             <span class="date">5 days ago</span>
                         </div>
                         <div class="text">
-                            AAAAAAAAAAAAAAAA INCRIVEL
+                            AAAAh, não falou do helicópterozinho :(
+                        </div>
+                        <div class="actions">
+                            <a class="reply">Reply</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                        <img src="imagens/detalhaJogo/avatares/avatar10.jpg">
+                        </a>
+                        <div class="content">
+                        <a class="author">Web Leaf</a>
+                        <div class="metadata">
+                            <span class="date">5 days ago</span>
+                        </div>
+                        <div class="text">
+                            incrível jogo
                         </div>
                         <div class="actions">
                             <a class="reply">Reply</a>
@@ -191,7 +207,7 @@
                     </div>
                     <form class="ui reply form">
                         <div class="field">
-                            <textarea></textarea>
+                        <textarea></textarea>
                         </div>
                         <div class="ui blue labeled submit icon button">
                         <i class="icon edit"></i> Add Reply

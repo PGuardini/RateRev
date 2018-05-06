@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            The Legend Of Zelda: Breath of the Wind
+            The Legend Of Zelda: Breath of the Wild
         </h2>
 
         <div class="clear"></div>
@@ -25,8 +25,8 @@
                     </div>                
                 </div>
                 <div class="ten wide column justificado">
-                	<p>Travel back to Hyrule with Link in Zelda: Breath of the Wild for the Nintendo Switch. Explore a variety of shrines, sail across rough waters and scavenge for food to defeat Ganondorf and save Zelda once and for all. Zelda: Breath of the Wild includes Wolf, who joins Link in his adventure and delivers enhanced gameplay for greater enjoyment.</p>
-                	<p>Discover a world as never before seen: by making your own path, choices, and consequences. Ingenuity is the key to survival: find multiple solutions to tons of dynamic puzzles. Surprises hide around every corner: scavenge weapons, armor, plants, animals, and more. Live off the land: find weapons and armor, cook food, and brew elixirs. Utilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways. Gear up: many weapons and armor have unique stats, resistances, effects, and durability. Shrines offer hundreds of clever challenges even veterans won't see coming</p>
+                	<p>Você é Link, o herói silencioso, e o game faz questão de que você sinta e entenda as coisas como se fosse ele. A história começa com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, memória ou propósito. Não há indicação do que fazer, para onde ir, com quem falar, além de frases enigmáticas que soam mais como alucinações do que instruções. Estamos por nossa conta e só nos resta seguir. Para onde mesmo?</p>
+                	<p>Em suas primeiras horas, Breath of the Wild reproduz de modo brilhante a noção da solidão, de ser arremessado forçadamente a um mundo novo que não nos pertence. Link não sabe o porquê de estar ali, nem qual é seu propósito no universo, então tudo parece um tipo de aprendizado. São mais questões do que conclusões, que levam a uma sensação frequente de ignorância, como se a verdade nos fosse proibida. O que devemos fazer em Hyrule? Por que não há nenhum habitante ocupando os gramados, nenhuma cidade parece habitada? O que são todas essas ruínas? E esses porcos selvagens, por que me atacam? Qual é o real tamanho desse mundo? Aliás, uma das grandes emoções de toda experiência se dá logo quando escalamos a primeira torre e percebemos que o mapa de Hyrule é muito, muito maior do que parecia de início.</p>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
                 <div class="ui comments espacoComentario">
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/uncharted.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar2.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Matt</a>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/farcry.jpg">
+                        <img src="imagens/detalhaJogo/avatares/avatar6.png">
                         </a>
                         <div class="content">
                         <a class="author">Elliot Fu</a>

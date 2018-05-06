@@ -30,7 +30,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom ">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaTomb.php">
                         <img class="indexImg" src="imagens/tombraider.jpg">
                         <div class="text-item">
                             <h2>Tomb Raider</h2>
@@ -44,7 +44,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom ">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaDogs.php">
                         <img class="indexImg" src="imagens/watchdogs.jpg">
                         <div class="text-item">
                             <h2>Watch Dogs 2</h2>
@@ -62,7 +62,7 @@
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaGTAV.php">
                         <img class="indexImg" src="imagens/gtav.jpg">
                         <div class="text-item">
                             <h2>GTA V</h2>
@@ -76,7 +76,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaAssassins.php">
                         <img class="indexImg" src="imagens/assassinscreed.jpg">
                         <div class="text-item">
                             <h2>Assassin's Creed: Origins</h2>
@@ -90,7 +90,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaDevil.php">
                         <img class="indexImg" src="imagens/devilmaycry.jpg">
                         <div class="text-item">
                             <h2>Devil May Cry</h2>
@@ -108,7 +108,7 @@
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaFarCry4.php">
                         <img class="indexImg" src="imagens/farcry.jpg">
                         <div class="text-item">
                             <h2>Far Cry 4</h2>
@@ -122,7 +122,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaUncharted.php">
                         <img class="indexImg" src="imagens/uncharted.jpg">
                         <div class="text-item">
                             <h2>Uncharted 4</h2>
@@ -136,7 +136,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaLast.php">
                         <img class="indexImg" src="imagens/thelastofus.jpg">
                         <div class="text-item">
                             <h2>The Last of Us: Part II</h2>
@@ -152,7 +152,7 @@
             <div class=" column ">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaGodOfWar3.php">
                         <img class="indexImg" src="imagens/godofwar.jpg">
                         <div class="text-item">
                             <h2>God Of War III</h2>
@@ -166,7 +166,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaLife.php">
                         <img class="indexImg" src="imagens/lifeisstrange.png">
                         <div class="text-item">
                             <h2>Life is Strange</h2>
@@ -180,7 +180,7 @@
             <div class=" column ">
             <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
+                    <a href="detalhaInFamous.php">
                         <img class="indexImg" src="imagens/infamous.jpg">
                         <div class="text-item">
                             <h2>inFAMOUS</h2>
