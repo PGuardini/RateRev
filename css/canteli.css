@@ -83,6 +83,15 @@ body {
 	margin-top: -0.2% !important;
 }
 
+.espacoAntesRodape {
+	margin-top: 8%;
+}
+
+.espacoAntesRodapeIndex {
+	margin-top: 5%;
+}
+
+
 /* Detalha Jogo */
 
 .classificacaoBox {
@@ -193,10 +202,55 @@ body {
 	color: #be7026 !important;
 }
 
-.espacoAntesRodape {
-	margin-top: 8%;
+
+/* Cadastro Resenha */
+
+.espacoRodapeForm {
+	margin-bottom: 3% !important;
 }
 
-.espacoAntesRodapeIndex {
-	margin-top: 5%;
+.labelCadastraResenha {
+	color: #293d54;
+	font-family: 'Muli', sans-serif !important;
+	margin-bottom: 2% !important;
+	text-transform: uppercase !important;
+}
+
+.espacoAvaliacao {
+	margin-top: 6% !important;
+}
+
+.labelEspacoAcima {
+	margin-top: 5% !important;
+}
+
+.tituloLabelResenha {
+	text-align: center;
+	margin-top: 5% !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+	text-transform: uppercase !important;
+	margin-bottom: 4.5% !important;
+	color: #DB8432 !important;
+	height: 0% !important;
+}
+
+.cadastroResenha {
+	margin-bottom: 4% !important;
+}
+
+.botaoCriar {
+	float: right;
+	background-color: #f19e50 !important;
+	color: #95571d !important;
+}
+
+#postarUser {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #293d54;
+	margin-top: 16% !important;
+}
+
+.checkboxDireita {
+	float: right !important;
 }
