@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     
     $(".modalAbrir").click(function(){
-        $('.ui .modal').modal('setting', {
+        $('.ui.modal').modal('setting', {
             autofocus: false
         }).modal('show');
     }); 
