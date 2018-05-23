@@ -56,27 +56,26 @@
                     <p>Apesar de pecar em alguns pontos e ter uma jogabilidade praticamente idêntica a Uncharted, porém com foco em furtividade, o game apresenta uma história rica, que faz o jogador pensar em qual o sentido de viver em um mundo devastado. A Naughty Dog acerta muito em oferecer personagens caricatos, amáveis e com profundo senso crítico - ponto altíssimo para a dublagem em português que contribui para essa caracterização. Não se sabe ao certo como é viver em meio ao caos, mas sabe-se que The Last of Us é um prato cheio de entusiasmo e criatividade para falar sobre o tema.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs down icon"></i>
-                                5
-                        </div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs up icon"></i>
-                                6
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="comments icon"></i>
-                                4 comentários
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
-                        </div>
-
-                        <div class="ui label corLabelLaranja modalAbrir">
-                            <i class="search plus icon"></i>
-                                Ver post completo
-                        </div>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs down icon"></i>
+                            11
+                    </button>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs up icon"></i>
+                            27
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="comments icon"></i>
+                            4 comentários
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="calendar alternate icon"></i>
+                            Postado há 4 dias
+                    </button>
+                    <button class="ui button label corLabelLaranja modalAbrir">
+                        <i class="search plus icon"></i>
+                            Ver post completo
+                    </button>
                 </div>
             </div>
         </div>

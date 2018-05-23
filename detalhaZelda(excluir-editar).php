@@ -56,37 +56,39 @@
                     <p>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                        <button class="ui tiny button label corLabelLaranja">
-                            <i class="thumbs down icon"></i>
-                                5
-                        </button>
-                        <button class="ui tiny button label corLabelLaranja">
-                            <i class="thumbs up icon"></i>
-                                6
-                        </button>
-                        <button class="ui tiny button label corLabelAzul">
-                            <i class="comments icon"></i>
-                                4 comentários
-                        </button>
-                        <div class="ui tiny label corLabelAzul">
-                            <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
-                        </div>
-                        <!--//botoes de excluir e editar-->
+                
+                    <!--//botoes comuns-->
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs down icon"></i>
+                            5
+                    </button>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs up icon"></i>
+                            6
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="comments icon"></i>
+                            4 comentários
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="calendar alternate icon"></i>
+                            Postado há 3 dias
+                    </button>
+                
+                    <!--//botoes de excluir e editar-->
 
-                        <button class="ui tiny blue button label ">
-                            <i class="edit icon"></i>
-                                Editar
-                        </button>
-                        <button class="ui tiny red button label ">
-                            <i class="trash icon"></i>
-                                Excluir
-                        </button>
-
-                        <button class="ui tiny button label corLabelLaranja modalAbrir">
-                            <i class="search plus icon"></i>
-                                Ver post completo
-                        </button>
+                    <button class="ui blue button label ">
+                        <i class="edit icon"></i>
+                            Editar
+                    </button>
+                    <button class="ui red button label ">
+                        <i class="trash icon"></i>
+                            Excluir
+                    </button>
+                    <button class="ui button label corLabelLaranja modalAbrir">
+                        <i class="search plus icon"></i>
+                            Ver post completo
+                    </button>
                 </div>
             </div>
         </div>

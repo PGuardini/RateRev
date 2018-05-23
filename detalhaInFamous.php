@@ -55,27 +55,26 @@
                     <p>Ainda que existam essas opções de abordagem nas lutas, o jogo repete quase todos os tipos de confronto. Por mais divertido que seja controlar Delsin, depois de enfrentar os mesmos soldados e chefes, essa parcela do game torna-se preguiçosa. Os inimigos finais variam pela força e pouco mais que isso. As estratégias são simplórias e acrescentam pouco à aventura - trocar de poder para poder é o mínimo que a Sucker Punch poderia fazer. Acontece, mas não na medida certa para tornar o combate seu melhor quesito.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs down icon"></i>
-                                5
-                        </div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs up icon"></i>
-                                6
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="comments icon"></i>
-                                4 comentários
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
-                        </div>
-
-                        <div class="ui label corLabelLaranja modalAbrir">
-                            <i class="search plus icon"></i>
-                                Ver post completo
-                        </div>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs down icon"></i>
+                            1
+                    </button>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs up icon"></i>
+                            12
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="comments icon"></i>
+                            4 comentários
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="calendar alternate icon"></i>
+                            Postado há 7 dias
+                    </button>
+                    <button class="ui button label corLabelLaranja modalAbrir">
+                        <i class="search plus icon"></i>
+                            Ver post completo
+                    </button>
                 </div>
             </div>
         </div>

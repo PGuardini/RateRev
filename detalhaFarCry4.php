@@ -55,27 +55,26 @@
                     <p>Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs down icon"></i>
-                                14
-                        </div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs up icon"></i>
-                                66
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="comments icon"></i>
-                                5 comentários
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
-                        </div>
-
-                        <div class="ui label corLabelLaranja modalAbrir">
-                            <i class="search plus icon"></i>
-                                Ver post completo
-                        </div>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs down icon"></i>
+                            14
+                    </button>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs up icon"></i>
+                            66
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="comments icon"></i>
+                            5 comentários
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="calendar alternate icon"></i>
+                            Postado há 3 dias
+                    </button>
+                    <button class="ui button label corLabelLaranja modalAbrir">
+                        <i class="search plus icon"></i>
+                            Ver post completo
+                    </button>
                 </div>
             </div>
         </div>

@@ -26,8 +26,7 @@
                 </div>
                 <div class="ten wide column justificado">
                 	<p>Devil May Cry é um videojogo de ação-aventura do género hack and slash desenvolvido e publicado pela Capcom em 2001 para PlayStation 2. Apesar do foco principal do jogo ser a luta com espadas, o jogador ganha novas armas à medida que vai derrotando os chefes, resultando numa variedade de combos que pode executar.
-
-A história de Devil May Cry, vagamente inspirada no poema A Divina Comédia com o uso de alusões, decorre nos tempos modernos na cidade fictícia de Mallet Island, e centra-se em Dante, um caçador de demónios que usa o seu negócio para obter vingança depois de perder a mãe e o irmão. Acaba por conhecer uma mulher de nome Trish que o leva numa aventura para derrotar o lorde demónio Mundus. A história é contada principalmente através de uma mistura de cutscenes, que usam o motor de jogo e vídeos em full motion pré-renderizados.</p>
+                    <p>A história de Devil May Cry, vagamente inspirada no poema A Divina Comédia com o uso de alusões, decorre nos tempos modernos na cidade fictícia de Mallet Island, e centra-se em Dante, um caçador de demónios que usa o seu negócio para obter vingança depois de perder a mãe e o irmão. Acaba por conhecer uma mulher de nome Trish que o leva numa aventura para derrotar o lorde demónio Mundus. A história é contada principalmente através de uma mistura de cutscenes, que usam o motor de jogo e vídeos em full motion pré-renderizados.</p>
                 	<p>Originalmente concebido em 1999 como Resident Evil 4, Devil May Cry acabou por ser criado como um jogo independente com a sua própria história, isto porque a equipa de produção sentiu que o jogo não se iria adequar na série Resident Evil. Devil May Cry recebeu uma ampla cobertura mediática por parte dos media da especialidade devido ao impacto que causou nos jogos de acção, por causa da sua grande dificuldade e as pontuações elevadas que recebeu dos críticos profissionais, com muitos a concluírem que é um dos melhores e mais inovadores videojogos de sempre.</p>
                 </div>
             </div>
@@ -57,27 +56,26 @@ A história de Devil May Cry, vagamente inspirada no poema A Divina Comédia com
                     <p>E a forma com que elas são aplicadas aos comandos agrada ainda mais. Dessa vez, nada de abrir o menu e selecionar uma arma, uma combinação de botões é o suficiente para executar um comando, o que gera uma variedade de combos incrível. A evolução das armas é outro ponto positivo do game. Essa mecânica se mantém quase intacta em todos os capítulos da franquia e permanece agradando em DmC. A variedade de habilidades também chama a atenção. A extensa lista de movimentos deixa o jogador indeciso sobre o que evoluir primeiro. Ainda bem que o game permite retirar pontos utilizados e recolocá-los em outras habilidades.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs down icon"></i>
-                                5
-                        </div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs up icon"></i>
-                                6
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="comments icon"></i>
-                                4 comentários
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
-                        </div>
-
-                        <div class="ui label corLabelLaranja modalAbrir">
-                            <i class="search plus icon"></i>
-                                Ver post completo
-                        </div>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs down icon"></i>
+                            1
+                    </button>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs up icon"></i>
+                            12
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="comments icon"></i>
+                            4 comentários
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="calendar alternate icon"></i>
+                            Postado há 7 dias
+                    </button>
+                    <button class="ui button label corLabelLaranja modalAbrir">
+                        <i class="search plus icon"></i>
+                            Ver post completo
+                    </button>
                 </div>
             </div>
         </div>

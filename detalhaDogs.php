@@ -57,27 +57,26 @@
                     <p>Todas as promessas feitas pelo primeiro Watch Dogs - você pode hackear basicamente tudo na cidade, é possível completar missões sem nem colocar o pé dentro do prédio onde o computador que você busca está localizado - são cumpridas aqui. Cada cidadão, cada sinal de trânsito, cada carro, empilhadeira, guindaste, painel eletrônico e sistema de segurança pode ser hackeado e manipulado. Talvez você precise desbloquear alguns upgrades para conseguir tudo, mas as ferramentas estão lá. Eventualmente, usando seu drone e carrinho de controle remoto (o melhor amigo de um hacker!), câmeras de segurança e um ou outro smartphone, Marcus consegue roubar os dados de algum alvo enquanto está sentado com seu notebook no colo do lado de fora dos muros da gigante tecnológica que está sendo invadida agora.</p>
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs down icon"></i>
-                                5
-                        </div>
-                        <div class="ui label corLabelLaranja">
-                            <i class="thumbs up icon"></i>
-                                6
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="comments icon"></i>
-                                4 comentários
-                        </div>
-                        <div class="ui label corLabelAzul">
-                            <i class="calendar alternate icon"></i>
-                                Postado há 3 dias
-                        </div>
-
-                        <div class="ui label corLabelLaranja modalAbrir">
-                            <i class="search plus icon"></i>
-                                Ver post completo
-                        </div>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs down icon"></i>
+                            3
+                    </button>
+                    <button class="ui button label corLabelLaranja">
+                        <i class="thumbs up icon"></i>
+                            11
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="comments icon"></i>
+                            4 comentários
+                    </button>
+                    <button class="ui button label corLabelAzul">
+                        <i class="calendar alternate icon"></i>
+                            Postado há 8 dias
+                    </button>
+                    <button class="ui button label corLabelLaranja modalAbrir">
+                        <i class="search plus icon"></i>
+                            Ver post completo
+                    </button>
                 </div>
             </div>
         </div>
