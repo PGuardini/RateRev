@@ -2,13 +2,9 @@ body{
     margin: 0 !important;
 }
 .stkMenu{
-    margin: 0px !important;
+    margin: 0% !important;
     background: #293d54 !important;
     border-radius: 0% !important;
-}
-.noMargin{
-    padding: 0% !important;
-    margin-bottom: 0% !important;
 }
 .gradient{
     background: radial-gradient(#66b3ba,#293d54,#ED8E36);
