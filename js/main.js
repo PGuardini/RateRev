@@ -10,4 +10,10 @@ $(document).ready(function(){
             autofocus: false
         }).modal('show');
     }); 
+
+
+
+  $('.ui.accordion')
+  .accordion()
+    ;
 })

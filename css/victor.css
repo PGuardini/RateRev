@@ -145,3 +145,72 @@
     float: right;
     cursor: pointer;
 }
+
+.nick{
+    padding: 1%;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    background: #293d54;
+    width: 30%;
+    height: 60px;
+
+}
+.userPageImg{
+    z-index: 0;
+    width: 100%; 
+    height:300px;
+    
+}
+
+.userImg{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -90px;
+    /*margin-left: 42%;*/
+}
+.botaoDireita{
+    float: right;
+}
+
+.botaoDireita a{
+    color: #fff!important;
+}
+
+.quatroDoisPorcento{
+    float: left;
+    width: 42%;
+    color: #fff;
+}
+.tresNovePorcento{
+    width: 39%;
+    float: left;
+    color: #fff;
+}
+.userBio{
+    float: left;
+    width: 20%;
+    text-align: center;
+    background: #fff; 
+}
+
+.espacoFotoBio{
+    width: 100%;
+    height: 100px;
+}
+.resenhasPublicadas{
+    width: 80%;
+    float: left;
+}
+
+.tituloResenha{
+    float: left;
+    width: 70%;
+}
+.notaResenha{
+    float: right;
+    width: 30%;
+
+}
