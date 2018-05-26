@@ -16,7 +16,7 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/gtav.jpg">
+                            <img src="imagens/jogos/gtav.jpg">
                         </div>
                         <div class="content">
                             <a class="header classificacaoBox">Classificação Média</a>
@@ -252,7 +252,7 @@
                         </div>
                         <div class="comment">
                             <a class="avatar">
-                            <img src="imagens/infamous.jpg">
+                            <img src="imagens/jogos/infamous.jpg">
                             </a>
                             <div class="content">
                             <a class="author">Clau</a>
@@ -270,7 +270,7 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/lifeisstrange.png">
+                        <img src="imagens/jogos/lifeisstrange.png">
                         </a>
                         <div class="content">
                         <a class="author">Sanchez</a>

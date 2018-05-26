@@ -193,6 +193,7 @@ body {
 	margin-bottom: 4%;
 }
 .corLabelAzul {
+	cursor: auto !important;
 	background-color: #58789E !important;
 	color: #293d54 !important;
 }
@@ -253,4 +254,54 @@ body {
 
 .checkboxDireita {
 	float: right !important;
+}
+
+/* Login */
+
+
+#espacoLogin {
+	margin-top: 6%;
+	box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+#tituloLogin {
+	text-align: center;
+	font-family: 'droidigaregular' !important;
+	text-transform: uppercase;
+	margin-bottom: 5% !important;
+}
+
+#primeiroCampo {
+	margin-top: 12% !important;
+	margin-bottom: 8% !important;
+}
+
+.labelLogin {
+	color: rgba(0,0,0,.4) !important; 
+	margin-bottom: 1% !important;
+}
+
+.campoEspacoSuperior {
+	margin-top: 8% !important;
+}
+
+#manterEsquerda {
+	float: left !important;
+}
+
+#esqueciDireita { 
+	margin-top: -4.5% !important; 
+	float: right !important;
+}
+
+#linkEsqueciSenha {
+	color: rgba(0,0,0,.4) !important;
+}
+
+.logarSe {
+	margin-top: 7% !important;
+}
+
+#fundoLogin {
+	background-image: url("../imagens/background-login.png");
 }

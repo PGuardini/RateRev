@@ -16,7 +16,7 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/assassinscreed.jpg">
+                            <img src="imagens/jogos/assassinscreed.jpg">
                         </div>
                         <div class="content">
                             <a class="header classificacaoBox">Classificação Média</a>
@@ -115,7 +115,7 @@
                 <div class="ui comments espacoComentario">
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/uncharted.jpg">
+                        <img src="imagens/jogos/uncharted.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Matt</a>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/farcry.jpg">
+                        <img src="imagens/jogos/farcry.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Elliot Fu</a>
@@ -149,7 +149,7 @@
                         <div class="comments">
                         <div class="comment">
                             <a class="avatar">
-                            <img src="imagens/gtav.jpg">
+                            <img src="imagens/jogos/gtav.jpg">
                             </a>
                             <div class="content">
                             <a class="author">Jenny Hess</a>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/zelda.jpg">
+                        <img src="imagens/jogos/zelda.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Joe Henderson</a>

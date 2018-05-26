@@ -16,7 +16,7 @@
                 <div class="ui five wide column">
                     <div class="ui card">
                         <div class="ui centered image">
-                            <img src="imagens/thelastofus.jpg">
+                            <img src="imagens/jogos/thelastofus.jpg">
                         </div>
                         <div class="content">
                             <a class="header classificacaoBox">Classificação Média</a>
@@ -118,7 +118,7 @@
                 <div class="ui comments espacoComentario">
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/uncharted.jpg">
+                        <img src="imagens/jogos/uncharted.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Mark</a>
@@ -135,7 +135,7 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/farcry.jpg">
+                        <img src="imagens/jogos/farcry.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Fuligem</a>
@@ -152,7 +152,7 @@
                         <div class="comments">
                         <div class="comment">
                             <a class="avatar">
-                            <img src="imagens/gtav.jpg">
+                            <img src="imagens/jogos/gtav.jpg">
                             </a>
                             <div class="content">
                             <a class="author">Heit Gul</a>
@@ -171,7 +171,7 @@
                     </div>
                     <div class="comment">
                         <a class="avatar">
-                        <img src="imagens/zelda.jpg">
+                        <img src="imagens/jogos/zelda.jpg">
                         </a>
                         <div class="content">
                         <a class="author">Jon Snow</a>
