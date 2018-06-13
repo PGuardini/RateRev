@@ -85,7 +85,7 @@
                         <i class="trash icon"></i>
                             Excluir
                     </button>
-                    <button class="ui button label corLabelLaranja modalAbrir">
+                    <button class="ui button label corLabelLaranja aDireita modalAbrir">
                         <i class="search plus icon"></i>
                             Ver post completo
                     </button>

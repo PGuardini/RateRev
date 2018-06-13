@@ -72,7 +72,7 @@
                         <i class="calendar alternate icon"></i>
                             Postado há 1 dia
                     </button>
-                    <button class="ui button label corLabelLaranja modalAbrir">
+                    <button class="ui button label corLabelLaranja aDireita modalAbrir">
                         <i class="search plus icon"></i>
                             <!-- LINK PARA MODAL PELA ID -->Ver post completo
                     </button>

@@ -113,7 +113,6 @@ body {
 	text-align: justify;
 }
 
-
 .tituloSegmento {
 	margin-top: 4.2% !important;
 	font-family: 'Josefin Sans', sans-serif !important;
@@ -203,6 +202,9 @@ body {
 	color: #be7026 !important;
 }
 
+.aDireita {
+	float: right;
+}
 
 /* Cadastro Resenha */
 
@@ -304,4 +306,43 @@ body {
 
 #fundoLogin {
 	background-image: url("../imagens/background-login.png");
+}
+
+/* Cadastro Usuário */
+
+#fundoCadastroUsuario {
+	background-image: url("../imagens/cadastro.png");
+}
+
+/* Página Usuário */
+
+#imagemPerfilPagUsuario {
+	margin-top: -5% !important;
+}
+
+#biografiaUsuario {
+	font-weight: normal;
+}
+
+#botoesModalDireita {
+	margin-top: 1%;
+	float: right;
+}
+
+#espacoRodapePagUsuario {
+	margin-bottom: 5%;
+}
+
+.iconeAdicionar {
+	margin: 0% !important;
+}
+
+.tituloResenhaPagUsuario {
+	text-align: center;
+	margin-bottom: 13%;
+}
+
+.nomeJogoPagUsuario {
+	float: right;
+	margin-top: 13%;
 }

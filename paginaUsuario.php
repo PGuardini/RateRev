@@ -1,73 +1,215 @@
 <?php
 	include 'html/cabecalho.html';
 ?>
-	<div class="nick">
-		<h2>@username</h2>
-	</div>
 	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
     <div class="userHeader">
-        <div class="quatroDoisPorcento">.</div>
-        <img class="userImg" class="ui medium circular image" src="http://www.themes-lab.com/conbis/assets/images/avatars/avatar6_big@2x.png">
-        <button class="ui grey button botaoDireita" src="index.php"><a href="index.php">Edit profile</a></button>
+        <img id="imagemPerfilPagUsuario" class="ui centered small circular image" src="http://www.themes-lab.com/conbis/assets/images/avatars/avatar6_big@2x.png">
     </div>
-    <div class="espacoFotoBio">.</div>
-    <div class="tresNovePorcento">.</div>
-    <p class="userBio">Look the sky tonight, all of stars have a reason, a reason to shine, a reason like mine and i'm falling in pieces</p>
+    <h2 class= "ui center aligned header">@usuarioRateRev</h2>
+    <h3 class="ui center aligned header" id="biografiaUsuario">
+        (BIO) Look the sky tonight, all of stars have a reason, a reason to shine, a reason like mine and i'm falling in pieces
+    </h3>
 
     <div class="clear">.</div>
-    <h2 class="ui horizontal divider header tituloSegmento">Resenhas Publicadas</h2>
+    <h2 class="ui horizontal divider header tituloSegmento">
+        Resenhas Publicadas
+        <button class="circular ui green button">
+            <i class="ui plus icon iconeAdicionar"></i>
+        </button>
+    </h2>
     <div class="clear">.</div>
-	
-    <div class="dezPorcento">.</div>
-    <div class="resenhasPublicadas">
-        <div class="ui accordion">
-            <div class="title">
-                <h2 class="tituloResenha"><i class="dropdown icon"></i> O melhor zelda de todos </h2>
-                <div class="ui huge star rating" data-rating="5" data-max-rating="5"></div>
-                <div class="clear">.</div>
-            </div>
-            <div class="content">
-                <h4 class="transition hidden">Antes de qualquer coisa, é importante dizer que Breath of the Wild não é só mais um jogo de mundo aberto como todos imaginaram (inclusive eu). Ele é capaz de quebrar as tradições da própria indústria, não apenas renovando a franquia The Legend of Zelda, mas também estabelecendo novos padrões que podem ensinar muito para qualquer jogo de mundo aberto.</h4>
-                <h4>Como sempre, você controla Link, que acorda em uma misteriosa câmara chamada Shrine of Resurrection, completamente sem memória e sem itens, exceto por um aparelho chamado Sheikah Slate, uma espécie de tablet que você usará para se guiar e registrar informações. E é isso. Em apenas alguns segundos você já está jogando. Nenhum vídeo de apresentação, nenhum tutorial, exceto algumas rápidas dicas que ensinam os botões.</h4>
-                <h4>No início, você fica restrito a esta primeira área, chamada Great Plateau (que já é enorme e livre para explorar desde o começo) até completar a primeira missão principal, onde você receberá todos seus os poderes principais. O local funciona como uma espécie de tutorial, mas sem nenhum guia ou manual. Tudo o que você aprende é de forma orgânica, seja observando elementos do cenário ou simplesmente testando suas habilidades, sempre sem interromper sua jogatina.</h4>
-                <h4>Após este pedaço, que pode ser completado rapidamente, você está completamente livre para fazer o que quiser. Um mapa gigantesco para explorar, sendo até mesmo possível ir diretamente para o chefe final, se tiver coragem o bastante. É provável que acabe morrendo sem preparo, e explicar o motivo disso pode ser considerado spoiler, mas é possível seguir em linha reta direto para o fim.</h4>
-                <h4>Mas é justamente aqui que Breath of the Wild se diferencia dos outros jogos de mundo aberto. Ele não pega na sua mão. Não há pontos no mapa para seguir, exceto os das missões principais e algumas secundárias. Tudo o que você faz, é por conta própria. O que é irônico, vindo de um jogo da Nintendo, que é conhecida por sempre facilitar as coisas para os jogadores.</h4>
-                <h4>Enquanto títulos como The Witcher 3, The Elder Scrolls V e Fallout (entre muitos outros) são lotados de missões que marcam seus destinos no mapa, muitas vezes mostrando até mesmo o caminho mais fácil para chegar lá, Breath of the Wild não tem nada disso. A diferença é que este jogo não precisa disso — você não precisa de nada disso.</h4>
-                <h4>Nestes jogos, caso decida ignorar as indicações do mapa e vagar aleatoriamente, você provavelmente vai se deparar com inimigos fortes demais para seu personagem ou nada. Vez ou outra achará um ponto de interesse com algumas missões adicionais. Mas quantas vezes você decidiu chegar em um local que parecia interessante e de difícil acesso só para chegar lá depois de horas vagando por caminhos vazios e descobrir que perdeu seu tempo?</h4>
-                <h4>As coisas funcionam diferente em Zelda. O mundo de Breath of the Wild foi feito para encorajar a sua exploração. E a Nintendo conseguiu isso por diversos motivos. O primeiro é que o mundo é absolutamente lotado de coisas interessantes para ver ou encontrar. Não importa aonde você vai: é o lado certo. Você chegará a algum lugar e encontrará coisas valiosas tanto no caminho quanto na chegada. Neste jogo, a viagem é tão importante quanto o destino e tudo o que você faz o recompensará de alguma forma.</h4>
 
-                 <button class="ui button label corLabelLaranja">
-                        <i class="thumbs down icon"></i>
-                            5
-                    </button>
-                    <button class="ui button label corLabelLaranja">
-                        <i class="thumbs up icon"></i>
-                            6
-                    </button>
-                    <button class="ui button label corLabelAzul">
-                        <i class="comments icon"></i>
-                            4 comentários
-                    </button>
-                    <button class="ui button label corLabelAzul">
-                        <i class="calendar alternate icon"></i>
-                            Postado há 3 dias
-                    </button>
-                    <button class="ui blue button label botaoDireita">
-                        <i class="edit icon"></i>
-                            Editar
-                    </button>
-                    <button class="ui red button label botaoDireita">
-                        <i class="trash icon"></i>
-                            Excluir
-                    </button>
+
+    <div class="ui stackable grid">
+        <div class="three column row">
+            <div class=" column ">
+                <div class="dezPorcento">.</div>
+                <div class="parado zoom modalAbrir">
+                        <img class="indexImg" src="imagens/jogos/zelda.jpg">
+                        <div class="text-item">
+                            <h2 class="tituloResenhaPagUsuario">Título da Resenha</h2>
+                            <h4 class="nomeJogoPagUsuario">The Legend of Zelda: Breath of the Wild</h4>
+                            <div class="ui divider"></div>
+                            <h4>Minha Avaliação:</h4>
+                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                        </div>
+                </div>
             </div>
+
+            <div class=" column ">
+            <div class="dezPorcento">.</div>
+                <div class="parado zoom ">
+                    <a href="detalhaTomb.php">
+                        <img class="indexImg" src="imagens/jogos/tombraider.jpg">
+                        <div class="text-item">
+                            <h2 class="tituloResenhaPagUsuario">Título da Resenha</h2>
+                            <h4 class="nomeJogoPagUsuario">Tomb Raider</h4>
+                            <div class="ui divider"></div>
+                            <h4>Minha Avaliação:</h4>
+                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class=" column ">
+            <div class="dezPorcento">.</div>
+                <div class="parado zoom ">
+                    <a href="detalhaDogs.php">
+                        <img class="indexImg" src="imagens/jogos/watchdogs.jpg">
+                        <div class="text-item">
+                            <h2 class="tituloResenhaPagUsuario">Título da Resenha</h2>
+                            <h4 class="nomeJogoPagUsuario">Watch Dogs 2</h4>
+                            <div class="ui divider"></div>
+                            <h4>Minha Avaliação:</h4>
+                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- modal-->
+
+    <div class="ui modal">
+        <div class="scrolling content">
+            <div class="ui grid">
+                <div class="ui four wide column">
+                    <h5 class="modalNotaAutor">Nota dada pelo autor</h5>
+                    <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
+                </div>
+                <div class="ui twelve wide column">
+                    <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+                    <div class="clear">.</div>
+                    <h3 class="modalAutor">Resenha por: @violet</h3>
+                </div>
+            </div>
+            <div class="ui divider"></div>
+            <div class="clear">.</div>
+            <div class="ui grid"> 
+                <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <p class="modalResenha">Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.</p>
+                    <p class="modalResenha">O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.</p>
+                    <p class="modalResenha">O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.</p>
+                    <p class="modalResenha">Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu.</p>
+                </div>
+                <div class="ui one wide column"></div>
+
+
+                <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalDireita">
+                        <a target="_blank" href="editarResenha.php">
+                            <button class="ui blue button label">
+                            <i class="edit icon"></i>
+                                Editar
+                            </button>
+                        </a>
+                        <button class="ui red button label">
+                            <i class="trash icon"></i>
+                                Excluir
+                        </button>
+                    </div> 
+                </div>
+                <div class="ui one wide column"></div>
+            </div>
+            
+            <h3 class="ui horizontal divider header" id="tituloModalComentarios">Comentários</h3>
+            <div class="ui grid">
+                <div class="two wide column"></div>
+                <div class="twelve wide column">
+                    <div class="ui comments espacoComentario">
+                        <div class="comment">
+                            <a class="avatar">
+                            <img src="imagens/detalhaJogo/avatares/avatar2.jpg">
+                            </a>
+                            <div class="content">
+                            <a class="author">Matt</a>
+                            <div class="metadata">
+                                <span class="date">Today at 5:42PM</span>
+                            </div>
+                            <div class="text">
+                                que bela bosta!
+                            </div>
+                            <div class="actions">
+                                <a class="reply">Reply</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                            <img src="imagens/detalhaJogo/avatares/avatar6.png">
+                            </a>
+                            <div class="content">
+                            <a class="author">Elliot Fu</a>
+                            <div class="metadata">
+                                <span class="date">Yesterday at 12:30AM</span>
+                            </div>
+                            <div class="text">
+                                <p>top</p>
+                            </div>
+                            <div class="actions">
+                                <a class="reply">Reply</a>
+                            </div>
+                            </div>
+                            <div class="comments">
+                            <div class="comment">
+                                <a class="avatar">
+                                <img src="imagens/jogos/gtav.jpg">
+                                </a>
+                                <div class="content">
+                                <a class="author">Jenny Hess</a>
+                                <div class="metadata">
+                                    <span class="date">Just now</span>
+                                </div>
+                                <div class="text">
+                                    legal, mas pode melhorar :)
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">Reply</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                            <img src="imagens/jogos/zelda.jpg">
+                            </a>
+                            <div class="content">
+                            <a class="author">Joe Henderson</a>
+                            <div class="metadata">
+                                <span class="date">5 days ago</span>
+                            </div>
+                            <div class="text">
+                                o.o
+                            </div>
+                            <div class="actions">
+                                <a class="reply">Reply</a>
+                            </div>
+                            </div>
+                        </div>
+                        <form class="ui reply form">
+                            <div class="field">
+                            <textarea></textarea>
+                            </div>
+                            <div class="ui blue labeled submit icon button">
+                            <i class="icon edit"></i> Add Reply
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="two wide column"></div>
             </div>
         </div>
-    <div class="clear">.</div>
+    </div>
 
 
+    <div id="espacoRodapePagUsuario"></div>
 
-	<div class="clear">.</div>
+
 <?php
 	include 'html/rodape.html';
 ?>

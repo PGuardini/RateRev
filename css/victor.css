@@ -142,7 +142,6 @@
 }
 
 .modalAbrir{
-    float: right;
     cursor: pointer;
 }
 
@@ -205,10 +204,6 @@
     float: left;
 }
 
-.tituloResenha{
-    float: left;
-    width: 70%;
-}
 .notaResenha{
     float: right;
     width: 30%;

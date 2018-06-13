@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <a class="ui item" href="login.php">Login</a>
-                    <a class="ui item">
+                    <a class="ui item" href="cadastroUsuario.php">
                         Cadastre-se
                     </a>
                 </div>
