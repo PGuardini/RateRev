@@ -1,5 +1,5 @@
 <?php
-	include 'html/cabecalho.html';
+	include 'html/cabecalhoLogado.html';
 ?>
 	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
     <div class="userHeader">
@@ -13,9 +13,6 @@
     <div class="clear">.</div>
     <h2 class="ui horizontal divider header tituloSegmento">
         Resenhas Publicadas
-        <button class="circular ui green button">
-            <i class="ui plus icon iconeAdicionar"></i>
-        </button>
     </h2>
     <div class="clear">.</div>
 
@@ -97,9 +94,18 @@
                 </div>
                 <div class="ui one wide column"></div>
 
-
                 <div class="ui one wide column"></div>
                 <div class="ui fourteen wide column">
+                	<div id="botoesModalEsquerda">
+	                	<button class="ui button label corLabelLaranja">
+	                        <i class="thumbs down icon"></i>
+	                            7
+	                    </button>
+	                    <button class="ui button label corLabelLaranja">
+	                        <i class="thumbs up icon"></i>
+	                            10
+	                    </button>
+	                </div>
                     <div id="botoesModalDireita">
                         <a target="_blank" href="editarResenha.php">
                             <button class="ui blue button label">

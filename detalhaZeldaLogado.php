@@ -1,5 +1,5 @@
 <?php
-    include("html/cabecalho.html");
+    include("html/cabecalhoLogado.html");
 ?>
 	<div class="clear"></div>
 

@@ -312,6 +312,7 @@ body {
 
 #fundoCadastroUsuario {
 	background-image: url("../imagens/cadastro.png");
+	background-size: cover;
 }
 
 /* Página Usuário */
@@ -322,6 +323,11 @@ body {
 
 #biografiaUsuario {
 	font-weight: normal;
+}
+
+#botoesModalEsquerda {
+	margin-top: 1%;
+	float: left;
 }
 
 #botoesModalDireita {

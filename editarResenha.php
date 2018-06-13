@@ -1,5 +1,5 @@
 <?php
-    include("html/cabecalho.html");
+    include("html/cabecalhoLogado.html");
 ?>
 
     <h2 class="ui horizontal divider header tituloJogo">

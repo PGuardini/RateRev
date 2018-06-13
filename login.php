@@ -31,9 +31,11 @@
                             <i class="search icon"></i>
                         </div>
                     </div>
-                    <a class="ui item" href="login.php">Login</a>
+                    <a class="ui item" href="login.php">
+                        <i class="user outline icon"></i>Login
+                    </a>
                     <a class="ui item" href="cadastroUsuario.php">
-                        Cadastre-se
+                        <i class="sign in icon"></i>Cadastre-se
                     </a>
                 </div>
               </div>
