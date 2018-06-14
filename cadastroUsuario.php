@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>RateRev- Resenha de jogos</title>
+    <title>RateRev- Cadastro de Usuário</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--IMPORTANDO O SEMANTIC-->
@@ -41,39 +41,29 @@
               </div>
         </div>
 
-        <div class="central-container" id="espacoLogin">
+        <div id="centralContainerCadUsuario">
 	        <h1 id="tituloLogin">Cadastro de Usuário</h1>
 	        <form class="ui form" action="#" method="POST">
-	            <div class="field" id="primeiroCampo">
-	                <h3><label class="labelLogin">Username</label></h3>
+	            <div class="required field" id="primeiroCampo">
+	                <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Username</label></h3>
 	                <input type="text" name="username" placeholder="Ex.: manelson">
 	            </div>
                 <div class="field">
-	                <h3><label class="labelLogin">E-mail</label></h3>
+	                <h3><i class="at icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">E-mail</label></h3>
 	                <input type="email" name="email" placeholder="Ex.: pedrinho123@gg.com">
 	            </div>
-	            <div class="field">
-	                <h3><label class="labelLogin">Senha</label></h3>
+	            <div class="field espacoCadUsuario">
+	                <h3><i class="lock icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Senha</label></h3>
 	                <input type="password" name="senha" placeholder="Digite sua senha">
 				</div>
-				<div class="field">
-	                <h3><label class="labelLogin">Confirmação de Senha</label></h3>
+				<div class="field espacoCadUsuario">
+	                <h3><i class="check icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Confirmação de Senha</label></h3>
 	                <input type="password" name="senha" placeholder="Digite novamente sua senha">
 	            </div>
 
-                <div class="field">
-                    <h3><label class="labelLogin">Nascimento</label></h3>
-                    <div class="three fields">
-                        <div class="field">
-                            <input type="number" name="dia" min="1" max="31" placeholder="dia">
-                        </div>
-                        <div class="field">
-                            <input type="number" name="mes" min="1" max="12" placeholder="mes">
-                        </div>
-                        <div class="field">
-                            <input type="number" name="ano" min="1920" max="2018" placeholder="ano">
-                        </div>
-                    </div>
+                <div class="field espacoCadUsuario">
+                    <h3><i class="calendar alternate outline icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Nascimento</label></h3>
+                    <input type="date" name="data_nasc">
                 </div>
 
 	            <div class="two inline field campoEspacoSuperior">
@@ -93,4 +83,8 @@
 	        </form>
     	</div>
 
-    	<div class="clear"></div>
+        <div class="clear"></div>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="css/semantic/semantic.min.js"></script>
+	<script src="js/main.js"></script>

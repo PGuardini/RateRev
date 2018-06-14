@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>RateRev- Resenha de jogos</title>
+    <title>RateRev- Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--IMPORTANDO O SEMANTIC-->
@@ -41,15 +41,15 @@
               </div>
         </div>
 
-	    <div class="central-container" id="espacoLogin">
+	    <div id="centralContainerLogin">
 	        <h1 id="tituloLogin">login</h1>
 	        <form class="ui form" action="#" method="POST">
 	            <div class="field" id="primeiroCampo">
-	                <h3><label class="labelLogin">Username</label></h3>
+	                <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Username</label></h3>
 	                <input type="text" name="login" placeholder="Ex: ana_silva">
 	            </div>
 	            <div class="field">
-	                <h3><label class="labelLogin">Senha</label></h3>
+	                <h3><i class="lock icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Senha</label></h3>
 	                <input type="password" name="senha" placeholder="Digite sua senha">
 	            </div>
 
