@@ -54,20 +54,16 @@
                     <p>O controle dos personagens a pé está ligeiramente melhor do que nos games anteriores do estúdio, cada personagem tem suas características e sentimos isso de uma forma muito bem feita. Cada um deles tem seu jeito próprio de andar, segurar sua arma e de interagir com o mundo; por exemplo, Michael/Franklin cumprimentam várias pessoas na rua enquanto Trevor provoca e as ameaça.</p>
                     <p>A Rockstar também atualizou o controle dos carros, abandonando a forma barco numa pista de sabão como foi em seu antecessor. Agora é mais parecido com um game de corrida (graças a experiência do estúdio com Midnight Club), cada carro tem seu peso e sua forma de guiá-lo, o que deixou tudo bem melhor.</p>
                     <p>A cidade de Los Santos é colorida e cheia de vários elementos que a tornam melhor que Liberty City de GTA IV, quando vamos a bairros mais ricos, é normal ver pessoas bem vestidas, assim como quando chegamos na periferias, a maior quantidade de pessoas que lá vivem, obviamente, não são de uma boa classe social.</p>
-                    <p>Logo de cara vemos que GTA V tem umas 20 missões a menos do que o IV, mas não se deixe enganar por isso, elas estão muito mais divertidas, criativas e longas comparadas ao seu antecessor. O V atingiu um nível de diversão e ironia tão alto que digo que esse é o game mais engraçado da franquia, parabéns para a Rockstar.</p>
-                    <p>A melhora gráfica logo de cara já pode ser notada no prólogo do game, conseguiram otimizar de uma forma muito satisfatória comparando ao IV. GTA este que tinha gráficos piorados no PS3, porém agora com o V, os produtores aparentando já ter dominado o hardware do console da Sony, conseguindo igualar ambas as versões de PS3 e X360.</p>
-                    <p>Todas as rádios estão muito divertidas, com comentários e entrevistas legais, mas o que mais se destaca MESMO são as faixas que que os apresentadores colocam, muitas são dignas de colocar na pista e ficar curtindo as músicas, como já citei, a minha preferida para tal coisa é a Rebel Radio.</p>
-                    <p>Grand Theft Auto V é novamente o melhor em sua categoria, não te deixando desgrudar em nenhum momento da tela. O humor negro, as críticas às redes sociais do momento, Apple e a vida americana (seja a vida mais rica até a mais pobre) mostram que a Rockstar está em sua melhor forma. Nunca ri tanto com um game de GTA!</p>
-
+                
                     <div class="espacoFimPost"></div>
                     <div class="ui divider"></div>
                     <button class="ui button label corLabelLaranja">
                         <i class="thumbs down icon"></i>
-                            91
+                            11
                     </button>
                     <button class="ui button label corLabelLaranja">
                         <i class="thumbs up icon"></i>
-                            22
+                            36
                     </button>
                     <button class="ui button label corLabelAzul">
                         <i class="comments icon"></i>
@@ -99,7 +95,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Grand Theft Auto V</h2>
+                <h2 class="modalNome" >Los Santos mais livre e mais sangrenta do que nunca</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @tiptup</h3>
             </div>
@@ -119,6 +115,20 @@
                     <p class="modalResenha">Todas as rádios estão muito divertidas, com comentários e entrevistas legais, mas o que mais se destaca MESMO são as faixas que que os apresentadores colocam, muitas são dignas de colocar na pista e ficar curtindo as músicas, como já citei, a minha preferida para tal coisa é a Rebel Radio.</p>
                     <p class="modalResenha">Grand Theft Auto V é novamente o melhor em sua categoria, não te deixando desgrudar em nenhum momento da tela. O humor negro, as críticas às redes sociais do momento, Apple e a vida americana (seja a vida mais rica até a mais pobre) mostram que a Rockstar está em sua melhor forma. Nunca ri tanto com um game de GTA!</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                11
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                36
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

@@ -94,7 +94,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Tomb Raider</h2>
+                <h2 class="modalNome" >Um recomeço?!</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @juliagamer</h3>
             </div>
@@ -108,6 +108,20 @@
                 <p class="modalResenha">Visando reinventar a franquia, a Square-Enix e a Eidos tomaram a rota do "Begins", criando um prelúdio que funciona ao mesmo tempo como um reinício para a combalida série. A mulher durona e curvilínea foi reinventada no jogo, intitulado simplesmente Tomb Raider, como uma jovem frágil, recém-saída da adolescência, ainda longe de adquirir as habilidades pelas quais ficou conhecida.</p>
                 <p class="modalResenha">A trama envolve uma expedição arqueológica em busca de ruínas de uma antiga civilização japonesa que, misteriosamente, naufraga depois de uma tempestade. Isolada de seus amigos, a jovem Lara vê-se lutando para sobreviver em minutos, fazendo valer cada lição que teve com seu mentor, Roth, também um integrante da expedição. Em um ambiente inóspito, lá vai a futura Tomb Raider aprender a caçar, enfrentar cultistas, escalar, melhorar nas armas e aperfeiçoar suas ferramentas.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                2
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                21
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

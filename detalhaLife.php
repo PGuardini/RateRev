@@ -94,7 +94,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Life is Strange</h2>
+                <h2 class="modalNome" >Inovador</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @juca</h3>
             </div>
@@ -108,6 +108,20 @@
                 <p class="modalResenha">No jogo, somos Max Caulfield, uma nerd, hispter e aspirante à fotógrafa ( e como isso soa nada original) que descobre um poder de voltar no tempo e alterar o destino. Ao se envolver com uma série de acontecimentos macabros, violentos, sentimentais e meio inexplicáveis, o superpoder vai sendo cada vez mais requisitado e você vai jogar com ela para resolver a história.</p>
                 <p class="modalResenha">Com uma melancolia e suspense amáveis, Life is Strange é sobretudo uma história de amizade. Uma outra personagem, Chloe, vai te acompanhar o tempo todo e acredite: você, pessoa com o controle, vai se apegar e fazer de tudo para mantê-la a salvo. E esse é o primeiro ponto positivo: você se importa muito com a história e com as personagens. Esse é um jogo de escolhas e é bem executado o trabalho de fazer você pensar nas opções e se preocupar com o que vai acontecer. Tipo a vida real, só que dá pra voltar no tempo.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                7
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                35
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

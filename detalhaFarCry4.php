@@ -93,7 +93,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Far Cry 4</h2>
+                <h2 class="modalNome" >Kyrat e suas aventuras</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @XxPr0G4me$xX</h3>
             </div>
@@ -108,6 +108,20 @@
                 <p class="modalResenha">Lá, ele descobre um grupo rebelde, criado pelo seu pai, que luta contra a tirania do colorido déspota Pagan Min (vilões excêntricos virou marca da série). Aceitar esse fardo é obrigatório no game, mas há a opção de como fazê-lo. Existe uma cisão ideológica entre os rebeldes e ambas as facções sugerem as missões que Ajay pode seguir.</p>
                 <p class="modalResenha">Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                14
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                66
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

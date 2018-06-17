@@ -35,12 +35,12 @@
                         </select>
                     </div>
                     <div class="two wide field">
-                        <div class="ui animated button botaoCriar" tabindex="0">
+                        <button class="ui animated button botaoCriar" tabindex="0">
                             <div class="visible content">Criar</div>
                             <div class="hidden content">
                                 <i class="plus icon"></i>
                             </div>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div class="sixteen wide field">
@@ -66,19 +66,19 @@
 
 					<div class="field">
 
-						<div class="ui small animated fade green right floated button" tabindex="0">
+						<button class="ui small animated fade green right floated button" tabindex="0">
 				  			<div class="visible content">Salvar Alterações</div>
 				  			<div class="hidden content">
 				    			<i class="save icon"></i>
 				  			</div>
-						</div>
+						</button>
 
-                        <div class="ui small animated right floated red button" tabindex="0">
+                        <button class="ui small animated right floated red button" tabindex="0">
                             <div class="visible content">
                                 <i class="trash alternate icon"></i>
                             </div>
                           <div class="hidden content">Excluir</div>
-                        </div>
+                        </button>
                 	</div>
 
 

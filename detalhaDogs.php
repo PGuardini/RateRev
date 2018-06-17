@@ -95,7 +95,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Watch Dogs 2</h2>
+                <h2 class="modalNome" >Assistindo Cachorros</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @robo</h3>
             </div>
@@ -109,6 +109,20 @@
                 <p class="modalResenha">Watch Dogs 2 é tudo que o primeiro Watch Dogs prometeu ser. Divertida, cheia de mecânicas interessantes e com uma cidade inacreditável, a continuação é provavelmente o melhor jogo da Ubisoft desde o histórico Assassin's Creed II. Aiden Pearce e Chicago ficaram para trás. Agora é a hora de conhecer Marcus Holloway e a gangue de hackers da DedSec enquanto exploramos São Francisco, a capital tecnológica do planeta Terra. Da interface visual à trilha sonora, a diferença para o primeiro jogo é tão grande, que Watch Dogs 2 poderia ser um reboot da franquia.</p>
                 <p class="modalResenha">Todas as promessas feitas pelo primeiro Watch Dogs - você pode hackear basicamente tudo na cidade, é possível completar missões sem nem colocar o pé dentro do prédio onde o computador que você busca está localizado - são cumpridas aqui. Cada cidadão, cada sinal de trânsito, cada carro, empilhadeira, guindaste, painel eletrônico e sistema de segurança pode ser hackeado e manipulado. Talvez você precise desbloquear alguns upgrades para conseguir tudo, mas as ferramentas estão lá. Eventualmente, usando seu drone e carrinho de controle remoto (o melhor amigo de um hacker!), câmeras de segurança e um ou outro smartphone, Marcus consegue roubar os dados de algum alvo enquanto está sentado com seu notebook no colo do lado de fora dos muros da gigante tecnológica que está sendo invadida agora.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                3
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                11
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

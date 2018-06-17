@@ -6,7 +6,7 @@
     <div class="ui grid">
 
         <h2 class="ui horizontal divider header tituloJogo">
-            The Legend Of Zelda: Breath of the Wind
+            The Last of Us: Part II
         </h2>
 
         <div class="clear"></div>
@@ -94,7 +94,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >The Last Of Us 2</h2>
+                <h2 class="modalNome">Os ultimos de nós</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @robetinho123</h3>
             </div>
@@ -107,6 +107,20 @@
                 <p class="modalResenha">Em The Last of Us, o caos é representado por um fungo que entrou em contato com a espécie humana e dizimou a sociedade, transformando os infectados em uma espécie de "fungos-vivos". Mesmo com essa premissa específica, desde o começo The Last of Us sugere que o problema vai muito além dos infectados e da busca pela cura. A luta dos protagonistas Joel e Ellie é sobreviver em um mundo devastado há 20 anos, comandado pelo exército. As pessoas vivem sob as ordens autoritárias da força armada, que, entre outras imposições, limita a liberdade de ir e vir.</p>
                 <p class="modalResenha">Apesar de pecar em alguns pontos e ter uma jogabilidade praticamente idêntica a Uncharted, porém com foco em furtividade, o game apresenta uma história rica, que faz o jogador pensar em qual o sentido de viver em um mundo devastado. A Naughty Dog acerta muito em oferecer personagens caricatos, amáveis e com profundo senso crítico - ponto altíssimo para a dublagem em português que contribui para essa caracterização. Não se sabe ao certo como é viver em meio ao caos, mas sabe-se que The Last of Us é um prato cheio de entusiasmo e criatividade para falar sobre o tema.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                11
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                27
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

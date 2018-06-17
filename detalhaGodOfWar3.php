@@ -92,7 +92,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >God of War 3</h2>
+                <h2 class="modalNome" >O deus da guerra está mais furioso que nunca</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @julia</h3>
             </div>
@@ -106,6 +106,20 @@
             <p class="modalResenha">De qualquer forma, as novas habilidades do personagem compensam a ausência das outras e dão todo um novo conjunto de ferramentas para Kratos causar sua devastação olimpiana. Os novos movimentos de aríete (Kratos apanha um oponente e o usa para derrubar outros) e aproximação (as correntes agem como laço, puxando inimigos) são novidades extremamente benvindas e revigoram os combos dos dois primeiros títulos. A possibilidade de trocar de armas rapidamente, no meio de sequências de golpes, também é empolgante - e o jogo obriga você a usá-la em fases particularmente difíceis, em que oponentes específicos, afetados apenas por uma ou outra arma, dividem a tela.</p>
             <p class="modalResenha">Em uma cena simbólica, um olimpiano estende a mão ao Fantasma de Esparta. Fugindo de um incêndio ele pede por ajuda para deixar uma laje. Ao jogador não existe a opção de ajudar. Kratos não busca redenção. A única opção é esmagar a cabeça dele na parede de pedra - afinal, o pobre sujeito está no caminho do espartano. De novo, honestidade. Não há ferramentas veladas de furtividade ou caminhos alternativos. Alguém com a determinação de Kratos não carece de alternativas. A linearidade da trama, da jogabilidade, é reflexo da motivação do protagonista.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                5
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                16
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

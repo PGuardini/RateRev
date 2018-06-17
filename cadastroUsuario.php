@@ -44,26 +44,39 @@
         <div id="centralContainerCadUsuario">
 	        <h1 id="tituloLogin">Cadastro de Usuário</h1>
 	        <form class="ui form" action="#" method="POST">
-	            <div class="required field" id="primeiroCampo">
-	                <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Username</label></h3>
-	                <input type="text" name="username" placeholder="Ex.: manelson">
-	            </div>
-                <div class="field">
-	                <h3><i class="at icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">E-mail</label></h3>
-	                <input type="email" name="email" placeholder="Ex.: pedrinho123@gg.com">
-	            </div>
-	            <div class="field espacoCadUsuario">
-	                <h3><i class="lock icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Senha</label></h3>
-	                <input type="password" name="senha" placeholder="Digite sua senha">
-				</div>
-				<div class="field espacoCadUsuario">
-	                <h3><i class="check icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Confirmação de Senha</label></h3>
-	                <input type="password" name="senha" placeholder="Digite novamente sua senha">
-	            </div>
+	            <div class="two fields" id="primeiroCampo">
+                    <div class="field">
+	                   <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Username</label></h3>
+	                   <input type="text" name="username" placeholder="Ex.: manelson">
+                    </div>
 
-                <div class="field espacoCadUsuario">
-                    <h3><i class="calendar alternate outline icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Nascimento</label></h3>
-                    <input type="date" name="data_nasc">
+                    <div class="field">
+	                   <h3><i class="at icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">E-mail</label></h3>
+	                   <input type="email" name="email" placeholder="Ex.: pedrinho123@gg.com">
+	               </div>
+                </div>
+	            <div class="two fields espacoCadUsuario">
+
+                    <div class="field">
+	                   <h3><i class="lock icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Senha</label></h3>
+	                   <input type="password" name="senha" placeholder="Digite sua senha">
+                    </div>
+                    <div class="field">
+                        <h3><i class="check icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Confirmação de Senha</label></h3>
+                        <input type="password" name="senha" placeholder="Digite novamente sua senha">
+                    </div>
+				</div>
+				
+
+                <div class="two fields espacoCadUsuario">
+                    <div class="field">
+                        <h3><i class="calendar alternate outline icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Nascimento</label></h3>
+                        <input type="date" name="data_nasc">
+                    </div>
+                    <div class="field">
+                        <h3><i class="camera icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Foto de Perfil</label></h3>
+                        <input type="file" name="data_nasc">
+                    </div>
                 </div>
 
 	            <div class="two inline field campoEspacoSuperior">

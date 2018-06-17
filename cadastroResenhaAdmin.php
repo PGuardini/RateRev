@@ -35,12 +35,12 @@
                         </select>
                     </div>
                     <div class="two wide field">
-                        <div class="ui animated button botaoCriar" tabindex="0">
+                        <button class="ui animated button botaoCriar" tabindex="0">
                             <div class="visible content">Criar</div>
                             <div class="hidden content">
                                 <i class="plus icon"></i>
                             </div>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div class="sixteen wide field">
@@ -75,12 +75,12 @@
 					</div>
 
 					<div class="field">
-						<div class="ui small animated fade green right floated button" tabindex="0">
+						<button class="ui small animated fade green right floated button" tabindex="0">
 				  			<div class="visible content">Enviar Resenha</div>
 				  			<div class="hidden content">
 				    			<i class="check icon"></i>
 				  			</div>
-						</div>
+						</button>
                 	</div>
                 </div>
 

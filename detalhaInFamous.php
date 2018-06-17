@@ -57,11 +57,11 @@
                     <div class="ui divider"></div>
                     <button class="ui button label corLabelLaranja">
                         <i class="thumbs down icon"></i>
-                            1
+                            3
                     </button>
                     <button class="ui button label corLabelLaranja">
                         <i class="thumbs up icon"></i>
-                            12
+                            25
                     </button>
                     <button class="ui button label corLabelAzul">
                         <i class="comments icon"></i>
@@ -93,7 +93,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome">Infamous Second Son</h2>
+                <h2 class="modalNome">Na Fama!</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @Igao</h3>
             </div>
@@ -108,6 +108,20 @@
                 <p class="modalResenha">Ainda que existam essas opções de abordagem nas lutas, o jogo repete quase todos os tipos de confronto. Por mais divertido que seja controlar Delsin, depois de enfrentar os mesmos soldados e chefes, essa parcela do game torna-se preguiçosa. Os inimigos finais variam pela força e pouco mais que isso. As estratégias são simplórias e acrescentam pouco à aventura - trocar de poder para poder é o mínimo que a Sucker Punch poderia fazer. Acontece, mas não na medida certa para tornar o combate seu melhor quesito.</p>
                 <p class="modalResenha">As missões principais também seguem um padrão de qualidade parecido. Os objetivos se repetem, assim como a forma de evoluir e conhecer novas regiões. A escolha é um desperdício pelas possibilidades oferecidas pelos poderes de Delsin. Existe uma infinidade de coisas a se fazer com fogo, fumaça, luz e vídeo, mas a Sucker Punch escolheu a pior solução possível: repetir. Assim, o game fica incompleto. É preferível voar por Seattle a lutar contra o D.U.P..</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                3
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                25
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

@@ -55,11 +55,11 @@
                     <div class="ui divider"></div>
                     <button class="ui button label corLabelLaranja">
                         <i class="thumbs down icon"></i>
-                            42
+                            4
                     </button>
                     <button class="ui button label corLabelLaranja">
                         <i class="thumbs up icon"></i>
-                            15
+                            65
                     </button>
                     <button class="ui button label corLabelAzul">
                         <i class="comments icon"></i>
@@ -91,7 +91,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Uncharted 4</h2>
+                <h2 class="modalNome" >É...Bom?</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @adam</h3>
             </div>
@@ -104,6 +104,20 @@
                 <p class="modalResenha">Sem entregar as surpresas, pode-se dizer que a história de A Thief's End começa com um Drake aposentado. Longe de cidades perdidas ou tesouros escondidos, ele está casado com Elena e com um emprego burocrático. Fica claro que aquela não é a vida que ele gostaria de levar, mas por questões de prioridades decide seguir a rotina. O ressurgimento do irmão de Nathan altera o cenário por completo. Para se salvar das mãos de alguns mafiosos, Sam Drake precisa encontrar o gigantesco tesouro do pirata Henry Avery e pede ajuda ao caçula.</p>
                 <p class="modalResenha">A Thief's End entrega todas as promessas. O carisma dos personagens, os diálogos rápidos e inteligentes, as sequências de ação de tirar o fôlego e uma narrativa digna dos melhores blockbusters de Hollywood. Se comparado a qualquer outro game da atual geração, o título parece estar alguns anos à frente em termos gráficos. Nada é tão bonito quanto ele.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                4
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                65
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>

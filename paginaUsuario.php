@@ -24,7 +24,7 @@
                 <div class="parado zoom modalAbrir">
                         <img class="indexImg" src="imagens/jogos/zelda.jpg">
                         <div class="text-item">
-                            <h2 class="tituloResenhaPagUsuario">Título da Resenha</h2>
+                            <h2 class="tituloResenhaPagUsuario">TUDO O QUE VOCÊ FAZ...</h2>
                             <h4 class="nomeJogoPagUsuario">The Legend of Zelda: Breath of the Wild</h4>
                             <div class="ui divider"></div>
                             <h4>Minha Avaliação:</h4>
@@ -39,7 +39,7 @@
                     <a href="detalhaTomb.php">
                         <img class="indexImg" src="imagens/jogos/tombraider.jpg">
                         <div class="text-item">
-                            <h2 class="tituloResenhaPagUsuario">Título da Resenha</h2>
+                            <h2 class="tituloResenhaPagUsuario">UM ÓTIMO JOGO...</h2>
                             <h4 class="nomeJogoPagUsuario">Tomb Raider</h4>
                             <div class="ui divider"></div>
                             <h4>Minha Avaliação:</h4>
@@ -55,7 +55,7 @@
                     <a href="detalhaDogs.php">
                         <img class="indexImg" src="imagens/jogos/watchdogs.jpg">
                         <div class="text-item">
-                            <h2 class="tituloResenhaPagUsuario">Título da Resenha</h2>
+                            <h2 class="tituloResenhaPagUsuario">O FUTURO DOS GAMES...</h2>
                             <h4 class="nomeJogoPagUsuario">Watch Dogs 2</h4>
                             <div class="ui divider"></div>
                             <h4>Minha Avaliação:</h4>
@@ -77,7 +77,7 @@
                     <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
                 </div>
                 <div class="ui twelve wide column">
-                    <h2 class="modalNome" >The Legend of Zelda: Breath of the wild</h2>
+                    <h2 class="modalNome" >TUDO O QUE VOCÊ FAZ, É POR CONTA PRÓPRIA!</h2>
                     <div class="clear">.</div>
                     <h3 class="modalAutor">Resenha por: @violet</h3>
                 </div>
@@ -99,11 +99,11 @@
                 	<div id="botoesModalEsquerda">
 	                	<button class="ui button label corLabelLaranja">
 	                        <i class="thumbs down icon"></i>
-	                            7
+	                            4
 	                    </button>
 	                    <button class="ui button label corLabelLaranja">
 	                        <i class="thumbs up icon"></i>
-	                            10
+	                            19
 	                    </button>
 	                </div>
                     <div id="botoesModalDireita">

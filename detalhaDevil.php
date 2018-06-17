@@ -94,7 +94,7 @@
                 <div class="ui huge star rating modalAlinhamento" data-rating="5" data-max-rating="5"></div>
             </div>
             <div class="ui twelve wide column">
-                <h2 class="modalNome" >Devil May Cry</h2>
+                <h2 class="modalNome" >Demonio Tbm Chora!</h2>
                 <div class="clear">.</div>
                 <h3 class="modalAutor">Resenha por: @dante</h3>
             </div>
@@ -109,6 +109,20 @@
                 <p class="modalResenha">E a forma com que elas são aplicadas aos comandos agrada ainda mais. Dessa vez, nada de abrir o menu e selecionar uma arma, uma combinação de botões é o suficiente para executar um comando, o que gera uma variedade de combos incrível. A evolução das armas é outro ponto positivo do game. Essa mecânica se mantém quase intacta em todos os capítulos da franquia e permanece agradando em DmC. A variedade de habilidades também chama a atenção. A extensa lista de movimentos deixa o jogador indeciso sobre o que evoluir primeiro. Ainda bem que o game permite retirar pontos utilizados e recolocá-los em outras habilidades.</p>
                 <p class="modalResenha">A movimentação de Dante também está mais ágil. A esquiva, que sempre prejudicou mais do que ajudou, está mais eficiente do que nunca e acaba sendo a melhor forma de sobreviver no jogo. E ainda sobre movimentos, em muitos momentos o game vira uma espécie de Prince of Persia, no qual é preciso sincronizar saltos entre plataformas.</p>
             </div>
+            <div class="ui one wide column"></div>
+            <div class="ui one wide column"></div>
+                <div class="ui fourteen wide column">
+                    <div id="botoesModalEsquerda">
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs down icon"></i>
+                                1
+                        </button>
+                        <button class="ui button label corLabelLaranja">
+                            <i class="thumbs up icon"></i>
+                                12
+                        </button>
+                    </div> 
+                </div>
             <div class="ui one wide column"></div>
         </div>
         <div class="clear"></div>
