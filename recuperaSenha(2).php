@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>RateRev- Login</title>
+    <title>RateRev- Recuperação de senha</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--IMPORTANDO O SEMANTIC-->
@@ -42,33 +42,19 @@
         </div>
 
 	    <div id="centralContainerLogin">
-	        <h1 id="tituloLogin">login</h1>
+	        <h1 id="tituloLogin">Recupere sua senha</h1>
 	        <form class="ui form" action="#" method="POST">
 	            <div class="field" id="primeiroCampo">
-	                <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Username</label></h3>
-	                <input type="text" name="login" placeholder="Ex: ana_silva">
-	            </div>
-	            <div class="field">
-	                <h3><i class="lock icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Senha</label></h3>
-	                <input type="password" name="senha" placeholder="Digite sua senha">
-	            </div>
-
-	            <div class="two inline field campoEspacoSuperior">
-	                <div class="field" id="manterEsquerda">
-	                    <div class="ui slider checkbox">
-	                        <input type="checkbox" tabindex="0" class="hidden">
-	                        <label>Permanecer Logado</label>
-	                    </div>
-	                </div>
-	                <div class="field" id="esqueciDireita">
-	                    <a href="recuperaSenha(1).php" id="linkEsqueciSenha">Esqueci minha senha</a>
-	                </div>
+	                <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Insira o código enviado por e-mail</label></h3>
+	                <input type="text" name="codVerificacao" placeholder="Ex: A12BC3">
 	            </div>
 
 	            <div class="clear"></div>
 
 	            <div class="field">
-	                <button class="fluid ui large centered inverted standard button logarSe" type="submit">Logar-se</button>
+                <a href="#">
+	                <button class="fluid ui large centered inverted standard button logarSe" type="submit">Enviar</button>
+                </a>
 	            </div>
 	        </form>
     	</div>
