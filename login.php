@@ -21,7 +21,7 @@
         <div class="ui sticky colado">
             <div class="ui inverted menu stkMenu">
                 <h2 class="tituloMenu">rv</h2>
-                <a class="active item" href="index.php">
+                <a class="ui item" href="index.php">
                   Home
                 </a>
                 <div class="right menu">
@@ -31,7 +31,7 @@
                             <i class="search icon"></i>
                         </div>
                     </div>
-                    <a class="ui item" href="login.php">
+                    <a class="ui active item" href="login.php">
                         <i class="user outline icon"></i>Login
                     </a>
                     <a class="ui item" href="cadastroUsuario.php">
@@ -43,14 +43,14 @@
 
 	    <div id="centralContainerLogin">
 	        <h1 id="tituloLogin">login</h1>
-	        <form class="ui form" action="#" method="POST">
+	        <form class="ui form" action="processaUsuario.php?acao=login" method="POST">
 	            <div class="field" id="primeiroCampo">
 	                <h3><i class="user icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Username</label></h3>
-	                <input type="text" name="login" placeholder="Ex: ana_silva">
+	                <input type="text" name="login" placeholder="Ex: ana_silva" required>
 	            </div>
 	            <div class="field">
 	                <h3><i class="lock icon iconLoginCadUsuario"></i><label class="labelLoginCadUsuario">Senha</label></h3>
-	                <input type="password" name="senha" placeholder="Digite sua senha">
+	                <input type="password" name="senha" placeholder="Digite sua senha" required>
 	            </div>
 
 	            <div class="two inline field campoEspacoSuperior">
@@ -61,7 +61,7 @@
 	                    </div>
 	                </div>
 	                <div class="field" id="esqueciDireita">
-	                    <a href="recuperaSenha(1).php" id="linkEsqueciSenha">Esqueci minha senha</a>
+	                    <a href="recuperaSenha1.php" id="linkEsqueciSenha">Esqueci minha senha</a>
 	                </div>
 	            </div>
 

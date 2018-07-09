@@ -1,0 +1,145 @@
+[
+    {
+      "idJogo":  1,
+      "idResenha": 2,
+      "idUsuario": 2,
+      "titulo": "Egito como foco!",
+      "descurtidas": 7,
+      "curtidas": 10,
+      "dataPostagem": "02/05/2018",
+      "classificacaoAutor": 4,
+      "resenha": "Na mitologia do Egito antigo, o Duat (ou Tuat) é o mundo dos mortos, onde as almas vão para serem julgadas pelo que fizeram em vida. Quase toda religião busca algum sentido para o que há depois da morte, mas aqui uma característica chama a atenção: os egípcios acreditavam que Rá, o deus do Sol, passava pelo céu de leste à oeste e, à noite, cruzava o Duat na direção contrária, emergindo no dia seguinte.<br><br>Com uma nova aventura baseada justamente no Egito antigo e suas mitologias, Assassin's Creed: Origins representa, de certa forma, este exato “renascimento” para uma série de jogos que retorna após uma longa passagem por um purgatório particular. Em dez anos de existência, AC representou como poucos os excessos da indústria de jogos AAA: ano após ano, sem cessar, os jogos ficavam maiores, mais inchados e, aos poucos, as falhas foram aparecendo, seja na forma de bugs, seja na falta de criatividade.<br><br>O Assassin’s Creed que nasce deste período de reflexão é renovado, familiar em diversos aspectos, completamente diferente em outros. Mas, acima de tudo, é um jogo mais focado nas coisas que o tornaram grande: cenários deslumbrantes, ótimas mecânicas e uma história marcante, protagonizada por heróis tão decisivos quanto os nomes históricos que os rodeiam."
+    },
+  
+    {
+      "idJogo": 2,
+      "idResenha": 1,
+      "idUsuario": 1,
+      "titulo": "Demônio tmb chora!",
+      "descurtidas": 1,
+      "curtidas": 12,
+      "dataPostagem": "12/04/2018",
+      "classificacaoAutor": 3,
+      "resenha": "A trama de DmC: Devil May Cry traz um Dante mais jovem e com uma generosidade fora do comum. Diante de um mundo onde os humanos são enganados por demônios, cabe ao anti-herói iniciar uma jornada para defendê-los da manipulação demoníaca. Por mais que pareça surreal, o enredo convence e se desenrola de uma maneira admirável.<br><br> Há muito mais diálogos do que em qualquer outro game da franquia, o mesmo vale para a quantidade de personagem, sejam eles aliados ou inimigos de Dante. E sobre o protagonista, a aparência pode ter mudado, mas ele ainda continua com o tradicional sarcasmo. Não só nos diálogos, mas também em atitudes, Dante prova que se algo ainda prevalece na série, é a sua personalidade. As grandes mudanças no game começam pela jogabilidade. Dante nunca teve uma variedade tão grande de armas e movimentos. Espadas, foices e até luvas são exemplos do que o herói pode manipular durante toda a aventura. <br><br>E a forma com que elas são aplicadas aos comandos agrada ainda mais. Dessa vez, nada de abrir o menu e selecionar uma arma, uma combinação de botões é o suficiente para executar um comando, o que gera uma variedade de combos incrível. A evolução das armas é outro ponto positivo do game. Essa mecânica se mantém quase intacta em todos os capítulos da franquia e permanece agradando em DmC. A variedade de habilidades também chama a atenção. A extensa lista de movimentos deixa o jogador indeciso sobre o que evoluir primeiro. Ainda bem que o game permite retirar pontos utilizados e recolocá-los em outras habilidades."
+    },
+  
+    {
+      "idJogo": 3,
+      "idResenha": 3,
+      "idUsuario": 3,
+      "titulo": "Kyrat e suas aventuras",
+      "descurtidas": 14,
+      "curtidas": 66,
+      "dataPostagem": "15/02/2018",
+      "classificacaoAutor": 4,
+      "resenha": "Não tem como negar, Far Cry 4 é um colossal \"mais do mesmo\". Outro game que surfa na onda das franquias que reaproveitam tudo do capítulo anterior sem grandes injeções de novidade. Normalmente questionaria fortemente um título assim, mas Far Cry 4 tem preocupações honestas - e o jogo anterior é tão excelente que não há muito como questionar uma nova visita à série.<br><br>O que salta aos olhos de cara é a história. Diferente do anterior, em que controlávamos um mauricinho em busca de outros mauricinhos, o novo protagonista, Ajay Gale, é um homem em rota de colisão com o legado de seus pais. O jovem chega à Kyrat, no Tibete, a pedido da mãe morta que deseja que suas cinzas sejam espalhadas em sua terra-natal.<br><br>Lá, ele descobre um grupo rebelde, criado pelo seu pai, que luta contra a tirania do colorido déspota Pagan Min (vilões excêntricos virou marca da série). Aceitar esse fardo é obrigatório no game, mas há a opção de como fazê-lo. Existe uma cisão ideológica entre os rebeldes e ambas as facções sugerem as missões que Ajay pode seguir.<br><br>Dessa forma, a linha narrativa de Far Cry 4 começa cheia de opções desde o início - e não apenas nos momentos criados para testar o jogador do terceiro jogo. É curioso acompanhar tais desdobramentos e ambos são satisfatórios, já que frequentemente apresentam situações interessantes (e cheias de adrenalina, usando bem os recursos do jogo). Entre uma decisão e outra, Kyrat fervilha de oportunidades e você deve descobrir logo de início que ignorá-las significa entrar despreparado nas missões mais difíceis. Há bom grau de desafio."
+    },
+  
+    {
+      "idJogo": 4,
+      "idResenha": 4,
+      "idUsuario": 4,
+      "titulo": "Los Santos mais livre e sangrenta do que nunca",
+      "descurtidas": 11,
+      "curtidas": 36,
+      "dataPostagem": "10/02/2018",
+      "classificacaoAutor": 5,
+      "resenha": "A primeira inovação que a Rockstar traz é a possibilidade de poder controlar mais de um personagem principal, agora temos nada menos que três, cada um tendo seu núcleo de amigos/família, missões e personalidades, mas infelizmente não começamos já com os três liberados para uso.<br><br>Algo que mandaram bem é nessa tradução, sério mesmo. Não vi nenhum erro de português até onde joguei, tudo está otimamente traduzido, as gírias e termos que geralmente todos os brasileiros usam para zoar ou quando estão bravos estão lá.<br><br>O controle dos personagens a pé está ligeiramente melhor do que nos games anteriores do estúdio, cada personagem tem suas características e sentimos isso de uma forma muito bem feita. Cada um deles tem seu jeito próprio de andar, segurar sua arma e de interagir com o mundo; por exemplo, Michael/Franklin cumprimentam várias pessoas na rua enquanto Trevor provoca e as ameaça.<br><br>A Rockstar também atualizou o controle dos carros, abandonando a forma barco numa pista de sabão como foi em seu antecessor. Agora é mais parecido com um game de corrida (graças a experiência do estúdio com Midnight Club), cada carro tem seu peso e sua forma de guiá-lo, o que deixou tudo bem melhor.<br><br>A cidade de Los Santos é colorida e cheia de vários elementos que a tornam melhor que Liberty City de GTA IV, quando vamos a bairros mais ricos, é normal ver pessoas bem vestidas, assim como quando chegamos na periferias, a maior quantidade de pessoas que lá vivem, obviamente, não são de uma boa classe social."
+    },
+  
+    {
+      "idJogo": 5,
+      "idResenha": 5,
+      "idUsuario": 5,
+      "titulo": "Assistindo cachorros",
+      "descurtidas": 3,
+      "curtidas": 18,
+      "dataPostagem": "17/06/2018",
+      "classificacaoAutor": 5,
+      "resenha": "Sou um grande fã de Watch Dogs e realmente me surpreendeu o Watch Dogs 2.<br><br>O primeiro Watch Dogs é um dos jogos mais polêmicos dos últimos 10 anos. Poucas coisas geraram tantas expectativas e receberam tantas críticas no mundo dos jogos. Foram muitas promessas, e ao fim de tudo, a maioria não tinha sido cumprida. Mas como tantas coisas no mundo da tecnologia, é preciso uma versão 2.0 para realmente vermos o potencial de algo ser transformado numa experiência de qualidade.<br><br>Watch Dogs 2 é tudo que o primeiro Watch Dogs prometeu ser. Divertida, cheia de mecânicas interessantes e com uma cidade inacreditável, a continuação é provavelmente o melhor jogo da Ubisoft desde o histórico Assassin's Creed II. Aiden Pearce e Chicago ficaram para trás. Agora é a hora de conhecer Marcus Holloway e a gangue de hackers da DedSec enquanto exploramos São Francisco, a capital tecnológica do planeta Terra. Da interface visual à trilha sonora, a diferença para o primeiro jogo é tão grande, que Watch Dogs 2 poderia ser um reboot da franquia.<br><br>Todas as promessas feitas pelo primeiro Watch Dogs - você pode hackear basicamente tudo na cidade, é possível completar missões sem nem colocar o pé dentro do prédio onde o computador que você busca está localizado - são cumpridas aqui. Cada cidadão, cada sinal de trânsito, cada carro, empilhadeira, guindaste, painel eletrônico e sistema de segurança pode ser hackeado e manipulado. Talvez você precise desbloquear alguns upgrades para conseguir tudo, mas as ferramentas estão lá. Eventualmente, usando seu drone e carrinho de controle remoto (o melhor amigo de um hacker!), câmeras de segurança e um ou outro smartphone, Marcus consegue roubar os dados de algum alvo enquanto está sentado com seu notebook no colo do lado de fora dos muros da gigante tecnológica que está sendo invadida agora."
+    },
+  
+    {
+      "idJogo": 6,
+      "idResenha": 6,
+      "idUsuario": 6,
+      "titulo": "O deus da guerra está furioso!",
+      "descurtidas": 5,
+      "curtidas": 16,
+      "dataPostagem": "22/06/2018",
+      "classificacaoAutor": 5,
+      "resenha": "Partindo do exato ponto em que o segundo parou, God of War III já começa insano. Galgando as costas da titã Gaia, Kratos enfrenta hordas de inimigos em direção à morada dos deuses. A fase, a superfície da colossal criatura, é dinâmica pela instabilidade de Gaia, que se move, vive. Os detalhes são surpreendentes. A primeira batalha, especialmente quando surgem os leviatãs de Netuno (cavalos demoníacos d'água), serve para reestabelecer em poucos minutos a brutalidade de Kratos e o seu poder. Afinal, o personagem desta vez já começa com boa parte de suas habilidades (o velocino, as asas de Ícaro...), ainda que inexplicavelmente outras (o arco, a cabeça da Medusa) tenham sumido de seu arsenal. Poderia ter existido um cuidado maior aí. A desculpa superficial para a substituição das lâminas de Atena também não é exatamente um primor de convencimento.<br><br>De qualquer forma, as novas habilidades do personagem compensam a ausência das outras e dão todo um novo conjunto de ferramentas para Kratos causar sua devastação olimpiana. Os novos movimentos de aríete (Kratos apanha um oponente e o usa para derrubar outros) e aproximação (as correntes agem como laço, puxando inimigos) são novidades extremamente benvindas e revigoram os combos dos dois primeiros títulos. A possibilidade de trocar de armas rapidamente, no meio de sequências de golpes, também é empolgante - e o jogo obriga você a usá-la em fases particularmente difíceis, em que oponentes específicos, afetados apenas por uma ou outra arma, dividem a tela.<br><br>Em uma cena simbólica, um olimpiano estende a mão ao Fantasma de Esparta. Fugindo de um incêndio ele pede por ajuda para deixar uma laje. Ao jogador não existe a opção de ajudar. Kratos não busca redenção. A única opção é esmagar a cabeça dele na parede de pedra - afinal, o pobre sujeito está no caminho do espartano. De novo, honestidade. Não há ferramentas veladas de furtividade ou caminhos alternativos. Alguém com a determinação de Kratos não carece de alternativas. A linearidade da trama, da jogabilidade, é reflexo da motivação do protagonista."
+    },
+  
+    {
+      "idJogo": 7,
+      "idResenha": 7,
+      "idUsuario": 7,
+      "titulo": "Na fama!",
+      "descurtidas": 3,
+      "curtidas": 25,
+      "dataPostagem": "28/06/2018",
+      "classificacaoAutor": 3,
+      "resenha": "A narrativa segue com a conhecida jornada do herói, mas se diferencia na forma como trata a discriminação. E aí não estão somente os condutores, mas nerds, dependentes químicos e índios. Todos esses estereótipos passam pela história de Rowe sem tomar a cena, mas sempre com uma mensagem sutil sobre preconceito. Os diálogos de Delsin com o irmão Reggie, por exemplo, são a representação de situações atuais, com a diferença do contexto inserido.<br><br>Controlar Delsin parece estranho de início. Ainda sem poderes, o sujeito pula de alturas consideráveis, pratica um parkour impecável e é de uma leveza difícil de compreender. Esses questionamentos somem ao chegar em Seattle, onde os poderes aparecem. Voar, escalar e enfrentar inimigos aleatórios é outro trunfo de Second Son. A falta de peso de Delsin facilita a exploração de todos os bairros da cidade e melhora as mecânicas de combate, que variam entre o stealth e o corpo-a-corpo.<br><br>Ainda que existam essas opções de abordagem nas lutas, o jogo repete quase todos os tipos de confronto. Por mais divertido que seja controlar Delsin, depois de enfrentar os mesmos soldados e chefes, essa parcela do game torna-se preguiçosa. Os inimigos finais variam pela força e pouco mais que isso. As estratégias são simplórias e acrescentam pouco à aventura - trocar de poder para poder é o mínimo que a Sucker Punch poderia fazer. Acontece, mas não na medida certa para tornar o combate seu melhor quesito."
+    },
+  
+    {
+      "idJogo": 8,
+      "idResenha": 8,
+      "idUsuario": 8,
+      "titulo": "Os últimos de nós",
+      "descurtidas": 11,
+      "curtidas": 27,
+      "dataPostagem": "28/06/2018",
+      "classificacaoAutor": 5,
+      "resenha": "Em The Last of Us, o caos é representado por um fungo que entrou em contato com a espécie humana e dizimou a sociedade, transformando os infectados em uma espécie de \"fungos-vivos\". Mesmo com essa premissa específica, desde o começo The Last of Us sugere que o problema vai muito além dos infectados e da busca pela cura. A luta dos protagonistas Joel e Ellie é sobreviver em um mundo devastado há 20 anos, comandado pelo exército. As pessoas vivem sob as ordens autoritárias da força armada, que, entre outras imposições, limita a liberdade de ir e vir.<br><br>Apesar de pecar em alguns pontos e ter uma jogabilidade praticamente idêntica a Uncharted, porém com foco em furtividade, o game apresenta uma história rica, que faz o jogador pensar em qual o sentido de viver em um mundo devastado. A Naughty Dog acerta muito em oferecer personagens caricatos, amáveis e com profundo senso crítico - ponto altíssimo para a dublagem em português que contribui para essa caracterização. Não se sabe ao certo como é viver em meio ao caos, mas sabe-se que The Last of Us é um prato cheio de entusiasmo e criatividade para falar sobre o tema."
+    },
+  
+    {
+      "idJogo": 9,
+      "idResenha": 9,
+      "idUsuario": 9,
+      "titulo": "Inovador!",
+      "descurtidas": 7,
+      "curtidas": 35,
+      "dataPostagem": "30/06/2018",
+      "classificacaoAutor": 5,
+      "resenha": "Você já teve aquela curiosidade terrível de querer fazer alguma coisa só pra ver o que aconteceria? Quer dizer, fazer ou dizer alguma coisa bizarra, drástica, idiota ou sei-lá-o-quê e voltar no tempo antes de ter que lidar com as consequências? Então, Life is Strange vai acalentar seu coração.<br><br>No jogo, somos Max Caulfield, uma nerd, hispter e aspirante à fotógrafa ( e como isso soa nada original) que descobre um poder de voltar no tempo e alterar o destino. Ao se envolver com uma série de acontecimentos macabros, violentos, sentimentais e meio inexplicáveis, o superpoder vai sendo cada vez mais requisitado e você vai jogar com ela para resolver a história.<br><br>Com uma melancolia e suspense amáveis, Life is Strange é sobretudo uma história de amizade. Uma outra personagem, Chloe, vai te acompanhar o tempo todo e acredite: você, pessoa com o controle, vai se apegar e fazer de tudo para mantê-la a salvo. E esse é o primeiro ponto positivo: você se importa muito com a história e com as personagens. Esse é um jogo de escolhas e é bem executado o trabalho de fazer você pensar nas opções e se preocupar com o que vai acontecer. Tipo a vida real, só que dá pra voltar no tempo."
+    },
+  
+    {
+      "idJogo": 10,
+      "idResenha": 10,
+      "idUsuario": 6,
+      "titulo": "Um Recomeço?!",
+      "descurtidas": 2,
+      "curtidas": 21,
+      "dataPostagem": "01/05/2018",
+      "classificacaoAutor": 4,
+      "resenha": "17 anos depois de sua criação, a série Tomb Raider parecia fadada ao gradual esquecimento, com suas instâncias cada vez atraindo menos jogadores. Ícone das heroínas nos videogames, Lara Croft originalmente conquistou seu espaço como aventureira em território ocupado quase que exclusivamente por homens, ganhou filme e status de sex symbol, mas envelheceu mal na mesma proporção em que seu número de polígonos aumentou.<br><br>Visando reinventar a franquia, a Square-Enix e a Eidos tomaram a rota do \"Begins\", criando um prelúdio que funciona ao mesmo tempo como um reinício para a combalida série. A mulher durona e curvilínea foi reinventada no jogo, intitulado simplesmente Tomb Raider, como uma jovem frágil, recém-saída da adolescência, ainda longe de adquirir as habilidades pelas quais ficou conhecida.<br><br>A trama envolve uma expedição arqueológica em busca de ruínas de uma antiga civilização japonesa que, misteriosamente, naufraga depois de uma tempestade. Isolada de seus amigos, a jovem Lara vê-se lutando para sobreviver em minutos, fazendo valer cada lição que teve com seu mentor, Roth, também um integrante da expedição. Em um ambiente inóspito, lá vai a futura Tomb Raider aprender a caçar, enfrentar cultistas, escalar, melhorar nas armas e aperfeiçoar suas ferramentas."
+    },
+  
+    {
+      "idJogo": 11,
+      "idResenha": 11,
+      "idUsuario": 10,
+      "titulo": "É...Bom?",
+      "descurtidas": 4,
+      "curtidas": 65,
+      "dataPostagem": "01/06/2018",
+      "classificacaoAutor": 3,
+      "resenha": "Sem entregar as surpresas, pode-se dizer que a história de A Thief's End começa com um Drake aposentado. Longe de cidades perdidas ou tesouros escondidos, ele está casado com Elena e com um emprego burocrático. Fica claro que aquela não é a vida que ele gostaria de levar, mas por questões de prioridades decide seguir a rotina. O ressurgimento do irmão de Nathan altera o cenário por completo. Para se salvar das mãos de alguns mafiosos, Sam Drake precisa encontrar o gigantesco tesouro do pirata Henry Avery e pede ajuda ao caçula.<br><br>A Thief's End entrega todas as promessas. O carisma dos personagens, os diálogos rápidos e inteligentes, as sequências de ação de tirar o fôlego e uma narrativa digna dos melhores blockbusters de Hollywood. Se comparado a qualquer outro game da atual geração, o título parece estar alguns anos à frente em termos gráficos. Nada é tão bonito quanto ele."
+    },
+  
+    {
+      "idJogo": 12,
+      "idResenha": 12,
+      "idUsuario": 11,
+      "titulo": "Tudo o que você faz é por conta própria!",
+      "descurtidas": 4,
+      "curtidas": 19,
+      "dataPostagem": "15/06/2018",
+      "classificacaoAutor": 4,
+      "resenha": "Sou um grande fã da franquia The Legend of Zelda e, como tal, há vários anos tenho me decepcionado com os jogos da série. Não por serem ruins – muito longe disso – mas por terem se limitado sempre às mesmas experiências e caído nas mesmas armadilhas que outros games da indústria têm tido há muito tempo.<br><br>O jogo original, de 1986, quebrou paradigmas na época, trazendo diversas novidades para o mercado. Nele, você era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e começar a explorar. Sem tutorial, sem roteiros pré-definidos. Apenas você, sua curiosidade e sua coragem.<br><br>O primeiro jogo é um dos meus preferidos da série, então naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, já que a Nintendo prometeu retornar às origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.<br><br>Propor é fácil, mas fugir de padrões de game design estabelecidos há mais de 20 anos na franquia e até mesmo de toda uma indústria não é um trabalho simples. Sempre fiquei com um pé atrás com essa promessa… No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu."
+    }
+  ]

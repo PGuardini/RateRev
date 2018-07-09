@@ -1,5 +1,5 @@
 <?php
-	include 'html/cabecalhoLogado.html';
+	include 'elementosSecundarios/cabecalho.php';
 ?>
 	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
     <div class="userHeader">
@@ -217,5 +217,5 @@
 
 
 <?php
-	include 'html/rodape.html';
+	include 'elementosSecundarios/rodape.html';
 ?>

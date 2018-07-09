@@ -95,6 +95,7 @@ body {
 /* Detalha Jogo */
 
 .classificacaoBox {
+	cursor: default !important;
 	font-family: 'Muli', sans-serif !important;
 	text-transform: uppercase !important;
 	color: #293d54 !important;
@@ -140,6 +141,7 @@ body {
 	margin-top: 16%;
 	text-align: center;
 }
+
 
 .talk-bubble {
 	text-align: justify;
@@ -206,6 +208,34 @@ body {
 	float: right;
 }
 
+.espacoEntreComentarios {
+	margin-bottom: 5% !important;
+}
+
+#semComentarios {
+	color:#be7026;
+	margin-top: 2% !important;
+	text-align: center;
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase;
+}
+
+#logueSe {
+	color: #293d54;
+	margin-top: 2% !important;
+	text-align: center;
+	font-family: 'Muli', sans-serif !important;
+	text-transform: uppercase;
+}
+
+.editarComentario {
+	float: left !important;
+	margin-right: 2% !important;
+}
+
+.excluirComentario {
+	float: left !important;
+}
 /* Cadastro Resenha */
 
 .espacoRodapeForm {
@@ -365,4 +395,10 @@ body {
 .nomeJogoPagUsuario {
 	float: right;
 	margin-top: 13%;
+}
+
+/* Bem Vindo */
+
+#bemVindo {
+	background-image: url("../imagens/bemvindo.png");
 }

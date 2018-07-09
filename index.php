@@ -1,5 +1,12 @@
 <?php
-    include "html/cabecalho.html";
+    include "elementosSecundarios/cabecalho.php";
+    include "funcoes/json.php";
+
+    $array_jogos= arrayJogos();
+    $cont=0;
+    $anCont=0;
+    $fim= sizeof($array_jogos);
+
 ?>
 
     <div class="gradient">
@@ -10,193 +17,44 @@
 
     <div class="clear"></div>
 
-
     <div class="ui stackable grid">
+
         <div class="three column row espacoSlide">
-            <div class=" column ">
+
+            <?php foreach($array_jogos as $pos => $jogo): ?>
+
+            <div class="column EspacoInferiorGaleria+">
                 <div class="dezPorcento">.</div>
                 <div class="parado zoom">
-                    <a href="detalhaZelda.php">
-                        <img class="indexImg" src="imagens/jogos/zelda.jpg">
+                    <a href="detalhaJogo.php?jogo=<?=$jogo['id'] ?>">
+                        <img class="indexImg" src="imagens/jogos/<?= $jogo['imagem'] ?>">
                         <div class="text-item">
-                            <h2>The Legend of Zelda: Breath of the Wild</h2>
+                            <h2><?= $jogo['titulo'] ?></h2>
                             <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
+                            <div class="ui star rating naoAlteravel estrelas" data-rating="<?= $jogo['classificacaoMedia'] ?>" data-max-rating="5"></div>
                         </div>
                     </a>
                 </div>
             </div>
+            <?php 
+                $cont++; 
+                $anCont++;
+                if($cont==3 && $anCont!=$fim):
+            ?>
+                </div>
+                <div class="three column row espacoSlide">
+            <?php
+                $cont=0; 
+                endif;
+            ?>
+            <?php endforeach; ?>
 
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom ">
-                    <a href="detalhaTomb.php">
-                        <img class="indexImg" src="imagens/jogos/tombraider.jpg">
-                        <div class="text-item">
-                            <h2>Tomb Raider</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom ">
-                    <a href="detalhaDogs.php">
-                        <img class="indexImg" src="imagens/jogos/watchdogs.jpg">
-                        <div class="text-item">
-                            <h2>Watch Dogs 2</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
         </div>
+    </div>  
 
-        <div class="clear"></div>
 
-        <div class="three column row espacoLinha">
-            <div class=" column ">
-                <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaGTAV.php">
-                        <img class="indexImg" src="imagens/jogos/gtav.jpg">
-                        <div class="text-item">
-                            <h2>GTA V</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaAssassins.php">
-                        <img class="indexImg" src="imagens/jogos/assassinscreed.jpg">
-                        <div class="text-item">
-                            <h2>Assassin's Creed: Origins</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaDevil.php">
-                        <img class="indexImg" src="imagens/jogos/devilmaycry.jpg">
-                        <div class="text-item">
-                            <h2>Devil May Cry</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="clear"></div>
-
-        <div class="three column row espacoLinha">
-            <div class=" column ">
-                <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaFarCry4.php">
-                        <img class="indexImg" src="imagens/jogos/farcry.jpg">
-                        <div class="text-item">
-                            <h2>Far Cry 4</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaUncharted.php">
-                        <img class="indexImg" src="imagens/jogos/uncharted.jpg">
-                        <div class="text-item">
-                            <h2>Uncharted 4</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaLast.php">
-                        <img class="indexImg" src="imagens/jogos/thelastofus.jpg">
-                        <div class="text-item">
-                            <h2>The Last of Us: Part II</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="three column row espacoLinha">
-            <div class=" column ">
-                <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaGodOfWar3.php">
-                        <img class="indexImg" src="imagens/jogos/godofwar.jpg">
-                        <div class="text-item">
-                            <h2>God Of War III</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaLife.php">
-                        <img class="indexImg" src="imagens/jogos/lifeisstrange.png">
-                        <div class="text-item">
-                            <h2>Life is Strange</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" column ">
-            <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaInFamous.php">
-                        <img class="indexImg" src="imagens/jogos/infamous.jpg">
-                        <div class="text-item">
-                            <h2>inFAMOUS</h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating estrelas" data-rating="5" data-max-rating="5"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="clear"><div>
     <div class="espacoAntesRodapeIndex">.</div>
 
 <?php
-    include("html/rodape.html");
+    include("elementosSecundarios/rodape.html");
 ?>

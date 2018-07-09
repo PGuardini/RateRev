@@ -8056,7 +8056,7 @@ $.fn.dropdown.settings = {
   fullTextSearch         : false,      // search anywhere in value (set to 'exact' to require exact matches)
 
   placeholder            : 'auto',     // whether to convert blank <select> values to placeholder text
-  preserveHTML           : true,       // preserve html when selecting value
+  preserveHTML           : true,       // preserve elementosSecundarios when selecting value
   sortSelect             : false,      // sort selection on init
 
   forceSelection         : true,       // force a choice on blur with search selection
@@ -8609,7 +8609,7 @@ $.fn.embed = function(parameters) {
 
         generate: {
           embed: function(url) {
-            module.debug('Generating embed html');
+            module.debug('Generating embed elementosSecundarios');
             var
               source = module.get.source(),
               html,
@@ -10687,7 +10687,7 @@ $.fn.popup = function(parameters) {
           }
         },
 
-        // generates popup html from metadata
+        // generates popup elementosSecundarios from metadata
         create: function() {
           var
             html      = module.get.html(),
@@ -10696,7 +10696,7 @@ $.fn.popup = function(parameters) {
           ;
 
           if(html || content || title) {
-            module.debug('Creating pop-up html');
+            module.debug('Creating pop-up elementosSecundarios');
             if(!html) {
               html = settings.templates.popup({
                 title   : title,
@@ -11837,7 +11837,7 @@ $.fn.popup.settings = {
   // explicitly set content
   content        : false,
 
-  // explicitly set html
+  // explicitly set elementosSecundarios
   html           : false,
 
   // explicitly set title
@@ -13012,7 +13012,7 @@ $.fn.rating = function(parameters) {
               maxRating = module.get.maxRating(),
               html      = $.fn.rating.settings.templates.icon(maxRating)
             ;
-            module.debug('Generating icon html dynamically');
+            module.debug('Generating icon elementosSecundarios dynamically');
             $module
               .html(html)
             ;
@@ -14171,7 +14171,7 @@ $.fn.search = function(parameters) {
               cache = $module.data(metadata.cache)
             ;
             if(settings.cache) {
-              module.verbose('Checking cache for generated html for query', name);
+              module.verbose('Checking cache for generated elementosSecundarios for query', name);
               return (typeof cache == 'object') && (cache[name] !== undefined)
                 ? cache[name]
                 : false
@@ -14308,7 +14308,7 @@ $.fn.search = function(parameters) {
                 : {}
             ;
             if(settings.cache) {
-              module.verbose('Writing generated html to cache', name, value);
+              module.verbose('Writing generated elementosSecundarios to cache', name, value);
               cache[name] = value;
               $module
                 .data(metadata.cache, cache)
@@ -14408,7 +14408,7 @@ $.fn.search = function(parameters) {
         },
 
         generateResults: function(response) {
-          module.debug('Generating html from response', response);
+          module.debug('Generating elementosSecundarios from response', response);
           var
             template       = settings.templates[settings.type],
             isProperObject = ($.isPlainObject(response[fields.results]) && !$.isEmptyObject(response[fields.results])),
@@ -15868,7 +15868,7 @@ $.fn.sidebar = function(parameters) {
     $allModules     = $(this),
     $window         = $(window),
     $document       = $(document),
-    $html           = $('html'),
+    $html           = $('elementosSecundarios'),
     $head           = $('head'),
 
     moduleSelector  = $allModules.selector || '',
@@ -16408,7 +16408,7 @@ $.fn.sidebar = function(parameters) {
 
         set: {
 
-          // ios only (scroll on html not document). This prevent auto-resize canvas/scroll in ios
+          // ios only (scroll on elementosSecundarios not document). This prevent auto-resize canvas/scroll in ios
           // (This is no longer necessary in latest iOS)
           ios: function() {
             $html.addClass(className.ios);
@@ -16458,7 +16458,7 @@ $.fn.sidebar = function(parameters) {
             }
           },
 
-          // ios scroll on html not document
+          // ios scroll on elementosSecundarios not document
           ios: function() {
             $html.removeClass(className.ios);
           },
@@ -18742,7 +18742,7 @@ $.fn.tab.settings = {
   alwaysRefresh   : false,      // load tab content new every tab click
   cache           : true,       // cache the content requests to pull locally
   loadOnce        : false,      // Whether tab data should only be loaded once when using remote content
-  cacheType       : 'response', // Whether to cache exact response, or to html cache contents after scripts execute
+  cacheType       : 'response', // Whether to cache exact response, or to elementosSecundarios cache contents after scripts execute
   ignoreFirstLoad : false,      // don't load remote content on first load
 
   apiSettings     : false,      // settings for api call

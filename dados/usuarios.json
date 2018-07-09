@@ -1,0 +1,101 @@
+[
+    {
+        "idUsuario": 1,
+        "permissao": "usuário",
+        "nome": "dante",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "dante.jpg"
+    },
+    {
+        "idUsuario": 2,
+        "permissao": "usuário",
+        "nome": "cleo",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "cleo.jpeg"
+    },
+    {
+        "idUsuario": 3,
+        "permissao": "usuário",
+        "nome": "XXPR0G4",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "avatar4.png"
+    },
+    {
+        "idUsuario": 4,
+        "permissao": "usuário",
+        "nome": "tipup",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "avatar6.png"
+    },
+    {
+        "idUsuario": 5,
+        "permissao": "usuário",
+        "nome": "robo",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "robo.jpg"
+    },
+    {
+        "idUsuario": 6,
+        "permissao": "usuário",
+        "nome": "juliagamer",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "julia.jpg"
+    },
+    {
+        "idUsuario": 7,
+        "permissao": "usuário",
+        "nome": "igao",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "avatar2.jpg"
+    },
+    {
+        "idUsuario": 8,
+        "permissao": "usuário",
+        "nome": "roberto",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "avatar9.png"
+    },
+    {
+        "idUsuario": 9,
+        "permissao": "usuário",
+        "nome": "juca",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "juca.jpg"
+    },
+    {
+        "idUsuario": 10,
+        "permissao": "usuário",
+        "nome": "adam",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "adam.jpg"
+    },
+    {
+        "idUsuario": 11,
+        "permissao": "usuário",
+        "nome": "violeta",
+        "email": "padrao@padrao.com",
+        "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
+        "nascimento": "2001-01-01",
+        "imagemPerfil": "avatar1.png"
+    }
+]

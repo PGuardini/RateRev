@@ -1,5 +1,5 @@
 <?php
-    include("html/cabecalhoLogado.html");
+    include("elementosSecundarios/cabecalhoLogado.php");
 ?>
 	<div class="clear"></div>
 
@@ -248,5 +248,5 @@
     </div>
 </div>
 <?php
-    include("html/rodape.html");
+    include("elementosSecundarios/rodape.html");
 ?>

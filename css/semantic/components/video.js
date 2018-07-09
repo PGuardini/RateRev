@@ -94,7 +94,7 @@ $.fn.video = function(parameters) {
           if(!image) {
             module.play();
           }
-          module.debug('Creating html for video element', html);
+          module.debug('Creating elementosSecundarios for video element', html);
         },
 
         destroy: function() {
@@ -181,9 +181,9 @@ $.fn.video = function(parameters) {
         },
 
         generate: {
-          // generates iframe html
+          // generates iframe elementosSecundarios
           html: function(source, id, url) {
-            module.debug('Generating embed html');
+            module.debug('Generating embed elementosSecundarios');
             var
               html
             ;
