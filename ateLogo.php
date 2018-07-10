@@ -1,9 +1,5 @@
 <?php
-    session_start();
-    if(empty($_SESSION)==true){
-        header('Location: acessoNegado.php');
-    } else {
-        include "elementosSecundarios/head.html";
+    include "elementosSecundarios/head.html";
 ?>
 
 <body id="bemVindo">
@@ -11,7 +7,7 @@
     <div class="ui sticky colado">
         <div class="ui inverted menu stkMenu">
             <h2 class="tituloMenu">rv</h2>
-            <a class="item" href="index.php">
+            <a class="active item" href="index.php">
                 Home
             </a>
             <div class="right menu">
@@ -21,23 +17,19 @@
                         <i class="search icon"></i>
                     </div>
                 </div>
-                <a class="ui item" href="paginaUsuario.php">
-                    <i class="user icon"></i>Minhas Resenhas
+                <a class="ui item" href="login.php">
+                    <i class="user outline icon"></i>Login
                 </a>
-                <a class="ui item" href="cadastroResenha.php">
-                    <i class="pencil icon"></i>Cadastrar Resenha
-                </a>
-                <a class="ui item" href="processaUsuario.php?acao=sair">
-                    <i class="sign out icon"></i>Sair
+                <a class="ui item" href="cadastroUsuario.php">
+                    <i class="sign in icon"></i>Cadastre-se
                 </a>
             </div>
         </div>
     </div>
 
     <div class="centralContainerMensagem">
-        <h1 class="tituloMensagem">Bem vindo, <?=$_SESSION['nome']?>!</h1>
-        <center><i class="huge heart icon  iconMensagem"></i></center>
-        <h2 class="subMensagem">Sua permissão é: <?=$_SESSION['permissao']?></h2>
+        <h1 class="tituloMensagem">Até logo!</h1>
+        <center><i class="massive frown icon iconMensagem"></i></center>
     </div>
 
         <meta http-equiv="refresh" content="2; url=index.php">
@@ -48,6 +40,3 @@
 	    <script src="js/main.js"></script>
     </body>	
 </html>
-<?php
-    }
-?>

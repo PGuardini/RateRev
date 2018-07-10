@@ -89,7 +89,7 @@
                         <i class="comments icon"></i>
                             <?php
                                 if($comentariosResenha=='semComentarios') {
-                                    print("Nenhum comentário ainda");
+                                    print("0 comentários");
                                 } else {
                                     $numeroComentarios= sizeof($comentariosResenha);
                                     print($numeroComentarios.' comentários');
@@ -100,6 +100,25 @@
                         <i class="calendar alternate icon"></i>
                             Postado em <?= $resenha['dataPostagem']?>
                     </button>
+<?php
+    if(empty($_SESSION)== false and $dadosAutor['idUsuario']== $_SESSION['idUsuario']) {
+?>
+                    <a target="_blank" href="editarResenha.php">
+                        <button class="ui blue button label">
+                            <i class="edit icon"></i>
+                                Editar
+                        </button>
+                    </a>
+
+                    <button class="ui red button label">
+                        <i class="trash icon"></i>
+                            Excluir
+                    </button>
+<?php
+    
+    }
+
+?>
                     <button class="ui button label corLabelLaranja aDireita modalAbrir">
                         <i class="search plus icon"></i>
                             Ver post completo

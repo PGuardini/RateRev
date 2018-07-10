@@ -68,6 +68,7 @@
         case 'sair':
             session_start();
             session_destroy();
+            header('Location: ateLogo.php');
             break;
 
     }

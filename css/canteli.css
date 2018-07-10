@@ -347,7 +347,8 @@ body {
     border-radius: 5%;
     margin-bottom: 1%;
     margin-top: 5%;
-    color: white !important;
+	color: white !important;
+	box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
     background:linear-gradient(0deg,#66b3ba,#293d54)!important;
 }
 
@@ -398,6 +399,43 @@ body {
 }
 
 /* Bem Vindo */
+
+.tituloMensagem {
+	text-align: center;
+	font-family: 'droidigaregular' !important;
+	text-transform: uppercase;
+	margin-bottom: 5% !important;
+}
+
+.subMensagem {
+	font-family: 'Josefin Sans', sans-serif !important;
+	text-transform: uppercase !important;
+	text-align: center;
+}
+
+.centralContainerMensagem {
+	width:40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3%;
+    border-radius: 3%;
+    margin-top: 12%;
+	color: white !important;
+	box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    background:linear-gradient(0deg,#66b3ba,#293d54)!important;
+}
+
+.iconMensagem {
+	margin-top: 5% !important;
+	text-align: center;
+}
+
+#acessoNegado {
+	overflow: hidden;
+	background-image: url("../imagens/acessonegado.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+}
 
 #bemVindo {
 	background-image: url("../imagens/bemvindo.png");
