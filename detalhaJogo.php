@@ -1,4 +1,5 @@
 <?php
+	session_start();
     include("elementosSecundarios/cabecalho.php");
     include "funcoes/json.php";
 
@@ -228,13 +229,15 @@
     } if(empty($_SESSION)==false) {
                     
 ?>      
-                        <form class="ui reply form">
-                                <div class="field">
-                                <textarea></textarea>
-                                </div>
-                                <div class="ui blue labeled submit icon button">
+                        <form action="processaComentario.php?acao=cadastrar" class="ui reply form" method="post">
+                        	<input type="hidden" name="idResenha" value="<?=$resenha['idResenha']?>">
+                        	<input type="hidden" name="idUsuario" value="<?=$_SESSION['idUsuario']?>">
+                            <div class="field">
+                            	<textarea name="comentario"></textarea>
+                            </div>
+                            <button type="submit" class="ui blue labeled submit icon button">
                                 <i class="icon edit"></i> Add Reply
-                                </div>
+                            </button>
                         </form>
 <?php
 

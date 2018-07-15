@@ -19,6 +19,13 @@
         return $arrayResenhas;
     }
 
+    function arrayComentarios(){
+        $json= file_get_contents('./dados/comentarios.json');
+        $arrayComentarios= json_decode($json, true);
+        return $arrayComentarios;
+    }
+
+
 	function buscaResenhaJogo($idJogo){
 		$resenhasEncontradas= array();
 
@@ -89,8 +96,7 @@
     }
 
     function buscaComentariosResenha($idResenha) {
-        $json= file_get_contents('./dados/comentarios.json');
-        $arrayComentarios= json_decode($json, true);
+        $arrayComentarios= arrayComentarios();
 
         $comentariosEncontrados= array();
         foreach ($arrayComentarios as $comentario) {

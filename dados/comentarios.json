@@ -1,10 +1,8 @@
 [
-
-	{
-		"idResenha": 2,
-		"idUsuario": 1,
-		"dataPostagem": "02/05/2018",
-		"comentario": "está virando mais do mesmo!"
+    {
+        "idResenha": 2,
+        "idUsuario": 1,
+        "dataPostagem": "02\/05\/2018",
+        "comentario": "est\u00e1 virando mais do mesmo!"
     }
-
 ]

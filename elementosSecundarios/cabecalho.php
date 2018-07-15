@@ -1,5 +1,4 @@
 <?php
-    session_start();
 
     include("head.html");
 
@@ -18,12 +17,12 @@
                   Home
                 </a>
                 <div class="right menu">
-                	<div class="ui search campoPesquisar">
+                    <form method="get" class="ui search campoPesquisar">
                         <div class="ui icon input">
                             <input class="prompt" type="text" placeholder="Pesquise">
                             <i class="search icon"></i>
                         </div>
-                    </div>
+                    </form>
                     <a class="ui item" href="login.php">
                         <i class="user outline icon"></i>Login
                     </a>

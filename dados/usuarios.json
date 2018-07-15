@@ -1,7 +1,7 @@
 [
     {
         "idUsuario": 1,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "dante",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -10,7 +10,7 @@
     },
     {
         "idUsuario": 2,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "cleo",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -19,7 +19,7 @@
     },
     {
         "idUsuario": 3,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "XXPR0G4",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -28,7 +28,7 @@
     },
     {
         "idUsuario": 4,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "tipup",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -37,7 +37,7 @@
     },
     {
         "idUsuario": 5,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "robo",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -46,7 +46,7 @@
     },
     {
         "idUsuario": 6,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "juliagamer",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -55,7 +55,7 @@
     },
     {
         "idUsuario": 7,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "igao",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -64,7 +64,7 @@
     },
     {
         "idUsuario": 8,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "roberto",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -73,7 +73,7 @@
     },
     {
         "idUsuario": 9,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "juca",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -82,7 +82,7 @@
     },
     {
         "idUsuario": 10,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "adam",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
@@ -91,7 +91,7 @@
     },
     {
         "idUsuario": 11,
-        "permissao": "usuário",
+        "permissao": "usu\u00e1rio",
         "nome": "violeta",
         "email": "padrao@padrao.com",
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
