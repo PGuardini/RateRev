@@ -2,13 +2,7 @@
     //http://md5decrypt.net/en/Sha384/
     include 'elementosSecundarios/cabecalhoLogado.php';
     include 'funcoes/json.php';
-    $resenhas = arrayResenhas();
-    $resenhasUser=[];
-    foreach ($resenhas as $resenha) {
-        if ($_SESSION["idUsuario"]==$resenha['idUsuario']) {
-            $resenhasUser[] = $resenha;
-        }
-    }
+    $resenhasUser = buscaResenhaUser($_SESSION["idUsuario"]);
     $cont=0;
     $anCont=0;
     $fim= sizeof($resenhasUser);
@@ -40,11 +34,12 @@
         Lista
     </a>
     <div class="clear">.</div>
+
+    <!-- GRID -->
+
     <div class="ui stackable grid" id="grid-1">
     <div class="three column row">
-<?php foreach ($resenhasUser
-
-    as $resenha):
+<?php foreach ($resenhasUser as $resenha):
     $id = $resenha["idResenha"];
     $jogo = buscaJogoResenha($id);
     ?>
@@ -94,10 +89,8 @@ endforeach;
         <div class="eight two column"></div>
         <div class="fourteen wide column ui relaxed divided list">
             <?php foreach ($resenhasUser as $resenha):
-                foreach ($resenhasUser as $resenha) {
                     $id = $resenha["idResenha"];
-                    $jogos[] = buscaJogoResenha($id);
-                }
+                    $jogo = buscaJogoResenha($id);
                 ?>
 
                 <div class="item">
@@ -116,7 +109,7 @@ endforeach;
                     </button>
                 </div>
             <?php
-            endforeach;
+                endforeach;
             ?>
         </div>
     </div>

@@ -111,6 +111,17 @@
         }
     }
 
+    function buscaResenhaUser($idUser){
+        $resenhas = arrayResenhas();
+        $resenhasUser = [];
+        foreach ($resenhas as $resenha) {
+            if ($idUser==$resenha['idUsuario']) {
+                $resenhasUser[] = $resenha;
+            }
+        }
+        return $resenhasUser;
+    }
+
 
     function buscaJogoResenha($idResenha){
         $resenhas=arrayResenhas();
