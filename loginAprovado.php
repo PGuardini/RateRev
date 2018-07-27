@@ -1,9 +1,10 @@
 <?php
     session_start();
-    if(empty($_SESSION)==true){
+    if(empty($_SESSION)==true && $_SESSION['status']){
         header('Location: acessoNegado.php');
     } else {
         include "elementosSecundarios/head.html";
+
 ?>
 
 <body id="bemVindo">

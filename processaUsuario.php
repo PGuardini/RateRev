@@ -44,6 +44,7 @@
                 $arrayUsuarios[]= $novoUsuario;
                 $jsonAtualizado= json_encode($arrayUsuarios, JSON_PRETTY_PRINT);
                 file_put_contents('dados/usuarios.json', $jsonAtualizado);
+                header("Location: index.php");
             } else {
                 erroUsuario('confirmaSenhaErrado');
             }
@@ -51,15 +52,17 @@
             break;
 
         case 'login':
-            $usernameEnviado= $dadosEnviados['login'];
-            $usuario= buscaNome($usernameEnviado);
-            $senhaEnviadaCriptografada= hash('sha384',$dadosEnviados['senha']);
+            $usernameEnviado = $dadosEnviados['login'];
+            $usuario = buscaNome($usernameEnviado);
+            $senhaEnviadaCriptografada = hash('sha384',$dadosEnviados['senha']);
 
-            if ($senhaEnviadaCriptografada==$usuario['senha']) {
+            if($senhaEnviadaCriptografada==$usuario['senha']) {
                 session_start();
-                $_SESSION= $usuario;
+                $_SESSION = $usuario;
+                $_SESSION['status'] = true;
                 header('Location: loginAprovado.php');
-            } else {
+            }else{
+                $_SESSION['status'] = false;
                 erroUsuario('senhaErrada');
             }
 

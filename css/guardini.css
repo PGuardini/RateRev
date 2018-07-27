@@ -1,6 +1,9 @@
 body{
     margin: 0 !important;
 }
+.escondido{
+    display: none !important;
+}
 .stkMenu{
     margin: 0% !important;
     background: #293d54 !important;

@@ -1,5 +1,5 @@
 <?php
-	include 'elementosSecundarios/cabecalho.php';
+include 'elementosSecundarios/cabecalhoLogado.php'
 ?>
 	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
     <div class="userHeader">

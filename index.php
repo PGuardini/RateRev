@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include "elementosSecundarios/cabecalho.php";
     include "funcoes/json.php";
 
@@ -47,8 +46,7 @@
             <?php
                 $cont=0; 
                 endif;
-            ?>
-            <?php endforeach; ?>
+             endforeach; ?>
 
         </div>
     </div>  

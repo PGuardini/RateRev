@@ -26,7 +26,7 @@
     }
 
 
-	function buscaResenhaJogo($idJogo){
+    function buscaResenhaJogo($idJogo){
 		$resenhasEncontradas= array();
 
     	$arrayResenhas= arrayResenhas();
@@ -71,7 +71,6 @@
     	foreach ($erros as $chave => $erro) {
     		if ($erro==$tipoErro) {
     			print($mensagens[$chave]);
-
     		}
     	}
     }
@@ -110,4 +109,23 @@
         } else{
             return $comentariosEncontrados;
         }
+    }
+
+
+    function buscaJogoResenha($idResenha){
+        $resenhas=arrayResenhas();
+        $resenhaAtual=null;
+	    foreach ($resenhas as $resenha) {
+            if ($resenha["idResenha"] == $idResenha) {
+                $resenhaAtual = $resenha;
+                break;
+            }
+        }
+	    $jogos=arrayJogos();
+	    foreach ($jogos as $jogo) {
+            if ($jogo["id"]==$resenhaAtual["idJogo"]){
+                return $jogo;
+                break;
+            }
+	    }
     }

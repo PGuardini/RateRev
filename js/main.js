@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.ui.checkbox').checkbox();
     $('.ui.dropdown').dropdown();
 
-    
+
     $(".modalAbrir").click(function(){
         $('.ui.modal').modal('setting', {
             autofocus: false
@@ -15,9 +15,20 @@ $(document).ready(function(){
     });
 
 
-  $('.ui.accordion')
-  .accordion()
-    ;
+  $('.ui.accordion').accordion();
+    let aux = true;
+    $("#trocaLista").click(function(){
+        let grid = $("#trocaLista");
+        if (aux){
+            aux=false;
+            grid.text("Grade");
+        }else{
+            aux = true;
+            grid.text("Lista");
+        }
+        $("#grid-1").toggleClass("escondido");
+        $("#grid-2").toggleClass("escondido");
 
+    });
         
 })

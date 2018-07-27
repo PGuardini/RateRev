@@ -1,5 +1,9 @@
-
-<body>
+<?php
+    if (!isset($_SESSION)) {
+        session_start();
+    }
+    include("head.html");
+?>
 
 <div class="ui sticky colado">
     <div class="ui inverted menu stkMenu">
@@ -21,13 +25,15 @@
     if($_SESSION['permissao']=='administrador') {
 ?>
             <a class="ui item" href="cadastroResenhaAdmin.php">
-                <i class="pencil icon"></i>Cadastrar Resenha
+                <i class="pencil icon"></i>
+                Cadastrar Resenha
             </a>
 <?php
     } else {
 ?>
             <a class="ui item" href="cadastroResenha.php">
-                <i class="pencil icon"></i>Cadastrar Resenha
+                <i class="pencil icon"></i>
+                Cadastrar Resenha
             </a>
 <?php
     }

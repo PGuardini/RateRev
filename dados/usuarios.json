@@ -97,5 +97,23 @@
         "senha": "cec49d77c0fe599adfe783c4ac944709054ff46a84e250c84e240c37f779199d0414ed06fa5a7786be37fa426325c139",
         "nascimento": "2001-01-01",
         "imagemPerfil": "avatar1.png"
+    },
+    {
+        "idUsuario": "5b59f8073d48d",
+        "permissao": "administrador",
+        "nome": "PGuardini",
+        "email": "pgabiattiguardini@gmail.com",
+        "senha": "0dddb3b992a29c5f1c56a0003291017f81c0477e080db65e17f88e0ba33702cccdae847acd9739cf570b4b08bd89df92",
+        "nascimento": "2001-07-14",
+        "imagemPerfil": "hip.jpg"
+    },
+    {
+        "idUsuario": "7b5a568110986",
+        "permissao": "usuario",
+        "nome": "Mane",
+        "email": "manelinho@gmail.fon",
+        "senha": "504f008c8fcf8b2ed5dfcde752fc5464ab8ba064215d9c5b5fc486af3d9ab8c81b14785180d2ad7cee1ab792ad44798c",
+        "nascimento": "2018-07-26",
+        "imagemPerfil": "1tmRuVLp_400x40027072018011721.jpg"
     }
 ]

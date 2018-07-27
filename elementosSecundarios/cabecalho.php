@@ -1,10 +1,13 @@
 <?php
-
+    if (!isset($_SESSION)) {
+        session_start();
+    }
     include("head.html");
 
-    if(empty($_SESSION)==false) {
-        include('cabecalhoLogado.php');
-    } else {
+    if(!empty($_SESSION) && $_SESSION['status']) {
+        include 'cabecalhoLogado.php';
+        //print_r($_SESSION);
+    }else{
 
 ?>
 
