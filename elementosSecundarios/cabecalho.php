@@ -2,13 +2,19 @@
     if (!isset($_SESSION)) {
         session_start();
     }
-    include("head.html");
+    include "head.html";
 
     if(!empty($_SESSION) && $_SESSION['status']) {
         include 'cabecalhoLogado.php';
         //print_r($_SESSION);
     }else{
-
+        function reqURL(){
+            $aux = explode("/", $_SERVER['REQUEST_URI']);
+            $aux_two = explode(".", end($aux));
+            $paginaAtual = $aux_two[0];
+            return$paginaAtual;
+        }
+        $paginaAtual = reqURL();
 ?>
 
 <body>
@@ -16,7 +22,13 @@
         <div class="ui sticky colado">
             <div class="ui inverted menu stkMenu">
                 <h2 class="tituloMenu">rv</h2>
-                <a class="active item" href="index.php">
+        <?php
+            if ($paginaAtual=='index' || empty($paginaAtual)){
+                echo '<a class="active item" href="index.php">';
+            }else{
+                echo '<a class="item" href="index.php">';
+            }
+        ?>
                   Home
                 </a>
                 <div class="right menu">

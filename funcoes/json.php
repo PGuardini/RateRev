@@ -123,6 +123,7 @@
     }
 
 
+
     function buscaJogoResenha($idResenha){
         $resenhas=arrayResenhas();
         $resenhaAtual=null;
