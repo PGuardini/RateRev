@@ -23,7 +23,14 @@
                     </div>
                 </div>
                 <a class="ui item" href="paginaUsuario.php">
-                    <i class="user icon"></i>Minhas Resenhas
+                
+                    <img id="imagemPerfilCabecalho" src="imagens/avatares/<?=$_SESSION['imagemPerfil']?>">
+                    <div id="espacoFotoPerfilLogado"></div>
+                    <div id="nomeUsuarioLogado">
+                        <?=$_SESSION['nome']?>
+                        <br>
+                        (<?=$_SESSION['permissao']?>)
+                    </div>             
                 </a>
                 <a class="ui item" href="cadastroResenha.php">
                     <i class="pencil icon"></i>Cadastrar Resenha

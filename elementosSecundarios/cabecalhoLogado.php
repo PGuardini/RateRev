@@ -35,14 +35,25 @@
                     <i class="search icon"></i>
                 </div>
             </div>
-        <?php
+            <?php
+
             if ($paginaAtual=="paginaUsuario"){
-               echo '<a class="ui active item" href="paginaUsuario.php">';
+
+            echo '<a class="ui active item" href="paginaUsuario.php">';
             } else {
+
                 echo '<a class="ui item" href="paginaUsuario.php">';
             }
-        ?>
-                <i class="user icon"></i>Minhas Resenhas
+
+            ?>
+                <img id="imagemPerfilCabecalho" src="imagens/avatares/<?=$_SESSION['imagemPerfil']?>">
+                <div id="espacoFotoPerfilLogado"></div>
+                <div id="nomeUsuarioLogado">
+                    <?=$_SESSION['nome']?>
+                    <br>
+                    (<?=$_SESSION['permissao']?>)
+                </div>
+                
             </a>
 <?php
     if($_SESSION['permissao']=='administrador') {

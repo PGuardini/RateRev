@@ -209,3 +209,17 @@
     width: 30%;
 
 }
+
+#espacoFotoPerfilLogado{
+    width: 10px;
+}
+
+#imagemPerfilCabecalho{
+    width: 32px;
+    height: 32px;
+    border-radius: 30%;
+}
+
+#nomeUsuarioLogado{
+    text-align: center;
+}
