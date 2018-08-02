@@ -1,59 +1,93 @@
 <?php
-    include "elementosSecundarios/cabecalho.php";
-    include "funcoes/json.php";
+    include "elementosSecundarios/cabecalho.php";# cabecalho do site
+    include "funcoes/json.php";# funcoes para lidar com o json
 
-    $array_jogos= arrayJogos();
+    $array_jogos= arrayJogos(); # pega o arquivo jogos.json e coloca como um array php
     $cont=0;
     $anCont=0;
     $fim= sizeof($array_jogos);
 
-?>
+    if (isset($_GET['org'])) {
+        if ($_GET['org'] == 1) {
+            $nota = array();
+    
+            foreach ($array_jogos as $dado => $row) {
+                $nota[$dado] = $row['id'];
+            }
+            array_multisort($nota, SORT_DESC, $array_jogos);
 
+        }elseif ($_GET['org'] == 2) {
+            $nota = array();
+    
+            foreach ($array_jogos as $dado => $row) {
+                $nota[$dado] = $row['classificacaoMedia'];
+            }
+            array_multisort($nota, SORT_DESC, $array_jogos);
+        }    
+    }
+    
+    
+    
+
+?>
+<!-- fundo animado -->
     <div class="gradient">
         <h1>raterev</h1>
         <div class="clear"></div>
         <h2 class="slogan">por ventura, ação e aventura</h2>
     </div>
+<!-- fim fundo animado -->
 
     <div class="clear"></div>
 
+<!-- seleção da organização das resenhas -->
+    <h2 class="ui horizontal divider header tituloSegmento">
+        <p>Organizar por:</p>
+        <a href="?org=1"><button class="ui huge blue basic button">Mais recente</button></a>
+        <a href="?org=2"><button class="ui huge blue basic button">Melhor avaliado</button></a>
+    </h2>
+<!-- seleção da organização das resenhas -->
+
+<!-- lista do jogos -->
     <div class="ui stackable grid">
 
         <div class="three column row espacoSlide">
 
             <?php foreach($array_jogos as $pos => $jogo): ?>
 
-            <div class="column EspacoInferiorGaleria+">
-                <div class="dezPorcento">.</div>
-                <div class="parado zoom">
-                    <a href="detalhaJogo.php?jogo=<?=$jogo['id'] ?>">
-                        <img class="indexImg" src="imagens/jogos/<?= $jogo['imagem'] ?>">
-                        <div class="text-item">
-                            <h2><?= $jogo['titulo'] ?></h2>
-                            <div class="ui divider"></div>
-                            <div class="ui star rating naoAlteravel estrelas" data-rating="<?= $jogo['classificacaoMedia'] ?>" data-max-rating="5"></div>
-                        </div>
-                    </a>
+                <div class="column EspacoInferiorGaleria+">
+                    <div class="dezPorcento">.</div>
+                    <div class="parado zoom">
+                        <a href="detalhaJogo.php?jogo=<?=$jogo['id'] ?>">
+                            <img class="indexImg" src="imagens/jogos/<?= $jogo['imagem'] ?>">
+                            <div class="text-item">
+                                <h2><?= $jogo['titulo'] ?></h2>
+                                <div class="ui divider"></div>
+                                <div class="ui star rating naoAlteravel estrelas" data-rating="<?= $jogo['classificacaoMedia'] ?>" data-max-rating="5"></div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <?php 
-                $cont++; 
-                $anCont++;
-                if($cont==3 && $anCont!=$fim):
-            ?>
-                </div>
-                <div class="three column row espacoSlide">
-            <?php
-                $cont=0; 
-                endif;
-             endforeach; ?>
+                <?php 
+                    $cont++; 
+                    $anCont++;
+                    if($cont==3 && $anCont!=$fim){
+                
+                        echo '</div>
+                        <div class="three column row espacoSlide">';
+                
+                        $cont=0; 
+                    }
+             endforeach; 
+                ?>
 
         </div>
     </div>  
-
+<!-- fim da lista de jogos -->
 
     <div class="espacoAntesRodapeIndex">.</div>
 
 <?php
-    include("elementosSecundarios/rodape.html");
+   
+    include("elementosSecundarios/rodape.html");# rodape do site
 ?>
