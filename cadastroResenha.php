@@ -1,6 +1,7 @@
 <?php
     session_start();
     include "elementosSecundarios/cabecalho.php";
+    acessoNegado();
 ?>
 
     <h2 class="ui horizontal divider header tituloJogo">

@@ -1,7 +1,6 @@
 <?php
 	session_start();
     include("elementosSecundarios/cabecalho.php");
-    include "funcoes/json.php";
 
     $array_jogos= arrayJogos();
     $jogoEncontrado= array();

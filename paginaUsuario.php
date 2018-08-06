@@ -1,14 +1,16 @@
 <?php
     //http://md5decrypt.net/en/Sha384/
     include 'elementosSecundarios/cabecalhoLogado.php';
-    include 'funcoes/json.php';
     $resenhasUser = buscaResenhaUser($_SESSION["idUsuario"]);
     $cont=0;
     $anCont=0;
     $fim= sizeof($resenhasUser);
+
+    acessoNegado();
+
 ?>
 	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
-<div class="userHeader">
+    <div class="userHeader">
         <img id="imagemPerfilPagUsuario" class="ui centered small circular image" src="imagens/avatares/<?=$_SESSION['imagemPerfil']?>">
     </div>
     <h2 class= "ui center aligned header">

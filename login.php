@@ -46,7 +46,7 @@
 	                    </div>
 	                </div>
 	                <div class="field" id="esqueciDireita">
-	                    <a href="recuperaSenha1.php" id="linkEsqueciSenha">Esqueci minha senha</a>
+	                    <a href="recuperaSenhaEmail.php" id="linkEsqueciSenha">Esqueci minha senha</a>
 	                </div>
 	            </div>
 

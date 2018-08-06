@@ -1,7 +1,6 @@
 <?php
 
-
-	function arrayJogos(){
+    function arrayJogos(){
 		$json= file_get_contents('dados/jogos.json');
     	$arrayJogos= json_decode($json, true);
     	return $arrayJogos;
@@ -23,6 +22,19 @@
         $json= file_get_contents('./dados/comentarios.json');
         $arrayComentarios= json_decode($json, true);
         return $arrayComentarios;
+    }
+
+    function reqURL(){
+        $aux = explode("/", $_SERVER['REQUEST_URI']);
+        $aux_two = explode(".", end($aux));
+        $paginaAtual = $aux_two[0];
+        return$paginaAtual;
+    }
+
+    function acessoNegado() {
+        if(empty($_SESSION)==true){
+            header('Location: resposta.php?cod=acessoNegado');
+        }
     }
 
 
@@ -140,4 +152,31 @@
                 break;
             }
 	    }
+    }
+
+    function pesquisar($palavraPesquisada){
+
+    	$generos= array('ação','aventura','simulação','estratégia','construção','rpg','sobrevivência','guerra','luta','corrida','tiro','ação-aventura');
+    	$jogosSistema= arrayJogos();
+
+    	foreach ($jogosSistema as $jogo) {
+    		if ($jogo['titulo']==$palavraPesquisada) {
+    			header('Location: detalhaJogo.php?jogo='.$jogo['id']);
+    			break;
+    		}
+    	}
+
+    	foreach ($generos as $genero) {
+    		if ($genero==$palavraPesquisada and $genero!='ação-aventura') {
+    			print("Não possuímos o gênero ".$palavraPesquisada." em nosso site.");
+    		}
+    	}
+
+    }
+
+    function verificaPesquisa(){
+        if (isset($_GET['pesquisa'])==true) {
+            $palavraPesquisada= $_GET['pesquisa'];
+            pesquisar($palavraPesquisada);
+        }
     }

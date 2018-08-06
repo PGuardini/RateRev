@@ -2,15 +2,13 @@
     if (!isset($_SESSION)) {
         session_start();
     }
-    include("head.html");
+    
+    include "funcoes/json.php";
+    include "head.html";
+
     //echo $_SERVER ['REQUEST_URI'];
-    function reqURL(){
-        $aux = explode("/", $_SERVER['REQUEST_URI']);
-        $aux_two = explode(".", end($aux));
-        $paginaAtual = $aux_two[0];
-        return$paginaAtual;
-    }
     $paginaAtual = reqURL();
+    verificaPesquisa();
     //echo $paginaAtual;
 
 ?>
@@ -29,12 +27,12 @@
             Home
         </a>
         <div class="right menu">
-            <div class="ui search campoPesquisar">
+            <form method="get" class="ui search campoPesquisarLogado" action="">
                 <div class="ui icon input">
-                    <input class="prompt" type="text" placeholder="Pesquise">
-                    <i class="search icon"></i>
+                    <input name="pesquisa" class="prompt" type="search" placeholder="Pesquise">
+                    <i type class="search icon"></i>
                 </div>
-            </div>
+            </form>
             <?php
 
             if ($paginaAtual=="paginaUsuario"){

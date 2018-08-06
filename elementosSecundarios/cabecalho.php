@@ -2,22 +2,25 @@
     if (!isset($_SESSION)) {
         session_start();
     }
+
     include "head.html";
 
     if(!empty($_SESSION) && $_SESSION['status']) {
         include 'cabecalhoLogado.php';
         //print_r($_SESSION);
     }else{
-        function reqURL(){
-            $aux = explode("/", $_SERVER['REQUEST_URI']);
-            $aux_two = explode(".", end($aux));
-            $paginaAtual = $aux_two[0];
-            return$paginaAtual;
-        }
+        include "funcoes/json.php";
         $paginaAtual = reqURL();
+        verificaPesquisa();
 ?>
 
-<body>
+<body
+<?php
+    if($paginaAtual=='resposta'){
+        print(' class="resposta"');
+    }
+?>
+>
     
         <div class="ui sticky colado">
             <div class="ui inverted menu stkMenu">
@@ -32,10 +35,10 @@
                   Home
                 </a>
                 <div class="right menu">
-                    <form method="get" class="ui search campoPesquisar">
+                    <form method="get" class="ui search campoPesquisar" action="">
                         <div class="ui icon input">
-                            <input class="prompt" type="text" placeholder="Pesquise">
-                            <i class="search icon"></i>
+                            <input name="pesquisa" class="prompt" type="search" placeholder="Pesquise">
+                            <i type class="search icon"></i>
                         </div>
                     </form>
                     <a class="ui item" href="login.php">

@@ -1,6 +1,5 @@
 <?php
     include "elementosSecundarios/cabecalho.php";# cabecalho do site
-    include "funcoes/json.php";# funcoes para lidar com o json
 
     $array_jogos= arrayJogos(); # pega o arquivo jogos.json e coloca como um array php
     $cont=0;
@@ -26,8 +25,6 @@
         }    
     }
     
-    
-    
 
 ?>
 <!-- fundo animado -->
@@ -41,10 +38,33 @@
     <div class="clear"></div>
 
 <!-- seleção da organização das resenhas -->
+
     <h2 class="ui horizontal divider header tituloSegmento">
-        <p>Organizar por:</p>
-        <a href="?org=1"><button class="ui huge blue basic button">Mais recente</button></a>
-        <a href="?org=2"><button class="ui huge blue basic button">Melhor avaliado</button></a>
+
+<?php
+
+        if(empty($_GET)==true){
+            print('<a href="index.php"><button class="ui large button">Ordem Alfabética</button></a>');
+        } else {
+            print('<a href="index.php"><button class="ui grey basic large button">Ordem Alfabética</button></a>');
+        }
+
+        if(isset($_GET['org'])==true and $_GET['org']==1) {
+            print('<a href="?org=1"><button class="ui large button">Recentemente Resenhados</button></a>');
+        } else{
+            print('<a href="?org=1"><button class="ui grey basic large button">Recentemente Resenhados</button></a>');
+        }
+
+        if(isset($_GET['org'])==true and $_GET['org']==2){
+            print('<a href="?org=2"><button class="ui large button">Melhores Avaliados</button></a>');
+        } else {
+            print('<a href="?org=2"><button class="ui grey basic large button">Melhores Avaliados</button></a>');
+        }
+            
+    
+
+
+?>
     </h2>
 <!-- seleção da organização das resenhas -->
 

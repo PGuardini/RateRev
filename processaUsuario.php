@@ -60,7 +60,7 @@
                 session_start();
                 $_SESSION = $usuario;
                 $_SESSION['status'] = true;
-                header('Location: loginAprovado.php');
+                header('Location: resposta.php?cod=loginAprovado');
             }else{
                 $_SESSION['status'] = false;
                 erroUsuario('senhaErrada');
@@ -71,7 +71,7 @@
         case 'sair':
             session_start();
             session_destroy();
-            header('Location: ateLogo.php');
+            header('Location: resposta.php?cod=ateLogo');
             break;
 
     }
