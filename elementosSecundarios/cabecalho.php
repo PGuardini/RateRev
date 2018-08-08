@@ -14,13 +14,7 @@
         verificaPesquisa();
 ?>
 
-<body
-<?php
-    if($paginaAtual=='resposta'){
-        print(' class="resposta"');
-    }
-?>
->
+<body>
     
         <div class="ui sticky colado">
             <div class="ui inverted menu stkMenu">

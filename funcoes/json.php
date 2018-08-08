@@ -162,14 +162,18 @@
     	foreach ($jogosSistema as $jogo) {
     		if ($jogo['titulo']==$palavraPesquisada) {
     			header('Location: detalhaJogo.php?jogo='.$jogo['id']);
-    			break;
+    			exit(); 
     		}
     	}
 
     	foreach ($generos as $genero) {
-    		if ($genero==$palavraPesquisada and $genero!='ação-aventura') {
-    			print("Não possuímos o gênero ".$palavraPesquisada." em nosso site.");
-    		}
+    		if ($palavraPesquisada=='ação-aventura') {
+                header('Location: listaJogos.php');
+                exit();
+    		} else {
+                print('Não possuímos o gênero "'.$palavraPesquisada.'" em nosso site.');
+                exit();
+            }
     	}
 
     }
