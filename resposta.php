@@ -38,7 +38,27 @@
         <meta http-equiv="refresh" content="2; url=index.php">
 <?php
             break;
-        
+
+        case 'pesquisaNaoEncontrada';
+
+            $palavraPesquisada= $_GET['termo'];
+            if($_GET['pesquisado']=='genero'){
+?>
+        <h1 class="tituloMensagem">Não possuímos o gênero "<?=$palavraPesquisada?>" em nosso site.</h1>
+        <center><i class="massive times icon iconMensagem"></i></center>
+        <meta http-equiv="refresh" content="2; url=index.php">
+<?php
+
+            } else {
+?>
+        <h1 class="tituloMensagem">Não encontramos o termo "<?=$palavraPesquisada?>" em nosso site.</h1>
+        <center><i class="massive times icon iconMensagem"></i></center>
+        <meta http-equiv="refresh" content="2; url=index.php">
+<?php    
+            }
+
+            break;
+
         
         default:
             acessoNegado();
