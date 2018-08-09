@@ -201,4 +201,21 @@
         file_put_contents($arquivo, $json);
     }
 
-    
+    function organizaJSONdata(){
+        $json= file_get_contents('../dados/resenhas.json');# abre o json
+        $dadosBrutos= json_decode($json, true); # decodifica o json num array
+
+        foreach ($dadosBrutos as $key => $value) {
+            echo $value['dataPostagem'];
+            echo "<br>";
+            $partes[] = explode('/', $value['dataPostagem']);
+        }
+        echo "<br>";
+        print_r($partes);
+        foreach ($partes as $parte => $valor) {
+           $parte[] = $parte[$valor][0]+$parte[$valor][1]+$parte[$valor][2];
+        }
+        echo "<br>"; echo "<br>";
+        print_r($partes);
+    }
+    organizaJSONdata();
