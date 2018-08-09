@@ -171,8 +171,13 @@
                 header('Location: listaJogos.php');
                 exit();
     		} else {
-                print('Não possuímos o gênero "'.$palavraPesquisada.'" em nosso site.');
-                exit();
+                if(in_array($palavraPesquisada,$generos)){
+                    header('Location: resposta.php?cod=pesquisaNaoEncontrada&pesquisado=genero&termo='.$palavraPesquisada);
+                    exit();
+                } else {
+                    header('Location: resposta.php?cod=pesquisaNaoEncontrada&pesquisado=termo&termo='.$palavraPesquisada);
+                    exit();
+                }
             }
     	}
 
