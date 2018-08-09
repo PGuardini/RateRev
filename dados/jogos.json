@@ -1,98 +1,86 @@
 [
-	{
-		"id": 1,
-		"titulo": "Assassin's Creed: Origins",
-		"sinopse": "Entre em uma jornada no Egito Antigo, o lugar mais misterioso de toda história, durante um período crucial que moldou o mundo que vivemos hoje. Descubra os segredos por trás das Grande Pirâmides, mitos esquecidos, os último faraós, e entalhada em hieróglifos perdidos no tempo a história de origem da Irmandade dos Assassinos. Pelos últimos quatro anos, o time por trás do aclamado Assassin’s Creed® IV Black Flag® esteve focado em criar um novo começo para a franquia. <br><br> Lute de uma forma completamente nova, transitando naturalmente entre armas únicas de corpo-a-corpo e de alcance, enfrentando diversos inimigos ao mesmo tempo. Escolha suas habilidades de Assassino, enquanto explora o país inteiro do Egito Antigo, se envolvendo em diversas aventuras e histórias cativantes, junto de uma jornada que irá mudar a civilização.",
-		"imagem": "assassinscreed.jpg",
-		"classificacaoMedia": 4
-	},
-
-	{
-		"id": 2,
-		"titulo": "Devil May Cry",
-		"sinopse": "Devil May Cry é um videojogo de ação-aventura do género hack and slash desenvolvido e publicado pela Capcom em 2001 para PlayStation 2. Apesar do foco principal do jogo ser a luta com espadas, o jogador ganha novas armas à medida que vai derrotando os chefes, resultando numa variedade de combos que pode executar. <br><br> A história de Devil May Cry, vagamente inspirada no poema A Divina Comédia com o uso de alusões, decorre nos tempos modernos na cidade fictícia de Mallet Island, e centra-se em Dante, um caçador de demónios que usa o seu negócio para obter vingança depois de perder a mãe e o irmão. Acaba por conhecer uma mulher de nome Trish que o leva numa aventura para derrotar o lorde demónio Mundus. A história é contada principalmente através de uma mistura de cutscenes, que usam o motor de jogo e vídeos em full motion pré-renderizados.",
-		"imagem": "devilmaycry.jpg",
-		"classificacaoMedia": 3
-	},
-
-	{
-		"id": 3,
-		"titulo": "Far Cry 4",
-		"sinopse": "Em Far Cry 4 o protagonista é Ajay Ghale que regressa a Kyrat (uma nação fictícia fortemente inspirada em locais da região Himalaia do Nepal), uma zona indomável e selvagem no seu pais de origem, para espalhar as cinzas da sua falecida mãe. Uma vez lá, vê-se envolvido numa guerra civil entre os rebeldes (conhecidos como Caminho Dourado) e o regime despótico do auto-intitulado rei, o sádico Pagan Min (Troy Baker). O jogador tem a possibilidade de escolher de que lado quer juntar forças, resultando em diferentes finais.",
-		"imagem": "farcry.jpg",
-		"classificacaoMedia": 4
-	},
-
-	{
-		"id": 4,
-		"titulo": "GTA V",
-		"sinopse": "O ex-assaltante de bancos Michael Townley vive em Los Santos, San Andreas, sob o programa proteção a testemunhas com o nome de Michael De Santa por causa de um roubo malsucedido em Ludendorff, North Yankton, nove anos antes. Ele conhece e fica amigo do criminoso Franklin Clinton quando este tenta retomar fraudulentamente o carro de seu filho Jimmy em nome de um vendedor armênio corrupto. Michael pouco depois descobre que sua esposa Amanda está dormindo com o técnico de tênis, perseguindo-o até uma mansão e destruindo-na em um ataque de raiva. A dona da mansão se revela ser a amante de um mexicano senhor do crime chamado Martin Madrazo, que exige compensação sob a ameaça de mais violência. Michael volta para sua vida de assaltante para obter dinheiro e convoca Franklin como cúmplice. Juntos eles realizam um assalto em uma joalheria para poderem pagar Madrazo. Trevor Philips, o único outro sobrevivente de Ludendorff, descobre sobre o assalto e percebe que foi o trabalho de Michael. Os dois se reencontram depois de Trevor caçar Michael até Los Santos.",
-		"imagem": "gtav.jpg",
-		"classificacaoMedia": 5
-	},
-
-	{
-		"id": 5,
-		"titulo": "Watch Dogs 2",
-		"sinopse": "In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis. Play as Marcus Holloway, a brilliant young hacker living in the birthplace of the tech revolution, the San Francisco Bay Area. Team up with Dedsec, a notorious group of hackers, and expose the hidden dangers of ctOS 2.0, which, in the hands of corrupt corporations, is being wrongfully used to monitor and manipulate citizens on a massive scale. <br><br> With the power of hacking and Dedsec by your side, launch the Hack of the Century, take down ctOS 2.0 and give freedom back to whom it belongs: the people.",
-		"imagem": "watchdogs.jpg",
-		"classificacaoMedia": 5
-	},
-
-	{
-		"id": 6,
-		"titulo": "God of War 3",
-		"sinopse": "God of War III inicia imediatamente no final de God of War II, com Kratos montado em Gaia e os outros Titãs escalando o Monte Olimpo em encontro aos deuses. No topo da montanha, Zeus, Poseidon, Hades, Hermes e Helios se preparam para a batalha. Kratos em seguida aparece fazendo seu caminho passando pelo braço direito de Gaia, quando um leviatã, aparece e começa a atacar Kratos. Depois da batalha e de aparentemente matar um dos vários leviatãs, ele encontra com Poseidon em sua forma aquática. Depois de enfraquecê-lo, Kratos tira Poseidon de dentro de sua \"armadura aquática\" e começa a espancá-lo, consequentemente matando Poseidon. <br><br> Gerando uma inundação enorme que engole o mundo em água, fazendo com que apenas pudesse se ver pequenas partes das montanhas que ali ficavam. Mais tarde, Kratos e Gaia chegam ao topo do Monte Olimpo, e encontram com Zeus. Depois de uma conversa entre pai e filho, acabam sendo derrubados do Monte Olimpo por um raio dele. Após ambos serem jogados para trás, Gaia tenta se segurar ao Monte Olimpo mas acaba fazendo com que Kratos não consiga se segurar nela. Gaia diz que não pode ajudá-lo, e explica paraKratos que se ela ajudá-lo ambos iriam cair. Ela fala que a guerra dos Titãs com os Deuses é mais importante que a vingança de Kratos, e que ele fora um mísero peão para essa luta. Após isso, ele cai do Monte Olimpo enquanto Gaia continua tentando se segurar.",
-		"imagem": "godofwar.jpg",
-		"classificacaoMedia": 5
-	},
-
-	{
-		"id": 7,
-		"titulo": "InFamous",
-		"sinopse": "Infamous é uma grata surpresa da Sucker Punch e da Sony para aqueles usuários que apostaram no PlayStation 4 mesmo com uma baixa oferta de exclusivos à época do seu lançamento. Após quatro meses do console no mercado, o jogo vem para dar um aperitivo de que muita coisa pode estar por vir. Desde o enredo com o carismático protagonista Delsin em meio a uma cidade em claro conflito político até o seu visual e a jogabilidade, que explora muito bem o touchpad do PS4, o novo jogo da famosa série inFamous faz jus à saga.<br><br> Apesar de ter um novo personagem principal, inFamous: Second Son possui uma relação direta com série que o antecedeu e os eventos deste novo game ocorrem sete anos após o desfecho de inFamous 2. Os condutores seguem sendo vistos como ameaça aos EUA, mesmo após Cole, protagonista dos dois primeiros jogos, ter derrotado o vilão Besta.",
-		"imagem": "infamous.jpg",
-		"classificacaoMedia": 2
-	},
-
-	{
-		"id": 8,
-		"titulo": "The Last of Us: Part II",
-		"sinopse": "Naughty Dog created an absolute epic in The Last of Us, cementing itself as a modern masterpiece thanks to its incredible characters and storytelling with a harrowing post-apocalyptic tale. Joel and Ellie remain iconic characters that made us laugh, cry and cringe as they ventured across a battered and broken North America.<br><br> Joel and Ellie’s story will continue in The Last Of Us Part 2 with an older, and angrier, Ellie. With the game revealed way back in 2016, our excitement has reached fever pitch. The Last of Us Part 2 was revealed with a teaser trailer at PlayStation Experience 2016, but Naughty Dog caveated the reveal with the fact the game is still very early in development, so it’ll be a while until we can get our hands on it. In a recent interview with Argentinian radio station Vorterix, The Last of Us Part 2 composer Gustavo Santaolalla said the title is planned to launch exclusively for PS4 in 2019. Take this with a pinch of salt, but it seems like a plausible launch window to us.",
-		"imagem": "thelastofus.jpg",
-		"classificacaoMedia": 5
-	},
-
-	{
-		"id": 9,
-		"titulo": "Life is Strange",
-		"sinopse": "Life is Strange é uma premiada aventura em episódios, aclamada pela crítica, que permite ao jogador voltar no tempo e alterar passado, presente e futuro. Siga a história de Max Caulfield, uma estudante de fotografia que descobre ser capaz de rebobinar o tempo ao salvar a melhor amiga, Chloe Price. <br><br> As duas logo começam a investigar o desaparecimento misterioso da amiga e também estudante Rachel Amber, e desvendam o lado sombrio da vida em Arcadia Bay. Ao mesmo tempo, Max aprende rápido que alterar o passado pode por vezes levar a um futuro devastador.",
-		"imagem": "lifeisstrange.png",
-		"classificacaoMedia": 5
-	},
-
-	{
-		"id": 10,
-		"titulo": "Tomb Raider",
-		"sinopse": "Armada com nada além de instintos se sobrevivência, Lara encontrou seu caminho para as costas misteriosas do Linux.<br><br> Tomb Raider explora a intensa história de origem de Lara Croft, e sua ascensão de uma jovem mulher a uma sobrevivente experiente. Armada apenas com os seus instintos e a capacidade de ir além dos limites da resistência humana, Lara precisa lutar para desvendar a história sombria de uma ilha esquecida para fugir das suas garras.<br><br>Após uma violenta tempestade destruir o barco que ela estava viajando, uma jovem e amedrontada mulher é deixada encharcada em uma praia desconhecida. Por conta própria, mas não sozinha, ela só tem um objetivo, sobreviver",
-		"imagem": "tombraider.jpg",
-		"classificacaoMedia": 4
-	},
-
-	{
-		"id": 11,
-		"titulo": "Uncharted 4",
-		"sinopse": "Vários anos após sua última aventura, o aposentado caçador de tesouros, Nathan Drake, é forçado a voltar para o mundo dos ladrões. Agora com sua vida pessoal em jogo, Drake embarca em uma jornada pelo mundo em busca de uma conspiração histórica por trás de um famoso tesouro pirata. Sua maior aventura testará seus limites físicos, sua determinação e, finalmente, o que ele está disposto a sacrificar para salvar quem ama.",
-		"imagem": "uncharted.jpg",
-		"classificacaoMedia": 3
-	},
-
-	{
-		"id": 12,
-		"titulo": "The Legend of Zelda: Breath of the Wild",
-		"sinopse": "Você é Link, o herói silencioso, e o game faz questão de que você sinta e entenda as coisas como se fosse ele. A história começa com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, memória ou propósito. Não há indicação do que fazer, para onde ir, com quem falar, além de frases enigmáticas que soam mais como alucinações do que instruções. Estamos por nossa conta e só nos resta seguir. Para onde mesmo?<br><br>Você é Link, o herói silencioso, e o game faz questão de que você sinta e entenda as coisas como se fosse ele. A história começa com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, memória ou propósito. Não há indicação do que fazer, para onde ir, com quem falar, além de frases enigmáticas que soam mais como alucinações do que instruções. Estamos por nossa conta e só nos resta seguir. Para onde mesmo? Em suas primeiras horas, Breath of the Wild reproduz de modo brilhante a noção da solidão, de ser arremessado forçadamente a um mundo novo que não nos pertence.",
-		"imagem": "zelda.jpg",
-		"classificacaoMedia": 4
-	}
-
+    {
+        "id": 1,
+        "titulo": "Assassin's Creed: Origins",
+        "sinopse": "Entre em uma jornada no Egito Antigo, o lugar mais misterioso de toda hist\u00f3ria, durante um per\u00edodo crucial que moldou o mundo que vivemos hoje. Descubra os segredos por tr\u00e1s das Grande Pir\u00e2mides, mitos esquecidos, os \u00faltimo fara\u00f3s, e entalhada em hier\u00f3glifos perdidos no tempo a hist\u00f3ria de origem da Irmandade dos Assassinos. Pelos \u00faltimos quatro anos, o time por tr\u00e1s do aclamado Assassin\u2019s Creed\u00ae IV Black Flag\u00ae esteve focado em criar um novo come\u00e7o para a franquia. <br><br> Lute de uma forma completamente nova, transitando naturalmente entre armas \u00fanicas de corpo-a-corpo e de alcance, enfrentando diversos inimigos ao mesmo tempo. Escolha suas habilidades de Assassino, enquanto explora o pa\u00eds inteiro do Egito Antigo, se envolvendo em diversas aventuras e hist\u00f3rias cativantes, junto de uma jornada que ir\u00e1 mudar a civiliza\u00e7\u00e3o.",
+        "imagem": "assassinscreed.jpg",
+        "classificacaoMedia": 4
+    },
+    {
+        "id": 2,
+        "titulo": "Devil May Cry",
+        "sinopse": "Devil May Cry \u00e9 um videojogo de a\u00e7\u00e3o-aventura do g\u00e9nero hack and slash desenvolvido e publicado pela Capcom em 2001 para PlayStation 2. Apesar do foco principal do jogo ser a luta com espadas, o jogador ganha novas armas \u00e0 medida que vai derrotando os chefes, resultando numa variedade de combos que pode executar. <br><br> A hist\u00f3ria de Devil May Cry, vagamente inspirada no poema A Divina Com\u00e9dia com o uso de alus\u00f5es, decorre nos tempos modernos na cidade fict\u00edcia de Mallet Island, e centra-se em Dante, um ca\u00e7ador de dem\u00f3nios que usa o seu neg\u00f3cio para obter vingan\u00e7a depois de perder a m\u00e3e e o irm\u00e3o. Acaba por conhecer uma mulher de nome Trish que o leva numa aventura para derrotar o lorde dem\u00f3nio Mundus. A hist\u00f3ria \u00e9 contada principalmente atrav\u00e9s de uma mistura de cutscenes, que usam o motor de jogo e v\u00eddeos em full motion pr\u00e9-renderizados.",
+        "imagem": "devilmaycry.jpg",
+        "classificacaoMedia": 3
+    },
+    {
+        "id": 3,
+        "titulo": "Far Cry 4",
+        "sinopse": "Em Far Cry 4 o protagonista \u00e9 Ajay Ghale que regressa a Kyrat (uma na\u00e7\u00e3o fict\u00edcia fortemente inspirada em locais da regi\u00e3o Himalaia do Nepal), uma zona indom\u00e1vel e selvagem no seu pais de origem, para espalhar as cinzas da sua falecida m\u00e3e. Uma vez l\u00e1, v\u00ea-se envolvido numa guerra civil entre os rebeldes (conhecidos como Caminho Dourado) e o regime desp\u00f3tico do auto-intitulado rei, o s\u00e1dico Pagan Min (Troy Baker). O jogador tem a possibilidade de escolher de que lado quer juntar for\u00e7as, resultando em diferentes finais.",
+        "imagem": "farcry.jpg",
+        "classificacaoMedia": 4
+    },
+    {
+        "id": 4,
+        "titulo": "GTA V",
+        "sinopse": "O ex-assaltante de bancos Michael Townley vive em Los Santos, San Andreas, sob o programa prote\u00e7\u00e3o a testemunhas com o nome de Michael De Santa por causa de um roubo malsucedido em Ludendorff, North Yankton, nove anos antes. Ele conhece e fica amigo do criminoso Franklin Clinton quando este tenta retomar fraudulentamente o carro de seu filho Jimmy em nome de um vendedor arm\u00eanio corrupto. Michael pouco depois descobre que sua esposa Amanda est\u00e1 dormindo com o t\u00e9cnico de t\u00eanis, perseguindo-o at\u00e9 uma mans\u00e3o e destruindo-na em um ataque de raiva. A dona da mans\u00e3o se revela ser a amante de um mexicano senhor do crime chamado Martin Madrazo, que exige compensa\u00e7\u00e3o sob a amea\u00e7a de mais viol\u00eancia. Michael volta para sua vida de assaltante para obter dinheiro e convoca Franklin como c\u00famplice. Juntos eles realizam um assalto em uma joalheria para poderem pagar Madrazo. Trevor Philips, o \u00fanico outro sobrevivente de Ludendorff, descobre sobre o assalto e percebe que foi o trabalho de Michael. Os dois se reencontram depois de Trevor ca\u00e7ar Michael at\u00e9 Los Santos.",
+        "imagem": "gtav.jpg",
+        "classificacaoMedia": 5
+    },
+    {
+        "id": 6,
+        "titulo": "God of War 3",
+        "sinopse": "God of War III inicia imediatamente no final de God of War II, com Kratos montado em Gaia e os outros Tit\u00e3s escalando o Monte Olimpo em encontro aos deuses. No topo da montanha, Zeus, Poseidon, Hades, Hermes e Helios se preparam para a batalha. Kratos em seguida aparece fazendo seu caminho passando pelo bra\u00e7o direito de Gaia, quando um leviat\u00e3, aparece e come\u00e7a a atacar Kratos. Depois da batalha e de aparentemente matar um dos v\u00e1rios leviat\u00e3s, ele encontra com Poseidon em sua forma aqu\u00e1tica. Depois de enfraquec\u00ea-lo, Kratos tira Poseidon de dentro de sua \"armadura aqu\u00e1tica\" e come\u00e7a a espanc\u00e1-lo, consequentemente matando Poseidon. <br><br> Gerando uma inunda\u00e7\u00e3o enorme que engole o mundo em \u00e1gua, fazendo com que apenas pudesse se ver pequenas partes das montanhas que ali ficavam. Mais tarde, Kratos e Gaia chegam ao topo do Monte Olimpo, e encontram com Zeus. Depois de uma conversa entre pai e filho, acabam sendo derrubados do Monte Olimpo por um raio dele. Ap\u00f3s ambos serem jogados para tr\u00e1s, Gaia tenta se segurar ao Monte Olimpo mas acaba fazendo com que Kratos n\u00e3o consiga se segurar nela. Gaia diz que n\u00e3o pode ajud\u00e1-lo, e explica paraKratos que se ela ajud\u00e1-lo ambos iriam cair. Ela fala que a guerra dos Tit\u00e3s com os Deuses \u00e9 mais importante que a vingan\u00e7a de Kratos, e que ele fora um m\u00edsero pe\u00e3o para essa luta. Ap\u00f3s isso, ele cai do Monte Olimpo enquanto Gaia continua tentando se segurar.",
+        "imagem": "godofwar.jpg",
+        "classificacaoMedia": 5
+    },
+    {
+        "id": 7,
+        "titulo": "InFamous",
+        "sinopse": "Infamous \u00e9 uma grata surpresa da Sucker Punch e da Sony para aqueles usu\u00e1rios que apostaram no PlayStation 4 mesmo com uma baixa oferta de exclusivos \u00e0 \u00e9poca do seu lan\u00e7amento. Ap\u00f3s quatro meses do console no mercado, o jogo vem para dar um aperitivo de que muita coisa pode estar por vir. Desde o enredo com o carism\u00e1tico protagonista Delsin em meio a uma cidade em claro conflito pol\u00edtico at\u00e9 o seu visual e a jogabilidade, que explora muito bem o touchpad do PS4, o novo jogo da famosa s\u00e9rie inFamous faz jus \u00e0 saga.<br><br> Apesar de ter um novo personagem principal, inFamous: Second Son possui uma rela\u00e7\u00e3o direta com s\u00e9rie que o antecedeu e os eventos deste novo game ocorrem sete anos ap\u00f3s o desfecho de inFamous 2. Os condutores seguem sendo vistos como amea\u00e7a aos EUA, mesmo ap\u00f3s Cole, protagonista dos dois primeiros jogos, ter derrotado o vil\u00e3o Besta.",
+        "imagem": "infamous.jpg",
+        "classificacaoMedia": 2
+    },
+    {
+        "id": 9,
+        "titulo": "Life is Strange",
+        "sinopse": "Life is Strange \u00e9 uma premiada aventura em epis\u00f3dios, aclamada pela cr\u00edtica, que permite ao jogador voltar no tempo e alterar passado, presente e futuro. Siga a hist\u00f3ria de Max Caulfield, uma estudante de fotografia que descobre ser capaz de rebobinar o tempo ao salvar a melhor amiga, Chloe Price. <br><br> As duas logo come\u00e7am a investigar o desaparecimento misterioso da amiga e tamb\u00e9m estudante Rachel Amber, e desvendam o lado sombrio da vida em Arcadia Bay. Ao mesmo tempo, Max aprende r\u00e1pido que alterar o passado pode por vezes levar a um futuro devastador.",
+        "imagem": "lifeisstrange.png",
+        "classificacaoMedia": 5
+    },
+    {
+        "id": 8,
+        "titulo": "The Last of Us: Part II",
+        "sinopse": "Naughty Dog created an absolute epic in The Last of Us, cementing itself as a modern masterpiece thanks to its incredible characters and storytelling with a harrowing post-apocalyptic tale. Joel and Ellie remain iconic characters that made us laugh, cry and cringe as they ventured across a battered and broken North America.<br><br> Joel and Ellie\u2019s story will continue in The Last Of Us Part 2 with an older, and angrier, Ellie. With the game revealed way back in 2016, our excitement has reached fever pitch. The Last of Us Part 2 was revealed with a teaser trailer at PlayStation Experience 2016, but Naughty Dog caveated the reveal with the fact the game is still very early in development, so it\u2019ll be a while until we can get our hands on it. In a recent interview with Argentinian radio station Vorterix, The Last of Us Part 2 composer Gustavo Santaolalla said the title is planned to launch exclusively for PS4 in 2019. Take this with a pinch of salt, but it seems like a plausible launch window to us.",
+        "imagem": "thelastofus.jpg",
+        "classificacaoMedia": 5
+    },
+    {
+        "id": 12,
+        "titulo": "The Legend of Zelda: Breath of the Wild",
+        "sinopse": "Voc\u00ea \u00e9 Link, o her\u00f3i silencioso, e o game faz quest\u00e3o de que voc\u00ea sinta e entenda as coisas como se fosse ele. A hist\u00f3ria come\u00e7a com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, mem\u00f3ria ou prop\u00f3sito. N\u00e3o h\u00e1 indica\u00e7\u00e3o do que fazer, para onde ir, com quem falar, al\u00e9m de frases enigm\u00e1ticas que soam mais como alucina\u00e7\u00f5es do que instru\u00e7\u00f5es. Estamos por nossa conta e s\u00f3 nos resta seguir. Para onde mesmo?<br><br>Voc\u00ea \u00e9 Link, o her\u00f3i silencioso, e o game faz quest\u00e3o de que voc\u00ea sinta e entenda as coisas como se fosse ele. A hist\u00f3ria come\u00e7a com um renascimento, um despertar de um longo sono de 100 anos, sem roupas, armas, mem\u00f3ria ou prop\u00f3sito. N\u00e3o h\u00e1 indica\u00e7\u00e3o do que fazer, para onde ir, com quem falar, al\u00e9m de frases enigm\u00e1ticas que soam mais como alucina\u00e7\u00f5es do que instru\u00e7\u00f5es. Estamos por nossa conta e s\u00f3 nos resta seguir. Para onde mesmo? Em suas primeiras horas, Breath of the Wild reproduz de modo brilhante a no\u00e7\u00e3o da solid\u00e3o, de ser arremessado for\u00e7adamente a um mundo novo que n\u00e3o nos pertence.",
+        "imagem": "zelda.jpg",
+        "classificacaoMedia": 4
+    },
+    {
+        "id": 10,
+        "titulo": "Tomb Raider",
+        "sinopse": "Armada com nada al\u00e9m de instintos se sobreviv\u00eancia, Lara encontrou seu caminho para as costas misteriosas do Linux.<br><br> Tomb Raider explora a intensa hist\u00f3ria de origem de Lara Croft, e sua ascens\u00e3o de uma jovem mulher a uma sobrevivente experiente. Armada apenas com os seus instintos e a capacidade de ir al\u00e9m dos limites da resist\u00eancia humana, Lara precisa lutar para desvendar a hist\u00f3ria sombria de uma ilha esquecida para fugir das suas garras.<br><br>Ap\u00f3s uma violenta tempestade destruir o barco que ela estava viajando, uma jovem e amedrontada mulher \u00e9 deixada encharcada em uma praia desconhecida. Por conta pr\u00f3pria, mas n\u00e3o sozinha, ela s\u00f3 tem um objetivo, sobreviver",
+        "imagem": "tombraider.jpg",
+        "classificacaoMedia": 4
+    },
+    {
+        "id": 11,
+        "titulo": "Uncharted 4",
+        "sinopse": "V\u00e1rios anos ap\u00f3s sua \u00faltima aventura, o aposentado ca\u00e7ador de tesouros, Nathan Drake, \u00e9 for\u00e7ado a voltar para o mundo dos ladr\u00f5es. Agora com sua vida pessoal em jogo, Drake embarca em uma jornada pelo mundo em busca de uma conspira\u00e7\u00e3o hist\u00f3rica por tr\u00e1s de um famoso tesouro pirata. Sua maior aventura testar\u00e1 seus limites f\u00edsicos, sua determina\u00e7\u00e3o e, finalmente, o que ele est\u00e1 disposto a sacrificar para salvar quem ama.",
+        "imagem": "uncharted.jpg",
+        "classificacaoMedia": 3
+    },
+    {
+        "id": 5,
+        "titulo": "Watch Dogs 2",
+        "sinopse": "In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis. Play as Marcus Holloway, a brilliant young hacker living in the birthplace of the tech revolution, the San Francisco Bay Area. Team up with Dedsec, a notorious group of hackers, and expose the hidden dangers of ctOS 2.0, which, in the hands of corrupt corporations, is being wrongfully used to monitor and manipulate citizens on a massive scale. <br><br> With the power of hacking and Dedsec by your side, launch the Hack of the Century, take down ctOS 2.0 and give freedom back to whom it belongs: the people.",
+        "imagem": "watchdogs.jpg",
+        "classificacaoMedia": 5
+    }
 ]

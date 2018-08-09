@@ -5,6 +5,11 @@
     $cont=0;
     $anCont=0;
     $fim= sizeof($array_jogos);
+    $quebraFuncao = 0;
+    if ($quebraFuncao == 0) {# este if serve para fazer a funcao rodar apenas uma vez
+        organizaJSONalfabetica('dados/jogos.json','titulo');
+        $quebraFuncao++;
+    }
 
     if (isset($_GET['org'])) {
         if ($_GET['org'] == 1) {

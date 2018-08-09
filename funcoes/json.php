@@ -184,3 +184,21 @@
             pesquisar($palavraPesquisada);
         }
     }
+
+    function organizaJSONalfabetica($arquivo,$chaveId){
+    #funcao para organizar um json em ordem alfabetica
+        $json= file_get_contents($arquivo);
+        $dadosBrutos= json_decode($json, true);
+
+        $dados = array();
+        foreach ($dadosBrutos as $pos => $dado) {
+            $dados[] = $dado[$chaveId];   
+        }
+        array_multisort($dados, SORT_STRING, $dadosBrutos);
+        
+
+        $json = json_encode($dadosBrutos, JSON_PRETTY_PRINT);
+        file_put_contents($arquivo, $json);
+    }
+
+    
