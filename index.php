@@ -10,12 +10,7 @@
 
     if (isset($_GET['org'])) {
         if ($_GET['org'] == 1) {
-            $nota = array();
-    
-            foreach ($array_jogos as $dado => $row) {
-                $nota[$dado] = $row['id'];
-            }
-            array_multisort($nota, SORT_DESC, $array_jogos);
+            //organizaJSONdata('dados/resenhas.json', 'dados/jogos.json');
 
         }elseif ($_GET['org'] == 2) {
             $nota = array();

@@ -206,21 +206,28 @@
         file_put_contents($arquivo, $json);
     }
 
-    function organizaJSONdata(){
-        $json= file_get_contents('../dados/resenhas.json');# abre o json
-        $dadosBrutos= json_decode($json, true); # decodifica o json num array
+    function organizaJSONdata($arquivo1, $arquivo2){
+        $json = file_get_contents($arquivo1);# abre o json
+        $dados = json_decode($json, true); # decodifica o json num array
 
-        foreach ($dadosBrutos as $key => $value) {
-            echo $value['dataPostagem'];
-            echo "<br>";
-            $partes[] = explode('/', $value['dataPostagem']);
+        $json2 = file_get_contents($arquivo2);# abre o json
+        $dados2 = json_decode($json, true); # decodifica o json num array
+
+        foreach ($dados as $resenhas) {
+            $data = $resenhas['dataPostagem'];
+            $exp_data = explode('/', $data);
+            $somas[] = (int)$exp_data[0]+(int)$exp_data[1]+(int)$exp_data[2];    
         }
-        echo "<br>";
-        print_r($partes);
-        foreach ($partes as $parte => $valor) {
-           $parte[] = $parte[$valor][0]+$parte[$valor][1]+$parte[$valor][2];
-        }
-        echo "<br>"; echo "<br>";
-        print_r($partes);
+        arsort($somas);
+        $somas = array_flip($somas);
+        $somas = array_values($somas); 
+        
+        $dados2 = uksort($dados2, cmp_function);
+
+        //$dados2 = array_replace($dados2, $somas);
+        print_r($dados2);
+
+        //$json = json_encode($dados2, JSON_PRETTY_PRINT);
+        //file_put_contents($arquivo2, $json);
     }
-    organizaJSONdata();
+    //organizaJSONdata('../dados/resenhas.json', '../dados/jogos.json');
