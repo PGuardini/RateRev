@@ -206,7 +206,25 @@
         file_put_contents($arquivo, $json);
     }
 
-    function organizaJSONdata($arquivo1, $arquivo2){
+    function organizaJSONdecresce($arquivo,$chaveId){
+    #funcao para organizar um json em ordem decrescente 
+        $json= file_get_contents($arquivo);
+        $dadosBrutos= json_decode($json, true);
+
+        $dados = array();
+        foreach ($dadosBrutos as $pos => $dado) {
+            $dados[] = $dado[$chaveId];   
+        }
+        array_multisort($dados, SORT_DESC, $dadosBrutos);
+        
+
+        $json = json_encode($dadosBrutos, JSON_PRETTY_PRINT);
+        file_put_contents($arquivo, $json);
+    }
+
+    
+    
+    /*function organizaJSONdata($arquivo1, $arquivo2){
         $json = file_get_contents($arquivo1);# abre o json
         $dados = json_decode($json, true); # decodifica o json num array
 
@@ -231,3 +249,8 @@
         //file_put_contents($arquivo2, $json);
     }
     //organizaJSONdata('../dados/resenhas.json', '../dados/jogos.json');
+
+    ***  em nome das horas em que gastei escrevendo este código ele ficará aqui        ***
+    ***  sem motivo algum, apenas como um comentário, para honrar todas as horas que   ***
+    ***  dediquei a ele e que agora foram inúteis, descanse em paz nobre função        ***
+    */

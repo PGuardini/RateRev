@@ -10,7 +10,7 @@
 
     if (isset($_GET['org'])) {
         if ($_GET['org'] == 1) {
-            //organizaJSONdata('dados/resenhas.json', 'dados/jogos.json');
+            organizaJSONdecresce('dados/jogos.json','id');
 
         }elseif ($_GET['org'] == 2) {
             $nota = array();
