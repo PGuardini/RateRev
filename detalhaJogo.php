@@ -20,13 +20,10 @@
 
 
 ?>
-	<div class="clear"></div>
-
-    <div class="ui grid">
-
         <h2 class="ui horizontal divider header tituloJogo">
             <?=$jogoEncontrado['titulo'];?>
         </h2>
+    <div class="ui grid">
 
         <div class="clear"></div>
 
@@ -53,6 +50,7 @@
     <h2 class="ui horizontal divider header tituloSegmento">
         Resenhas
     </h2>
+
 
 <?php foreach($resenhasJogo as $resenha){ 
         $dadosAutor= buscaUsuario($resenha['idUsuario']);
