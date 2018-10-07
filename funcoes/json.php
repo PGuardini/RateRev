@@ -24,6 +24,12 @@
         return $arrayComentarios;
     }
 
+    function arrayReacoes(){
+        $json= file_get_contents('./dados/reacoes.json');
+        $arrayReacoes= json_decode($json, true);
+        return $arrayReacoes;
+    }
+
     function reqURL(){
         $aux = explode("/", $_SERVER['REQUEST_URI']);
         $aux_two = explode(".", end($aux));
@@ -222,6 +228,152 @@
         file_put_contents($arquivo, $json);
     }
 
+    function contaReacoes($idResenha){
+        $arrayReacoes= arrayReacoes();
+        $curtidas= 0;
+        $descurtidas= 0;
+
+        foreach ($arrayReacoes as $reacao) {
+            if ($reacao['tipo']=='curtida' and $reacao['ativo']==true and $reacao['idResenha']==$idResenha) {
+                $curtidas++;
+            }
+
+            if($reacao['tipo']=='descurtida' and $reacao['ativo']==true and $reacao['idResenha']==$idResenha) {
+                $descurtidas++;
+            }
+        }
+
+        $arrayEnviado= [
+
+                    'curtidas'=> $curtidas,
+                    'descurtidas'=> $descurtidas
+
+                ];
+
+        return $arrayEnviado;
+    }
+
+    function estaReagido($idUsuario,$idResenha,$tipoReacao) {
+        $arrayReacoes= arrayReacoes();
+
+        foreach ($arrayReacoes as $reacao) {
+            if ($reacao['tipo']==$tipoReacao and $reacao['idUsuario']==$idUsuario and $reacao['idResenha']==$idResenha and $reacao['ativo']== true) {
+                $reagido= true;
+                break;
+            } else {
+                $reagido= false;
+            }
+        }
+
+        return $reagido;
+    }
+
+    function curtir(){
+
+        $arrayReacoes= arrayReacoes();
+
+        foreach ($arrayReacoes as $key => $reacao) {
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==false) {
+                unset($arrayReacoes,$key);
+                break;
+            }
+
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
+               tirarDescurtir();
+            }
+        }
+
+        $novaReacao= [
+            "idUsuario"=> $_SESSION['idUsuario'],
+            "idResenha"=> $_GET['resenha'],
+            "ativo"=> true,
+            "tipo"=> "curtida"
+        ];
+
+        $arrayReacoes[]= $novaReacao;
+        $reacoesJSON= json_encode($arrayReacoes, JSON_PRETTY_PRINT);
+        file_put_contents("dados/reacoes.json",$reacoesJSON);
+
+    }
+
+    function tirarCurtir() {
+        $arrayReacoes= arrayReacoes();
+        
+        foreach ($arrayReacoes as $key => $reacao) {
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
+                unset($arrayReacoes,$key);
+
+                $novaReacao= [
+                    "idUsuario"=> $_SESSION['idUsuario'],
+                    "idResenha"=> $_GET['resenha'],
+                    "ativo"=> false,
+                    "tipo"=> "curtida"
+                ];
+
+                $arrayReacoes[]= $novaReacao;
+                break;
+            }
+        }
+
+
+        $reacoesJSON= json_encode($arrayReacoes, JSON_PRETTY_PRINT);
+        file_put_contents("dados/reacoes.json",$reacoesJSON);
+
+    }
+
+    function descurtir(){
+        
+        $arrayReacoes= arrayReacoes();
+
+        foreach ($arrayReacoes as $key => $reacao) {
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
+                tirarCurtir();
+            }
+
+            
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==false) {
+                unset($arrayReacoes,$key);
+                break;
+            }
+
+        }
+
+        $novaReacao= [
+            "idUsuario"=> $_SESSION['idUsuario'],
+            "idResenha"=> $_GET['resenha'],
+            "ativo"=> true,
+            "tipo"=> "descurtida"
+        ];
+
+        $arrayReacoes[]= $novaReacao;
+        $reacoesJSON= json_encode($arrayReacoes, JSON_PRETTY_PRINT);
+        file_put_contents("dados/reacoes.json",$reacoesJSON);
+
+    }
+
+    function tirarDescurtir(){
+
+
+        foreach ($arrayReacoes as $key => $reacao) {
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
+                        unset($arrayReacoes,$key);
+
+                $novaReacao= [
+                    "idUsuario"=> $_SESSION['idUsuario'],
+                    "idResenha"=> $_GET['resenha'],
+                    "ativo"=> false,
+                    "tipo"=> "descurtida"
+                ];
+
+                $arrayReacoes[]= $novaReacao;
+                break;
+            }
+        }
+
+        $reacoesJSON= json_encode($arrayReacoes, JSON_PRETTY_PRINT);
+        file_put_contents("dados/reacoes.json",$reacoesJSON);
+
+    }
     
     
     /*function organizaJSONdata($arquivo1, $arquivo2){
