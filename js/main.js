@@ -2,6 +2,30 @@ $(document).ready(function(){
     $('.ui.sticky').sticky();
     $('.ui.rating').rating();
     $('.rating.naoAlteravel').rating('disable');
+    
+    // function rate(rating){
+    //     console.log(rating);
+    //     return rating;
+    // }
+    // function processRate(rating){
+    //     // var rating = rate();
+        
+    // }
+    $('.formStar').rating('setting', 'onRate', function(rating){
+        $.ajax({
+            url: "salvaEstrela.php",
+            method: "post",
+            dataType: "json",
+            data: {'estrelas':rating},
+            success: function( data, textStatus, jQxhr ){
+                console.log( data );
+            },
+            error: function( jqXhr, textStatus, errorThrown ){
+                console.log( errorThrown );
+            }
+        });
+    });
+
 
 
     $('.ui.checkbox').checkbox();
@@ -15,7 +39,8 @@ $(document).ready(function(){
     });
 
 
-  $('.ui.accordion').accordion();
+    $('.ui.accordion').accordion();
+    
     let aux = true;
     $("#trocaLista").click(function(){
         let grid = $("#trocaLista");

@@ -1,7 +1,8 @@
 <?php
     session_start();
-    include "elementosSecundarios/cabecalho.php";
+    include "elementosSecundarios/cabecalhoLogado.php";
     acessoNegado();
+    $jogos = arrayJogos();
 ?>
 
     <h2 class="ui horizontal divider header tituloJogo">
@@ -16,24 +17,15 @@
 
         </div>
         <div class="ui eight wide column espacoRodapeForm">
-            <form class="ui form">
+            <form class="ui form" action="processaResenha.php" method="POST">
                 <h3 class="labelCadastraResenha">Jogo:</h3>
                 <div class="two fields">
                     <div class="fifteen wide field">
-                        <select class="ui fluid search dropdown">
+                        <select class="ui fluid search dropdown" name="jogo">
                             <option value="">Jogo</option>
-                            <option value="AssassinsCreedOrigins">Assassin's Creed: Origins</option>
-                            <option value="DevilMayCry">Devil May Cry</option>
-                            <option value="WatchDogs2">WatchDogs 2</option>
-                            <option value="FarCry4">Far Cry 4</option>
-                            <option value="GodOfWar3">God of War 3</option>
-                            <option value="GTAV">Grand Theft Auto V</option>
-                            <option value="InfamousSSon">Infamous Second Son</option>
-                            <option value="LastOfUs2">Last Of Us 2</option>
-                            <option value="LifeIsStrange">Life is Strange</option>
-                            <option value="TombRaider">Tomb Raider</option>
-                            <option value="Uncharted4">Uncharted 4</option>
-                            <option value="ZeldaBreathOfWild">The Legend Of Zelda: Breath of the Wild</option>
+                            <?php foreach ($jogos as $jogo): ?>
+                            <option value=<?=$jogo['id']?>><?= $jogo['titulo']?></option>
+                            <?php endforeach;?>
                         </select>
                     </div>
                     <div class="two wide field">
@@ -47,15 +39,15 @@
                 </div>
                 <div class="sixteen wide field">
                     <h3 class="labelCadastraResenha labelEspacoAcima">Título da Resenha:</h3>
-                    <input type="text" placeholder="Escolha um título que chame a atenção dos leitores!">
+                    <input type="text" placeholder="Escolha um título que chame a atenção dos leitores!" name="titulo">
                 </div>
                 <div class="field">
                     <h3 class="labelCadastraResenha labelEspacoAcima">Avaliação:</h3>
-                    <div class="ui massive star rating"  data-rating="0" data-max-rating="5"></div>
+                    <div class="ui massive star rating formStar"  data-rating="0" data-max-rating="5"></div>
                 </div>
                 <div class="field">
                     <h2 class="tituloLabelResenha">Resenha</h2>
-                    <textarea rows="22" class="cadastroResenha"></textarea>
+                    <textarea rows="22" class="cadastroResenha" name="resenha"></textarea>
                 </div>
 
                 <div class="two fields">

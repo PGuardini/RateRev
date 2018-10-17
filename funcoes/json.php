@@ -34,7 +34,7 @@
         $aux = explode("/", $_SERVER['REQUEST_URI']);
         $aux_two = explode(".", end($aux));
         $paginaAtual = $aux_two[0];
-        return$paginaAtual;
+        return $paginaAtual;
     }
 
     function acessoNegado() {
