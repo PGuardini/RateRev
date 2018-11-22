@@ -7,7 +7,7 @@
     $fim= sizeof($resenhasUser);
 
     acessoNegado();
-
+    excluiResenha("5be2c5c76e6e9");
 ?>
 	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
     <div class="userHeader">

@@ -366,6 +366,17 @@
         file_put_contents("dados/reacoes.json",$reacoesJSON);
 
     }
+
+    function excluiResenha($idResenha){
+        $resenhas = arrayResenhas();
+        foreach ($resenhas as $key => $resenha) {
+            if ($resenha['idResenha']==$idResenha) {
+                array_splice($resenhas,$key,1);
+            }
+            break;
+        }
+        file_put_contents("dados/resenhas.json",json_encode($resenhas,JSON_PRETTY_PRINT));
+    }
     
     
     /*function organizaJSONdata($arquivo1, $arquivo2){
