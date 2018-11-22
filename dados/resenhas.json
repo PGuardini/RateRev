@@ -133,13 +133,50 @@
     },
     {
         "idJogo": "2",
-        "idResenha": "5bbdeeeb7da8b",
+        "idResenha": "5be2c5c76e6e9",
         "idUsuario": "5b59f8073d48d",
-        "titulo": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "titulo": "asdfgfhjkjl\u00e7",
         "curtidas": 0,
         "descurtidas": 0,
-        "dataPostagem": "10\/10\/2018",
+        "dataPostagem": "07\/11\/2018",
         "classificacaoAutor": "2",
-        "resenha": "a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>a<br\/>"
+        "resenha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "foiUsuario": true
+    },
+    {
+        "idJogo": 2,
+        "idResenha": "5be2c65117e11",
+        "idUsuario": "5b59f8073d48d",
+        "titulo": "asdfgfhjkjl\u00e7",
+        "curtidas": 0,
+        "descurtidas": 0,
+        "dataPostagem": "07\/11\/2018",
+        "classificacaoAutor": "4",
+        "resenha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasfas<br\/>asf<br\/>as<br\/>asf<br\/>asf<br\/>asf<br\/>asf<br\/>",
+        "foiUsuario": true
+    },
+    {
+        "idJogo": 2,
+        "idResenha": "5be2c66296748",
+        "idUsuario": "5b59f8073d48d",
+        "titulo": "asdfgfhjkaaaaaaaaaaaaaaaaaaaaaajl\u00e7",
+        "curtidas": 0,
+        "descurtidas": 0,
+        "dataPostagem": "07\/11\/2018",
+        "classificacaoAutor": "2",
+        "resenha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasfas<br\/>asf<br\/>as<br\/>asf<br\/>asf<br\/>asf<br\/>asf<br\/>",
+        "foiUsuario": true
+    },
+    {
+        "idJogo": 9,
+        "idResenha": "5be2c9ddaf52d",
+        "idUsuario": "5b59f8073d48d",
+        "titulo": "vida estranha",
+        "curtidas": 0,
+        "descurtidas": 0,
+        "dataPostagem": "07\/11\/2018",
+        "classificacaoAutor": "4",
+        "resenha": "asfasasfasfasfsdfasfsdfasfasfaffhmjkdrhtyirt",
+        "foiUsuario": true
     }
 ]
