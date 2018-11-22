@@ -142,10 +142,18 @@
 
 
 
-    function buscaJogoResenha($resenha){
+    function buscaJogoResenha($idResenha){
+        $resenhas=arrayResenhas();
+        $resenhaAtual=null;
+	    foreach ($resenhas as $resenha) {
+            if ($resenha["idResenha"] == $idResenha) {
+                $resenhaAtual = $resenha;
+                break;
+            }
+        }
 	    $jogos=arrayJogos();
 	    foreach ($jogos as $jogo) {
-            if ($jogo["id"]==$resenha["idJogo"]){
+            if ($jogo["id"]==$resenhaAtual["idJogo"]){
                 return $jogo;
                 break;
             }
