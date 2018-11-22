@@ -55,5 +55,20 @@ $(document).ready(function(){
         $("#grid-2").toggleClass("escondido");
 
     });
+
+    $("#remove").click(function() {
+        /*$.ajax({
+            url: "salvaEstrela.php",
+            method: "post",
+            dataType: "json",
+            data: {'estrelas':rating},
+            success: function( data, textStatus, jQxhr ){
+                console.log( data );
+            },
+            error: function( jqXhr, textStatus, errorThrown ){
+                console.log( errorThrown );
+            }
+        });*/
+    })
         
 })

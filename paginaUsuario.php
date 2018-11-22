@@ -42,37 +42,23 @@
     <div class="ui stackable grid" id="grid-1">
     <div class="three column row">
 <?php foreach ($resenhasUser as $resenha):
-    $id = $resenha["idResenha"];
-    $jogo = buscaJogoResenha($id);
-    ?>
+    $jogo = buscaJogoResenha($resenha);
+?>
 
     <div class=" column ">
     <div class="dezPorcento">.</div>
-    <!--
-        aqui é o link pra abrir o modal
-
-        <a href="?acao=a">
-
-
-    -->
-    <div class="parado zoom modalAbrir">
-        <img class="indexImg" src="imagens/jogos/<?= $jogo['imagem'] ?>">
-        <div class="text-item">
-            <h2 class="tituloResenhaPagUsuario"><?= $resenha["titulo"] ?></h2>
-            <h4 class="nomeJogoPagUsuario"><?= $jogo["titulo"] ?></h4>
-            <div class="ui divider"></div>
-            <h4>Minha Avaliação:</h4>
-            <div class="ui star rating estrelas" data-rating="<?= $resenha['classificacaoAutor'] ?>"
-                 data-max-rating="5"></div>
+        <div class="parado zoom modalAbrir">
+            <img class="indexImg" src="imagens/jogos/<?= $jogo['imagem'] ?>">
+            <div class="text-item">
+                <h2 class="tituloResenhaPagUsuario"><?= $resenha["titulo"] ?></h2>
+                <h4 class="nomeJogoPagUsuario"><?= $jogo["titulo"] ?></h4>
+                <div class="ui divider"></div>
+                <h4>Minha Avaliação:</h4>
+                <div class="ui star rating estrelas" data-rating="<?= $resenha['classificacaoAutor'] ?>" data-max-rating="5"></div>
+            </div>
         </div>
     </div>
-        <!--
-
-                </a>
-
-        -->
-            </div>
-        <?php
+<?php
     $cont++;
     $anCont++;
     if ($cont == 3 && $anCont != $fim):
@@ -91,8 +77,7 @@ endforeach;
         <div class="eight two column"></div>
         <div class="fourteen wide column ui relaxed divided list">
             <?php foreach ($resenhasUser as $resenha):
-                    $id = $resenha["idResenha"];
-                    $jogo = buscaJogoResenha($id);
+                    $jogo = buscaJogoResenha($resenha);
                 ?>
 
                 <div class="item">
@@ -101,7 +86,7 @@ endforeach;
                         <a class="header"><?= $resenha["titulo"] ?></a>
                         <div class="description"><?= $jogo["titulo"] ?></div>
                     </div>
-                    <button class="ui red button label modalFechar">
+                    <button class="ui red button label modalFechar" id="remove" value="<?= $resenha['idResenha'] ?>">
                         <i class="trash icon"></i>
                         Excluir
                     </button>

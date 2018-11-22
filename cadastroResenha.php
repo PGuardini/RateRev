@@ -72,10 +72,10 @@
         </div>
         <div class="clear"></div>
         <div class="ui four wide column">
-        
+
         </div>
     </div>
 
 <?php
-    include("elementosSecundarios/rodape.html");
+    include "elementosSecundarios/rodape.html";
 ?>
