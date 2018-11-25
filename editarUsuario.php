@@ -10,10 +10,12 @@
     excluiResenha("5be2c5c76e6e9");
 ?>
 
-	<img class="userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
-    <a href="editarUsuario.php"><button id="botaoEditarUsuario" class="large blue circular ui icon button botaoDireita"> Editar perfil</button></a>
+    <img class="userPageImgEdit userPageImg" src="https://solitonsystems.com/wp-content/uploads/2016/03/Secure-access-to-your-enterprise-network-1600x600.jpg" >
+    <h2 class="flutuante" id="posicaoEditarCapa">Editar foto de capa <i class="images outline icon"></i></h2>
+    <a href="editarUsuario.php"><button id="botaoEditarUsuario" class="large blue circular ui icon button botaoDireita">Salvar alterações</button></a>
     <div class="userHeader">
-        <img id="imagemPerfilPagUsuario" class="ui small circular image" src="imagens/avatares/<?=$_SESSION['imagemPerfil']?>">
+        <img id="imagemPerfilPagUsuario" class="ui small circular image userPageImgEdit2" src="imagens/avatares/<?=$_SESSION['imagemPerfil']?>">
+        <p id="posicaoEditarFoto" class="flutuante">Editar foto <br> de perfil <i class="images icon"></i></p>
     </div>
     <h2 class= "ui center aligned header">
     
@@ -27,7 +29,9 @@
     
     </h2>
     <h3 class="ui center aligned header" id="biografiaUsuario">
-        (BIO) Look the sky tonight, all of stars have a reason, a reason to shine, a reason like mine and i'm falling in pieces
+            <textarea rows="4" cols="50" name="" id="">(BIO) Look the sky tonight, all of stars have a reason, a reason to shine, a reason like mine and i'm falling in pieces  </textarea>
+
+        
     </h3>
 
     <div class="clear">.</div>
