@@ -23,5 +23,4 @@
             file_put_contents('dados/comentarios.json', $jsonAtualizado);
     		break;
     	
-    	
     }

@@ -226,11 +226,11 @@
         $descurtidas= 0;
 
         foreach ($arrayReacoes as $reacao) {
-            if ($reacao['tipo']=='curtida' and $reacao['ativo']==true and $reacao['idResenha']==$idResenha) {
+            if ($reacao['tipo']=='curtida' and $reacao['idResenha']==$idResenha) {
                 $curtidas++;
             }
 
-            if($reacao['tipo']=='descurtida' and $reacao['ativo']==true and $reacao['idResenha']==$idResenha) {
+            if($reacao['tipo']=='descurtida' and $reacao['idResenha']==$idResenha) {
                 $descurtidas++;
             }
         }
@@ -247,9 +247,11 @@
 
     function estaReagido($idUsuario,$idResenha,$tipoReacao) {
         $arrayReacoes= arrayReacoes();
+        $reagido= false;
+
 
         foreach ($arrayReacoes as $reacao) {
-            if ($reacao['tipo']==$tipoReacao and $reacao['idUsuario']==$idUsuario and $reacao['idResenha']==$idResenha and $reacao['ativo']== true) {
+            if ($reacao['tipo']==$tipoReacao and $reacao['idUsuario']==$idUsuario and $reacao['idResenha']==$idResenha) {
                 $reagido= true;
                 break;
             } else {
@@ -265,20 +267,15 @@
         $arrayReacoes= arrayReacoes();
 
         foreach ($arrayReacoes as $key => $reacao) {
-            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==false) {
-                unset($arrayReacoes,$key);
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha']) {
+                unset($arrayReacoes[$key]);
                 break;
-            }
-
-            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
-               tirarDescurtir();
             }
         }
 
         $novaReacao= [
             "idUsuario"=> $_SESSION['idUsuario'],
             "idResenha"=> $_GET['resenha'],
-            "ativo"=> true,
             "tipo"=> "curtida"
         ];
 
@@ -292,17 +289,8 @@
         $arrayReacoes= arrayReacoes();
         
         foreach ($arrayReacoes as $key => $reacao) {
-            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
-                unset($arrayReacoes,$key);
-
-                $novaReacao= [
-                    "idUsuario"=> $_SESSION['idUsuario'],
-                    "idResenha"=> $_GET['resenha'],
-                    "ativo"=> false,
-                    "tipo"=> "curtida"
-                ];
-
-                $arrayReacoes[]= $novaReacao;
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha']) {
+                unset($arrayReacoes[$key]);
                 break;
             }
         }
@@ -318,22 +306,15 @@
         $arrayReacoes= arrayReacoes();
 
         foreach ($arrayReacoes as $key => $reacao) {
-            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
-                tirarCurtir();
-            }
-
-            
-            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==false) {
-                unset($arrayReacoes,$key);
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='curtida' and $reacao['idResenha']==$_GET['resenha']) {
+                unset($arrayReacoes[$key]);
                 break;
             }
-
         }
 
         $novaReacao= [
             "idUsuario"=> $_SESSION['idUsuario'],
             "idResenha"=> $_GET['resenha'],
-            "ativo"=> true,
             "tipo"=> "descurtida"
         ];
 
@@ -344,20 +325,11 @@
     }
 
     function tirarDescurtir(){
-
+        $arrayReacoes= arrayReacoes();
 
         foreach ($arrayReacoes as $key => $reacao) {
-            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha'] and $reacao['ativo']==true) {
-                        unset($arrayReacoes,$key);
-
-                $novaReacao= [
-                    "idUsuario"=> $_SESSION['idUsuario'],
-                    "idResenha"=> $_GET['resenha'],
-                    "ativo"=> false,
-                    "tipo"=> "descurtida"
-                ];
-
-                $arrayReacoes[]= $novaReacao;
+            if($reacao['idUsuario']==$_SESSION['idUsuario'] and $reacao['tipo']=='descurtida' and $reacao['idResenha']==$_GET['resenha']) {
+                unset($arrayReacoes[$key]);
                 break;
             }
         }
@@ -366,6 +338,7 @@
         file_put_contents("dados/reacoes.json",$reacoesJSON);
 
     }
+
 
     function excluiResenha($idResenha){
         $resenhas = arrayResenhas();

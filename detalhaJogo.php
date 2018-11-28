@@ -19,48 +19,27 @@
     }
 
     $resenhasJogo= buscaResenhaJogo($idJogo);
-    if(!empty($_SESSION) && isset($_GET['reacao']) && isset($estaCurtido) && isset($estaDescurtido)) {
-        switch ($_GET['reacao']) {
 
-        case "curtir":
-                // if($estaDescurtido==true){
-                //     tirarDescurtir();
-                //     $estaDescurtido= false;
-                // } else {
-                //     $estaDescurtido= false;
-                //     $estaCurtido= true;
-                // }
+        if(!empty($_SESSION) && isset($_GET['reacao'])) {
+            switch ($_GET['reacao']) {
 
-                curtir();
+            case "curtir":
+                    curtir();                
+                break;
             
-            break;
-        
-        case 'tirarCurtir':
+            case 'tirarCurtir':
+                    tirarCurtir();
+                break;
 
-                tirarCurtir();
-                //$estaCurtido= false;
-            break;
+            case 'descurtir':
+                    descurtir();
+                break;
 
-        case 'descurtir':
-
-                // if($estaCurtido==true){
-                //     tirarCurtir();
-                //     $estaCurtido= false;
-                // } else {
-                //     $estaDescurtido= true;
-                //     $estaCurtido= false;
-                // }
-
-                descurtir();
-
-            break;
-
-        case 'tirarDescurtir':
-                tirarDescurtir();
-                //$estaDescurtido= false;
-            break;
+            case 'tirarDescurtir':
+                    tirarDescurtir();
+                break;
+            }
         }
-    }
     
 
 

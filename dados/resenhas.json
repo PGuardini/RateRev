@@ -130,53 +130,5 @@
         "dataPostagem": "15\/06\/2018",
         "classificacaoAutor": 4,
         "resenha": "Sou um grande f\u00e3 da franquia The Legend of Zelda e, como tal, h\u00e1 v\u00e1rios anos tenho me decepcionado com os jogos da s\u00e9rie. N\u00e3o por serem ruins \u2013 muito longe disso \u2013 mas por terem se limitado sempre \u00e0s mesmas experi\u00eancias e ca\u00eddo nas mesmas armadilhas que outros games da ind\u00fastria t\u00eam tido h\u00e1 muito tempo.<br><br>O jogo original, de 1986, quebrou paradigmas na \u00e9poca, trazendo diversas novidades para o mercado. Nele, voc\u00ea era colocado em um mundo totalmente aberto, sem um caminho certo. Bastava escolher um lado e come\u00e7ar a explorar. Sem tutorial, sem roteiros pr\u00e9-definidos. Apenas voc\u00ea, sua curiosidade e sua coragem.<br><br>O primeiro jogo \u00e9 um dos meus preferidos da s\u00e9rie, ent\u00e3o naturalmente fiquei interessado quando The Legend of Zelda: Breath of the Wild foi anunciado, j\u00e1 que a Nintendo prometeu retornar \u00e0s origens da franquia ao mesmo tempo que quebraria suas amarras estabelecidas desde A Link to The Past.<br><br>Propor \u00e9 f\u00e1cil, mas fugir de padr\u00f5es de game design estabelecidos h\u00e1 mais de 20 anos na franquia e at\u00e9 mesmo de toda uma ind\u00fastria n\u00e3o \u00e9 um trabalho simples. Sempre fiquei com um p\u00e9 atr\u00e1s com essa promessa\u2026 No entanto, depois de jogar, surpreendentemente descobri que a Nintendo realmente conseguiu."
-    },
-    {
-        "idJogo": "2",
-        "idResenha": "5be2c5c76e6e9",
-        "idUsuario": "5b59f8073d48d",
-        "titulo": "asdfgfhjkjl\u00e7",
-        "curtidas": 0,
-        "descurtidas": 0,
-        "dataPostagem": "07\/11\/2018",
-        "classificacaoAutor": "2",
-        "resenha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "foiUsuario": true
-    },
-    {
-        "idJogo": 2,
-        "idResenha": "5be2c65117e11",
-        "idUsuario": "5b59f8073d48d",
-        "titulo": "asdfgfhjkjl\u00e7",
-        "curtidas": 0,
-        "descurtidas": 0,
-        "dataPostagem": "07\/11\/2018",
-        "classificacaoAutor": "4",
-        "resenha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasfas<br\/>asf<br\/>as<br\/>asf<br\/>asf<br\/>asf<br\/>asf<br\/>",
-        "foiUsuario": true
-    },
-    {
-        "idJogo": 2,
-        "idResenha": "5be2c66296748",
-        "idUsuario": "5b59f8073d48d",
-        "titulo": "asdfgfhjkaaaaaaaaaaaaaaaaaaaaaajl\u00e7",
-        "curtidas": 0,
-        "descurtidas": 0,
-        "dataPostagem": "07\/11\/2018",
-        "classificacaoAutor": "2",
-        "resenha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasfas<br\/>asf<br\/>as<br\/>asf<br\/>asf<br\/>asf<br\/>asf<br\/>",
-        "foiUsuario": true
-    },
-    {
-        "idJogo": 9,
-        "idResenha": "5be2c9ddaf52d",
-        "idUsuario": "5b59f8073d48d",
-        "titulo": "vida estranha",
-        "curtidas": 0,
-        "descurtidas": 0,
-        "dataPostagem": "07\/11\/2018",
-        "classificacaoAutor": "4",
-        "resenha": "asfasasfasfasfsdfasfsdfasfasfaffhmjkdrhtyirt",
-        "foiUsuario": true
     }
 ]
