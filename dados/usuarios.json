@@ -115,5 +115,14 @@
         "senha": "504f008c8fcf8b2ed5dfcde752fc5464ab8ba064215d9c5b5fc486af3d9ab8c81b14785180d2ad7cee1ab792ad44798c",
         "nascimento": "2018-07-26",
         "imagemPerfil": "1tmRuVLp_400x40027072018011721.jpg"
+    },
+    {
+        "idUsuario": "5bffc8e678c10",
+        "permissao": "usuario",
+        "nome": "Pedro",
+        "email": "pedrinho@ggg.com",
+        "senha": "30e0eb6a00fe31d6895ae78ac4bc68a35a80c81f53a07f3eca43bb5851ce06bdce271174ec9390d0ce5f640f5ca73155",
+        "nascimento": "2018-11-29",
+        "imagemPerfil": "avatar329112018120926.png"
     }
 ]

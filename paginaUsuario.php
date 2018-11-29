@@ -84,13 +84,13 @@ endforeach;
                     $jogo = buscaJogoResenha($resenha);
                 ?>
 
-                <div class="item">
-                    <img src="imagens/jogos/<?= $jogo['imagem'] ?>" class="ui tiny image">
+                <div class="item" id="<?= $resenha['idResenha']?>">
+                    <img data-target="imgResenha" src="imagens/jogos/<?= $jogo['imagem'] ?>" class="ui tiny image">
                     <div class="content">
-                        <a class="header"><?= $resenha["titulo"] ?></a>
+                        <a class="header" data-target="titulo"><?= $resenha["titulo"] ?></a>
                         <div class="description"><?= $jogo["titulo"] ?></div>
                     </div>
-                    <button class="ui red button label modalFechar" id="remove" value="<?= $resenha['idResenha'] ?>">
+                    <button class="ui red button label modalFechar" id="removeModal">
                         <i class="trash icon"></i>
                         Excluir
                     </button>
@@ -105,8 +105,29 @@ endforeach;
         </div>
     </div>
 
+    <!--modal exclusao-->
 
-    <!-- modal-->
+    <div class="ui basic modal" id="modalExclusao">
+        <div class="ui icon header">
+            <i class="archive icon"></i>
+            Archive Old Messages
+        </div>
+        <div class="content">
+            <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
+        </div>
+        <div class="actions">
+            <div class="ui red basic cancel inverted button">
+                <i class="remove icon"></i>
+                Não Excluir
+            </div>
+            <div class="ui green ok inverted button" id="remove">
+                <i class="trash icon"></i>
+                Excluir
+            </div>
+        </div>
+    </div>
+
+    <!-- modal resenha-->
 
     <div class="ui modal">
         <div class="scrolling content">

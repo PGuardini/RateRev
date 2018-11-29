@@ -56,6 +56,17 @@ $(document).ready(function(){
 
     });
 
+    // $("#removeModal").click(function() {
+    //     var id = $(this).data(id);
+    //     //var titulo  = $('#'+id).children("div").find("a").text();
+    //     var caminhoImg  = $('#'+id).find('img[data-target=imgResenha]').value();
+    //     alert(caminhoImg);
+    //
+    //     $('#modalExclusao').modal('setting', {
+    //         autofocus: false
+    //     }).modal('show');
+    // })
+
     $("#remove").click(function() {
         /*$.ajax({
             url: "salvaEstrela.php",
